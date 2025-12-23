@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DialogsStringId.DragDrop_MoveTooltip" xml:space="preserve">
+    <value>移动到</value>
+  </data>
+  <data name="DialogsStringId.DragDrop_LinkTooltip" xml:space="preserve">
+    <value>创建链接</value>
+  </data>
+  <data name="DialogsStringId.DragDrop_CopyTooltip" xml:space="preserve">
+    <value>复制到</value>
+  </data>
+  <data name="DialogsStringId.PathError_Caption" xml:space="preserve">
+    <value>文件资源管理器</value>
+  </data>
+  <data name="DialogsStringId.PathError_MessageFormatString" xml:space="preserve">
+    <value>Windows 找不到 "{0}"。请检查拼写并重试.</value>
+  </data>
+  <data name="DialogsStringId.PathNotExistsMessage" xml:space="preserve">
+    <value>路径不存在。
+
+请检查路径并重试.</value>
+  </data>
+  <data name="DialogsStringId.FileNotFoundMessage" xml:space="preserve">
+    <value>文件找不到。
+
+请检查文件名并重试.</value>
+  </data>
+  <data name="DialogsStringId.InvalidFileNameMessage" xml:space="preserve">
+    <value>文件名无效.</value>
+  </data>
+  <data name="DialogsStringId.CancelButtonText" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="DialogsStringId.OkButtonText" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="DialogsStringId.MakeNewFolderButtonText" xml:space="preserve">
+    <value>新建文件夹</value>
+  </data>
+  <data name="DialogsStringId.OpenFileDialogOkButtonText" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="DialogsStringId.SaveFileDialogOkButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="DialogsStringId.OpenFileDialogDefaultTitle" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="DialogsStringId.SaveFileDialogDefaultTitle" xml:space="preserve">
+    <value>另存为</value>
+  </data>
+  <data name="DialogsStringId.FolderBrowserDialogDefaultTitle" xml:space="preserve">
+    <value>浏览文件夹</value>
+  </data>
+  <data name="DialogsStringId.NewStyleFolderBrowserFileNameLabelText" xml:space="preserve">
+    <value>文件夹:</value>
+  </data>
+  <data name="DialogsStringId.OverwritePromptMessage" xml:space="preserve">
+    <value>{0} 已存在。
+
+是否要替换它？</value>
+  </data>
+  <data name="DialogsStringId.CreatePromptMessage" xml:space="preserve">
+    <value>{0} 不存在。
+
+是否要创建它？</value>
+  </data>
+  <data name="DialogsStringId.InvalidFolderNameMessage" xml:space="preserve">
+    <value>文件夹名称无效.</value>
+  </data>
+  <data name="DialogsStringId.WideFolderBrowserInvalidFolderLocation" xml:space="preserve">
+    <value>您无法使用此程序打开此位置。
+
+请尝试其他位置。</value>
+  </data>
+  <data name="DialogsStringId.PromptMessagesCaption" xml:space="preserve">
+    <value>确认另存为</value>
+  </data>
+  <data name="DialogsStringId.FileIsReadOnlyMessage" xml:space="preserve">
+    <value>此文件设置为只读。
+
+请使用其他文件名重试.</value>
+  </data>
+  <data name="DialogsStringId.MessageBoxCaption" xml:space="preserve">
+    <value>错误!</value>
+  </data>
+  <data name="DialogsStringId.DragDropConfirmationDialog_Move" xml:space="preserve">
+    <value>"{0}" 移动到 "{1}"？</value>
+  </data>
+  <data name="DialogsStringId.DragDropConfirmationDialog_CreateLink" xml:space="preserve">
+    <value>{0}" 的快捷方式添加到 "{1}" 文件夹中？</value>
+  </data>
+  <data name="DialogsStringId.DragDropConfirmationDialog_Copy" xml:space="preserve">
+    <value>"{0}" 复制到 "{1}"？</value>
+  </data>
+  <data name="DialogsStringId.ExtraLargeViewMode" xml:space="preserve">
+    <value>超大项目</value>
+  </data>
+  <data name="DialogsStringId.LargeViewMode" xml:space="preserve">
+    <value>大项目</value>
+  </data>
+  <data name="DialogsStringId.MediumViewMode" xml:space="preserve">
+    <value>中型项目</value>
+  </data>
+  <data name="DialogsStringId.SmallViewMode" xml:space="preserve">
+    <value>小项目</value>
+  </data>
+  <data name="DialogsStringId.ListViewMode" xml:space="preserve">
+    <value>列表</value>
+  </data>
+  <data name="DialogsStringId.DetailsViewMode" xml:space="preserve">
+    <value>详细</value>
+  </data>
+  <data name="DialogsStringId.TilesViewMode" xml:space="preserve">
+    <value>平铺</value>
+  </data>
+  <data name="DialogsStringId.ContentViewMode" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="DialogsStringId.FileNameLabelText" xml:space="preserve">
+    <value>文件名称:</value>
+  </data>
+  <data name="DialogsStringId.NewFolderButtonText" xml:space="preserve">
+    <value>新文件夹</value>
+  </data>
+  <data name="DialogsStringId.DetailsView_NameColumnCaption" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DialogsStringId.DetailsView_DateModifiedColumnCaption" xml:space="preserve">
+    <value>修改日期</value>
+  </data>
+  <data name="DialogsStringId.DetailsView_TypeColumnCaption" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="DialogsStringId.DetailsView_SizeColumnCaption" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuSelectCommandText" xml:space="preserve">
+    <value>选定</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuExpandCommandText" xml:space="preserve">
+    <value>展开</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuCollapseCommandText" xml:space="preserve">
+    <value>折叠</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuOpenCommandText" xml:space="preserve">
+    <value>打开(&amp;O)</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuOpenAsCommandText" xml:space="preserve">
+    <value>打开方式</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuOpenContainingCommandText" xml:space="preserve">
+    <value>打开文件夹位置</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuCutCommandText" xml:space="preserve">
+    <value>剪切(&amp;X)</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuCopyCommandText" xml:space="preserve">
+    <value>复制(&amp;C)</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPasteCommandText" xml:space="preserve">
+    <value>粘贴(&amp;P)</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuRenameCommandText" xml:space="preserve">
+    <value>重命名(&amp;M)</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuDeleteCommandText" xml:space="preserve">
+    <value>删除(&amp;D)</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuEditCommandText" xml:space="preserve">
+    <value>与编辑</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPrintCommandText" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuFormatCommandText" xml:space="preserve">
+    <value>窗体 &amp; at...</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuEjectCommandText" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuLinkCommandText" xml:space="preserve">
+    <value>创建快捷方式(&amp;S)</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuExtractCommandText" xml:space="preserve">
+    <value>全部选择...</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPreviousVersionsCommandText" xml:space="preserve">
+    <value>还原以前的版本</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuWindowsShareCommandText" xml:space="preserve">
+    <value>授予访问权限</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuUpdateEncryptionSettingsWorkCommandText" xml:space="preserve">
+    <value>文件所有权</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPinToHomeCommandText" xml:space="preserve">
+    <value>固定到快速访问</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuManageCommandText" xml:space="preserve">
+    <value>法力 &amp; ge</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuConnectNetworkDriveCommandText" xml:space="preserve">
+    <value>映射网络驱动器...</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuDisconnectNetworkDriveCommandText" xml:space="preserve">
+    <value> 断开连接网络驱动器...</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPersonalizeCommandText" xml:space="preserve">
+    <value>个性化</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuDisplaySettingsCommandText" xml:space="preserve">
+    <value>显示设置</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuPropertiesCommandText" xml:space="preserve">
+    <value>属性(&amp;R)</value>
+  </data>
+  <data name="DialogsStringId.ContextMenuAddNetworkPlaceCommandText" xml:space="preserve">
+    <value>添加网络位置</value>
+  </data>
+  <data name="DialogsStringId.UserCustomWildcard" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+</root>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bntCancel.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="btnLoad.Text" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="lbRating.Text" xml:space="preserve">
+    <value>labelControl6</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>提交者:</value>
+  </data>
+  <data name="labelControl5.Text" xml:space="preserve">
+    <value>旋转:</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="groupControl2.Text" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="gcPreviewContainer.Text" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>报告模板</value>
+  </data>
+</root>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SchedulerExtensionsStringId.Caption_Appointment" xml:space="preserve">
+    <value>约会</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_Event" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupActions" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupActiveView" xml:space="preserve">
+    <value>激活视图</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupAppointment" xml:space="preserve">
+    <value>约会</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupArrange" xml:space="preserve">
+    <value>排列</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupCommon" xml:space="preserve">
+    <value>常用</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupGroupBy" xml:space="preserve">
+    <value>分组：</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupLayout" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupNavigator" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupOptions" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupPrint" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_GroupTimeScale" xml:space="preserve">
+    <value>时间刻度</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_PageAppointment" xml:space="preserve">
+    <value>约会</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_PageCategoryCalendarTools" xml:space="preserve">
+    <value>日历工具</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_PageFile" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_PageHome" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_PageView" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_RecurringAppointment" xml:space="preserve">
+    <value>重复约会</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_RecurringEvent" xml:space="preserve">
+    <value>重复约会</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_Reminder" xml:space="preserve">
+    <value>时间预警：</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_ViewNavigator" xml:space="preserve">
+    <value>视图导航</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Caption_ViewSelector" xml:space="preserve">
+    <value>视图选择器</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.CaptionViewNavigator_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_AllOccurrencesInThePast" xml:space="preserve">
+    <value>发生在过去的所有重复预约的实例.</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_AppointmentConflictsWithAnother" xml:space="preserve">
+    <value>与其他在您计划中的预约冲突.</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_AppointmentOccurs" xml:space="preserve">
+    <value>出现 {0}.</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_AppointmentOccursInThePast" xml:space="preserve">
+    <value>预约出现在过去</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_PatternOccurrencesConflictsWithOtherAppointments" xml:space="preserve">
+    <value>重复预约的实例{0}与您计划中的其他预约冲突.</value>
+  </data>
+  <data name="SchedulerExtensionsStringId.Msg_Some" xml:space="preserve">
+    <value>若干</value>
+  </data>
+</root>

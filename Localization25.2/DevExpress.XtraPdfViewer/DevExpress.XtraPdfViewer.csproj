@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="17.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB45EDC8-E6BC-4378-99E9-5659DF707D80}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DevExpress.XtraPdfViewer</RootNamespace>
+    <AssemblyName>DevExpress.XtraPdfViewer.v25.2</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\DevExpress.Dll\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DXWhidbey</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\DevExpress.Dll\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dx25.2.3\DevExpress_Sources_v25.2.3\Bin\Framework\DevExpress.Data.v25.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dx25.2.3\DevExpress_Sources_v25.2.3\Bin\Framework\DevExpress.Utils.v25.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dx25.2.3\DevExpress_Sources_v25.2.3\Bin\Framework\DevExpress.XtraEditors.v25.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\AssemblyVersion.cs">
+      <Link>AssemblyVersion.cs</Link>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Controls\CommentTree\PdfCommentEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PdfAttachmentsViewerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PdfColorPickerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PdfCommentTreeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PdfOutlineViewerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PdfThumbnailsViewerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FindControl\PdfFindControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\PdfAnnotationPropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PdfDocumentPropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PdfPageSetupDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PdfPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PdfProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PdfSearchProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\PdfAttachmentsViewerControl.ko.resx">
+      <DependentUpon>PdfAttachmentsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfAttachmentsViewerControl.resx">
+      <DependentUpon>PdfAttachmentsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfAttachmentsViewerControl.zh-CN.resx">
+      <DependentUpon>PdfAttachmentsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfAttachmentsViewerControl.zh-Hans.resx">
+      <DependentUpon>PdfAttachmentsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfAttachmentsViewerControl.zh-Hant.resx">
+      <DependentUpon>PdfAttachmentsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfAttachmentsViewerControl.zh-TW.resx">
+      <DependentUpon>PdfAttachmentsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfColorPickerControl.ko.resx">
+      <DependentUpon>PdfColorPickerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfColorPickerControl.resx">
+      <DependentUpon>PdfColorPickerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfColorPickerControl.zh-CN.resx">
+      <DependentUpon>PdfColorPickerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfColorPickerControl.zh-Hans.resx">
+      <DependentUpon>PdfColorPickerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfColorPickerControl.zh-Hant.resx">
+      <DependentUpon>PdfColorPickerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfColorPickerControl.zh-TW.resx">
+      <DependentUpon>PdfColorPickerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CommentTree\PdfCommentEdit.ko.resx">
+      <DependentUpon>PdfCommentEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CommentTree\PdfCommentEdit.resx">
+      <DependentUpon>PdfCommentEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CommentTree\PdfCommentEdit.zh-CN.resx">
+      <DependentUpon>PdfCommentEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CommentTree\PdfCommentEdit.zh-Hans.resx">
+      <DependentUpon>PdfCommentEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CommentTree\PdfCommentEdit.zh-Hant.resx">
+      <DependentUpon>PdfCommentEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CommentTree\PdfCommentEdit.zh-TW.resx">
+      <DependentUpon>PdfCommentEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfCommentTreeControl.ko.resx">
+      <DependentUpon>PdfCommentTreeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfCommentTreeControl.resx">
+      <DependentUpon>PdfCommentTreeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfCommentTreeControl.zh-CN.resx">
+      <DependentUpon>PdfCommentTreeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfCommentTreeControl.zh-Hans.resx">
+      <DependentUpon>PdfCommentTreeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfCommentTreeControl.zh-Hant.resx">
+      <DependentUpon>PdfCommentTreeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfCommentTreeControl.zh-TW.resx">
+      <DependentUpon>PdfCommentTreeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfOutlineViewerControl.ko.resx">
+      <DependentUpon>PdfOutlineViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfOutlineViewerControl.resx">
+      <DependentUpon>PdfOutlineViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfOutlineViewerControl.zh-CN.resx">
+      <DependentUpon>PdfOutlineViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfOutlineViewerControl.zh-Hans.resx">
+      <DependentUpon>PdfOutlineViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfOutlineViewerControl.zh-Hant.resx">
+      <DependentUpon>PdfOutlineViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfOutlineViewerControl.zh-TW.resx">
+      <DependentUpon>PdfOutlineViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfThumbnailsViewerControl.ko.resx">
+      <DependentUpon>PdfThumbnailsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfThumbnailsViewerControl.resx">
+      <DependentUpon>PdfThumbnailsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfThumbnailsViewerControl.zh-CN.resx">
+      <DependentUpon>PdfThumbnailsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfThumbnailsViewerControl.zh-Hans.resx">
+      <DependentUpon>PdfThumbnailsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfThumbnailsViewerControl.zh-Hant.resx">
+      <DependentUpon>PdfThumbnailsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PdfThumbnailsViewerControl.zh-TW.resx">
+      <DependentUpon>PdfThumbnailsViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindControl\PdfFindControl.ko.resx">
+      <DependentUpon>PdfFindControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindControl\PdfFindControl.resx">
+      <DependentUpon>PdfFindControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindControl\PdfFindControl.zh-CN.resx">
+      <DependentUpon>PdfFindControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindControl\PdfFindControl.zh-Hans.resx">
+      <DependentUpon>PdfFindControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindControl\PdfFindControl.zh-Hant.resx">
+      <DependentUpon>PdfFindControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindControl\PdfFindControl.zh-TW.resx">
+      <DependentUpon>PdfFindControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfAnnotationPropertiesForm.ko.resx">
+      <DependentUpon>PdfAnnotationPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfAnnotationPropertiesForm.resx">
+      <DependentUpon>PdfAnnotationPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfAnnotationPropertiesForm.zh-CN.resx">
+      <DependentUpon>PdfAnnotationPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfAnnotationPropertiesForm.zh-Hans.resx">
+      <DependentUpon>PdfAnnotationPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfAnnotationPropertiesForm.zh-Hant.resx">
+      <DependentUpon>PdfAnnotationPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfAnnotationPropertiesForm.zh-TW.resx">
+      <DependentUpon>PdfAnnotationPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfDocumentPropertiesForm.ko.resx">
+      <DependentUpon>PdfDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfDocumentPropertiesForm.resx">
+      <DependentUpon>PdfDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfDocumentPropertiesForm.zh-CN.resx">
+      <DependentUpon>PdfDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfDocumentPropertiesForm.zh-Hans.resx">
+      <DependentUpon>PdfDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfDocumentPropertiesForm.zh-Hant.resx">
+      <DependentUpon>PdfDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfDocumentPropertiesForm.zh-TW.resx">
+      <DependentUpon>PdfDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPasswordForm.ko.resx">
+      <DependentUpon>PdfPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPasswordForm.resx">
+      <DependentUpon>PdfPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPasswordForm.zh-CN.resx">
+      <DependentUpon>PdfPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPasswordForm.zh-Hans.resx">
+      <DependentUpon>PdfPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPasswordForm.zh-Hant.resx">
+      <DependentUpon>PdfPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPasswordForm.zh-TW.resx">
+      <DependentUpon>PdfPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPageSetupDialog.ko.resx">
+      <DependentUpon>PdfPageSetupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPageSetupDialog.resx">
+      <DependentUpon>PdfPageSetupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPageSetupDialog.zh-CN.resx">
+      <DependentUpon>PdfPageSetupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPageSetupDialog.zh-Hans.resx">
+      <DependentUpon>PdfPageSetupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPageSetupDialog.zh-Hant.resx">
+      <DependentUpon>PdfPageSetupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfPageSetupDialog.zh-TW.resx">
+      <DependentUpon>PdfPageSetupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfProgressForm.ko.resx">
+      <DependentUpon>PdfProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfProgressForm.resx">
+      <DependentUpon>PdfProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfProgressForm.zh-CN.resx">
+      <DependentUpon>PdfProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfProgressForm.zh-Hans.resx">
+      <DependentUpon>PdfProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfProgressForm.zh-Hant.resx">
+      <DependentUpon>PdfProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfProgressForm.zh-TW.resx">
+      <DependentUpon>PdfProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfSearchProgressForm.ko.resx">
+      <DependentUpon>PdfSearchProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfSearchProgressForm.resx">
+      <DependentUpon>PdfSearchProgressForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfSearchProgressForm.zh-CN.resx">
+      <DependentUpon>PdfSearchProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfSearchProgressForm.zh-Hans.resx">
+      <DependentUpon>PdfSearchProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfSearchProgressForm.zh-Hant.resx">
+      <DependentUpon>PdfSearchProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PdfSearchProgressForm.zh-TW.resx">
+      <DependentUpon>PdfSearchProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalizationRes.ko.resx" />
+    <EmbeddedResource Include="LocalizationRes.resx" />
+    <EmbeddedResource Include="LocalizationRes.zh-CN.resx" />
+    <EmbeddedResource Include="LocalizationRes.zh-Hans.resx" />
+    <EmbeddedResource Include="LocalizationRes.zh-Hant.resx" />
+    <EmbeddedResource Include="LocalizationRes.zh-TW.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StrongKey.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

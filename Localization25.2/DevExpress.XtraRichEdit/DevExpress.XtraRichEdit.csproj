@@ -1,0 +1,1441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="17.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1AF898A0-02F4-4064-BBD6-8E86C96F49E0}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>DevExpress.XtraRichEdit.v25.2</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DevExpress.XtraRichEdit</RootNamespace>
+    <SignAssembly>true</SignAssembly>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\DevExpress.Dll\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\DevExpress.Dll\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Utils.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dx25.2.3\DevExpress_Sources_v25.2.3\Bin\Framework\DevExpress.Utils.v25.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dx25.2.3\DevExpress_Sources_v25.2.3\Bin\Framework\DevExpress.XtraEditors.v25.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\AssemblyVersion.cs">
+      <Link>AssemblyVersion.cs</Link>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\AltTextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BookmarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BulletedListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ColumnsSetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfirmPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConvertNotesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DeleteTableCellsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\BorderShadingTypeLineUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\BorderShadingUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\ColumnsEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\FontEffects.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\ParagraphIndentationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\ParagraphSpacingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\RichTextFontControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\RichEditFontAdvancedPropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\TableRowHeightControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Design\TableSizeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\DocumentProtectionQueryNewPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DocumentProtectionQueryPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditStyleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EncryptDocumentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EncryptionPasswordRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FloatingObjectLayoutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FontForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HyperlinkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HyphenationOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InsertMergeFieldForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InsertObjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InsertTableCellsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InsertTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BorderShadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LanguageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LineNumberingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MultiLevelNumberingListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NotesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NumberingListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PageSetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ParagraphForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PasteSpecialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RangeEditingPermissionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RichEditDocumentPropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SearchTextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowNotesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SimpleNumberingListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplitTableCellsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SymbolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TableCellOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TableOfContentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TableOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TablePositioningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TablePropertiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TableStyleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TabsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WatermarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\AltTextForm.resx">
+      <DependentUpon>AltTextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BorderShadingForm.ko.resx">
+      <DependentUpon>BorderShadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BorderShadingForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BorderShadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BorderShadingForm.zh-CN.resx">
+      <DependentUpon>BorderShadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BorderShadingForm.zh-Hans.resx">
+      <DependentUpon>BorderShadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BorderShadingForm.zh-Hant.resx">
+      <DependentUpon>BorderShadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BorderShadingForm.zh-TW.resx">
+      <DependentUpon>BorderShadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfirmPasswordForm.ko.resx">
+      <DependentUpon>ConfirmPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfirmPasswordForm.zh-CN.resx">
+      <DependentUpon>ConfirmPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfirmPasswordForm.zh-Hans.resx">
+      <DependentUpon>ConfirmPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfirmPasswordForm.zh-Hant.resx">
+      <DependentUpon>ConfirmPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfirmPasswordForm.zh-TW.resx">
+      <DependentUpon>ConfirmPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConvertNotesForm.ko.resx">
+      <DependentUpon>ConvertNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConvertNotesForm.resx">
+      <DependentUpon>ConvertNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConvertNotesForm.zh-CN.resx">
+      <DependentUpon>ConvertNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConvertNotesForm.zh-Hans.resx">
+      <DependentUpon>ConvertNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConvertNotesForm.zh-Hant.resx">
+      <DependentUpon>ConvertNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConvertNotesForm.zh-TW.resx">
+      <DependentUpon>ConvertNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingTypeLineUserControl.ko.resx">
+      <DependentUpon>BorderShadingTypeLineUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingTypeLineUserControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BorderShadingTypeLineUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingTypeLineUserControl.zh-CN.resx">
+      <DependentUpon>BorderShadingTypeLineUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingTypeLineUserControl.zh-Hans.resx">
+      <DependentUpon>BorderShadingTypeLineUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingTypeLineUserControl.zh-Hant.resx">
+      <DependentUpon>BorderShadingTypeLineUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingTypeLineUserControl.zh-TW.resx">
+      <DependentUpon>BorderShadingTypeLineUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingUserControl.ko.resx">
+      <DependentUpon>BorderShadingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingUserControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BorderShadingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingUserControl.zh-CN.resx">
+      <DependentUpon>BorderShadingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingUserControl.zh-Hans.resx">
+      <DependentUpon>BorderShadingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingUserControl.zh-Hant.resx">
+      <DependentUpon>BorderShadingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\BorderShadingUserControl.zh-TW.resx">
+      <DependentUpon>BorderShadingUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichEditFontAdvancedPropertiesControl.ko.resx">
+      <DependentUpon>RichEditFontAdvancedPropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichEditFontAdvancedPropertiesControl.zh-CN.resx">
+      <DependentUpon>RichEditFontAdvancedPropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichEditFontAdvancedPropertiesControl.zh-Hans.resx">
+      <DependentUpon>RichEditFontAdvancedPropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichEditFontAdvancedPropertiesControl.zh-Hant.resx">
+      <DependentUpon>RichEditFontAdvancedPropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichEditFontAdvancedPropertiesControl.zh-TW.resx">
+      <DependentUpon>RichEditFontAdvancedPropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableSizeControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableSizeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableSizeControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableSizeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableSizeControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableSizeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableRowHeightControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableRowHeightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableRowHeightControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableRowHeightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableRowHeightControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableRowHeightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichTextFontControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichTextFontControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichTextFontControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichTextFontControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichTextFontControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichTextFontControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphSpacingControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphSpacingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphSpacingControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphSpacingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphSpacingControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphSpacingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphIndentationControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphIndentationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphIndentationControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphIndentationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphIndentationControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphIndentationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\FontEffects.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontEffects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\FontEffects.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontEffects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\FontEffects.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontEffects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ColumnsEdit.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ColumnsEdit.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ColumnsEdit.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptDocumentForm.ko.resx">
+      <DependentUpon>EncryptDocumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptDocumentForm.resx">
+      <DependentUpon>EncryptDocumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptDocumentForm.zh-CN.resx">
+      <DependentUpon>EncryptDocumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptDocumentForm.zh-Hans.resx">
+      <DependentUpon>EncryptDocumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptDocumentForm.zh-Hant.resx">
+      <DependentUpon>EncryptDocumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptDocumentForm.zh-TW.resx">
+      <DependentUpon>EncryptDocumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptionPasswordRequestForm.ko.resx">
+      <DependentUpon>EncryptionPasswordRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptionPasswordRequestForm.resx">
+      <DependentUpon>EncryptionPasswordRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptionPasswordRequestForm.zh-CN.resx">
+      <DependentUpon>EncryptionPasswordRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptionPasswordRequestForm.zh-Hans.resx">
+      <DependentUpon>EncryptionPasswordRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptionPasswordRequestForm.zh-Hant.resx">
+      <DependentUpon>EncryptionPasswordRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EncryptionPasswordRequestForm.zh-TW.resx">
+      <DependentUpon>EncryptionPasswordRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyphenationOptionsForm.ko.resx">
+      <DependentUpon>HyphenationOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyphenationOptionsForm.resx">
+      <DependentUpon>HyphenationOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyphenationOptionsForm.zh-CN.resx">
+      <DependentUpon>HyphenationOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyphenationOptionsForm.zh-Hans.resx">
+      <DependentUpon>HyphenationOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyphenationOptionsForm.zh-Hant.resx">
+      <DependentUpon>HyphenationOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyphenationOptionsForm.zh-TW.resx">
+      <DependentUpon>HyphenationOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertObjectForm.ko.resx">
+      <DependentUpon>InsertObjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertObjectForm.resx">
+      <DependentUpon>InsertObjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertObjectForm.zh-CN.resx">
+      <DependentUpon>InsertObjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertObjectForm.zh-Hans.resx">
+      <DependentUpon>InsertObjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertObjectForm.zh-Hant.resx">
+      <DependentUpon>InsertObjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertObjectForm.zh-TW.resx">
+      <DependentUpon>InsertObjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LanguageForm.ko.resx">
+      <DependentUpon>LanguageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LanguageForm.resx">
+      <DependentUpon>LanguageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LanguageForm.zh-CN.resx">
+      <DependentUpon>LanguageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LanguageForm.zh-Hans.resx">
+      <DependentUpon>LanguageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LanguageForm.zh-Hant.resx">
+      <DependentUpon>LanguageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LanguageForm.zh-TW.resx">
+      <DependentUpon>LanguageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotesForm.ko.resx">
+      <DependentUpon>NotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotesForm.resx">
+      <DependentUpon>NotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotesForm.zh-CN.resx">
+      <DependentUpon>NotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotesForm.zh-Hans.resx">
+      <DependentUpon>NotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotesForm.zh-Hant.resx">
+      <DependentUpon>NotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NotesForm.zh-TW.resx">
+      <DependentUpon>NotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RichEditDocumentPropertiesForm.ko.resx">
+      <DependentUpon>RichEditDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RichEditDocumentPropertiesForm.resx">
+      <DependentUpon>RichEditDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RichEditDocumentPropertiesForm.zh-CN.resx">
+      <DependentUpon>RichEditDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RichEditDocumentPropertiesForm.zh-Hans.resx">
+      <DependentUpon>RichEditDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RichEditDocumentPropertiesForm.zh-Hant.resx">
+      <DependentUpon>RichEditDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RichEditDocumentPropertiesForm.zh-TW.resx">
+      <DependentUpon>RichEditDocumentPropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowNotesForm.ko.resx">
+      <DependentUpon>ShowNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowNotesForm.resx">
+      <DependentUpon>ShowNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowNotesForm.zh-CN.resx">
+      <DependentUpon>ShowNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowNotesForm.zh-Hans.resx">
+      <DependentUpon>ShowNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowNotesForm.zh-Hant.resx">
+      <DependentUpon>ShowNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowNotesForm.zh-TW.resx">
+      <DependentUpon>ShowNotesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOfContentsForm.ko.resx">
+      <DependentUpon>TableOfContentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOfContentsForm.zh-CN.resx">
+      <DependentUpon>TableOfContentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOfContentsForm.zh-Hans.resx">
+      <DependentUpon>TableOfContentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOfContentsForm.zh-Hant.resx">
+      <DependentUpon>TableOfContentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOfContentsForm.zh-TW.resx">
+      <DependentUpon>TableOfContentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePositioningForm.ko.resx">
+      <DependentUpon>TablePositioningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePositioningForm.resx">
+      <DependentUpon>TablePositioningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePositioningForm.zh-CN.resx">
+      <DependentUpon>TablePositioningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePositioningForm.zh-Hans.resx">
+      <DependentUpon>TablePositioningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePositioningForm.zh-Hant.resx">
+      <DependentUpon>TablePositioningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePositioningForm.zh-TW.resx">
+      <DependentUpon>TablePositioningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableStyleForm.ko.resx">
+      <DependentUpon>TableStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableStyleForm.resx">
+      <DependentUpon>TableStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableStyleForm.zh-CN.resx">
+      <DependentUpon>TableStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableStyleForm.zh-Hans.resx">
+      <DependentUpon>TableStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableStyleForm.zh-Hant.resx">
+      <DependentUpon>TableStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableStyleForm.zh-TW.resx">
+      <DependentUpon>TableStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TabsForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TabsForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TabsForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePropertiesForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TablePropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePropertiesForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TablePropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePropertiesForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TablePropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOptionsForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOptionsForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOptionsForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableCellOptionsForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableCellOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableCellOptionsForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableCellOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableCellOptionsForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableCellOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SymbolForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SymbolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SymbolForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SymbolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SymbolForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SymbolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SymbolForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SymbolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplitTableCellsForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplitTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplitTableCellsForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplitTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplitTableCellsForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplitTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplitTableCellsForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplitTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SimpleNumberingListForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SimpleNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SimpleNumberingListForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SimpleNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SimpleNumberingListForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SimpleNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SimpleNumberingListForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SimpleNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchTextForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchTextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchTextForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchTextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchTextForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchTextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RangeEditingPermissionsForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RangeEditingPermissionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RangeEditingPermissionsForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RangeEditingPermissionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RangeEditingPermissionsForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RangeEditingPermissionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RangeEditingPermissionsForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RangeEditingPermissionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasteSpecialForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PasteSpecialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasteSpecialForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PasteSpecialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasteSpecialForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PasteSpecialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ParagraphForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ParagraphForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NumberingListForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NumberingListForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NumberingListForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NumberingListForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MultiLevelNumberingListForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MultiLevelNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MultiLevelNumberingListForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MultiLevelNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MultiLevelNumberingListForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MultiLevelNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MultiLevelNumberingListForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MultiLevelNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LineNumberingForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LineNumberingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LineNumberingForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LineNumberingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LineNumberingForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LineNumberingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableCellsForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableCellsForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableCellsForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableCellsForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertMergeFieldForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertMergeFieldForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertMergeFieldForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertMergeFieldForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertMergeFieldForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertMergeFieldForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyperlinkForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HyperlinkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyperlinkForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HyperlinkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyperlinkForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HyperlinkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FontForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FontForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FontForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FloatingObjectLayoutForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FloatingObjectLayoutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FloatingObjectLayoutForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FloatingObjectLayoutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FloatingObjectLayoutForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FloatingObjectLayoutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FloatingObjectLayoutForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FloatingObjectLayoutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FloatingObjectLayoutForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FloatingObjectLayoutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditStyleForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditStyleForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditStyleForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditStyleForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryPasswordForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryPasswordForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryPasswordForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryPasswordForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryNewPasswordForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryNewPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryNewPasswordForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryNewPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryNewPasswordForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryNewPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryNewPasswordForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryNewPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeleteTableCellsForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DeleteTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeleteTableCellsForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DeleteTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeleteTableCellsForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DeleteTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeleteTableCellsForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DeleteTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ColumnsSetupForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ColumnsSetupForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ColumnsSetupForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BulletedListForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BulletedListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BulletedListForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BulletedListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BulletedListForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BulletedListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BulletedListForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BulletedListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookmarkForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BookmarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookmarkForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BookmarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookmarkForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BookmarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookmarkForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BookmarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FloatingObjectLayoutForm.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FloatingObjectLayoutForm.Designer.cs</LastGenOutput>
+      <DependentUpon>FloatingObjectLayoutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditStyleForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyperlinkForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HyperlinkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditStyleForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOptionsForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ColumnsEdit.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasteSpecialForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PasteSpecialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LineNumberingForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LineNumberingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ColumnsSetupForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableSizeControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableSizeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableCellOptionsForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableCellOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePropertiesForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TablePropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableRowHeightControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableRowHeightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ColumnsSetupForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ColumnsEdit.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasteSpecialForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PasteSpecialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LineNumberingForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LineNumberingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableSizeControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableSizeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableCellOptionsForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableCellOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePropertiesForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TablePropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOptionsForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableRowHeightControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableRowHeightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ParagraphForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ColumnsSetupForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnsSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ColumnsEdit.resx">
+      <DependentUpon>ColumnsEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableRowHeightControl.resx">
+      <DependentUpon>TableRowHeightControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\TableSizeControl.resx">
+      <DependentUpon>TableSizeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LineNumberingForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LineNumberingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasteSpecialForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PasteSpecialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableCellOptionsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableCellOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOfContentsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableOfContentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TableOptionsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TableOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TablePropertiesForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TablePropertiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeleteTableCellsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DeleteTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryNewPasswordForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryNewPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryPasswordForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableCellsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MultiLevelNumberingListForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MultiLevelNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookmarkForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BookmarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RangeEditingPermissionsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RangeEditingPermissionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplitTableCellsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplitTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SymbolForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SymbolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SimpleNumberingListForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SimpleNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ParagraphForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryNewPasswordForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryNewPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DeleteTableCellsForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DeleteTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplitTableCellsForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplitTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableCellsForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertTableCellsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DocumentProtectionQueryPasswordForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DocumentProtectionQueryPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphSpacingControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphSpacingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BulletedListForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BulletedListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertMergeFieldForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertMergeFieldForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichTextFontControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichTextFontControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FontForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NumberingListForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\FontEffects.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontEffects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchTextForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchTextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphIndentationControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphIndentationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TabsForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RangeEditingPermissionsForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RangeEditingPermissionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyperlinkForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HyperlinkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertTableForm.resx">
+      <DependentUpon>InsertTableForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BookmarkForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BookmarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfirmPasswordForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConfirmPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BulletedListForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BulletedListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HyperlinkForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HyperlinkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MultiLevelNumberingListForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MultiLevelNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NumberingListForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SimpleNumberingListForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SimpleNumberingListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SymbolForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SymbolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TabsForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertMergeFieldForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InsertMergeFieldForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ParagraphForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichTextFontControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RichTextFontControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphSpacingControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphSpacingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchTextForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchTextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FontForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphIndentationControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphIndentationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\FontEffects.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontEffects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\FontEffects.resx">
+      <DependentUpon>FontEffects.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphIndentationControl.resx">
+      <DependentUpon>ParagraphIndentationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\ParagraphSpacingControl.resx">
+      <DependentUpon>ParagraphSpacingControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichTextFontControl.resx">
+      <DependentUpon>RichTextFontControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Design\RichEditFontAdvancedPropertiesControl.resx">
+      <DependentUpon>RichEditFontAdvancedPropertiesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FontForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FontForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InsertMergeFieldForm.resx">
+      <DependentUpon>InsertMergeFieldForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ParagraphForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ParagraphForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchTextForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchTextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TabsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WatermarkForm.ko.resx">
+      <DependentUpon>WatermarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WatermarkForm.resx">
+      <DependentUpon>WatermarkForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WatermarkForm.zh-CN.resx">
+      <DependentUpon>WatermarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WatermarkForm.zh-Hans.resx">
+      <DependentUpon>WatermarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WatermarkForm.zh-Hant.resx">
+      <DependentUpon>WatermarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WatermarkForm.zh-TW.resx">
+      <DependentUpon>WatermarkForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StrongKey.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

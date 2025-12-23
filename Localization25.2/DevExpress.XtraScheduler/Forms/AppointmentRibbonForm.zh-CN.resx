@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bvtPrint.Caption" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="bvbSave.Caption" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="bvbSaveAs.Caption" xml:space="preserve">
+    <value>另存为</value>
+  </data>
+  <data name="bvbClose.Caption" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="btnSaveAndClose.Caption" xml:space="preserve">
+    <value>保存并关闭</value>
+  </data>
+  <data name="btnSaveAndClose.Hint" xml:space="preserve">
+    <value>保存此项目并关闭窗口</value>
+  </data>
+  <data name="btnDelete.AccessibleName" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnDelete.Caption" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnDelete.Hint" xml:space="preserve">
+    <value>删除此项目</value>
+  </data>
+  <data name="barLabel.AccessibleName" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="barLabel.Caption" xml:space="preserve">
+    <value>标签：</value>
+  </data>
+  <data name="barLabel.Hint" xml:space="preserve">
+    <value>更改此项目的标签</value>
+  </data>
+  <data name="barStatus.AccessibleName" xml:space="preserve">
+    <value>时间显示为</value>
+  </data>
+  <data name="barStatus.Caption" xml:space="preserve">
+    <value>时间显示为:</value>
+  </data>
+  <data name="barStatus.Hint" xml:space="preserve">
+    <value>如何将这一项目的时间标记您的日历的变化</value>
+  </data>
+  <data name="barReminder.AccessibleName" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="barReminder.Caption" xml:space="preserve">
+    <value>提醒:</value>
+  </data>
+  <data name="barReminder.Hint" xml:space="preserve">
+    <value>选择此项目的提醒</value>
+  </data>
+  <data name="btnRecurrence.Caption" xml:space="preserve">
+    <value>复发</value>
+  </data>
+  <data name="btnRecurrence.Hint" xml:space="preserve">
+    <value>要定期重复这项计划</value>
+  </data>
+  <data name="btnSave.Caption" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="btnNext.AccessibleName" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="btnNext.Caption" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="btnNext.Hint" xml:space="preserve">
+    <value>下一项</value>
+  </data>
+  <data name="btnPrevious.AccessibleName" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="btnPrevious.Caption" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="btnPrevious.Hint" xml:space="preserve">
+    <value>前一项</value>
+  </data>
+  <data name="btnTimeZones.Caption" xml:space="preserve">
+    <value>时区</value>
+  </data>
+  <data name="btnTimeZones.Hint" xml:space="preserve">
+    <value>显示或隐藏时区控件，您可以使用指定约会的开始和结束时间时区</value>
+  </data>
+  <data name="rpgActions.Text" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="rpgOptions.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="rpAppointment.Text" xml:space="preserve">
+    <value>约会</value>
+  </data>
+  <data name="lblStartTime.AccessibleName" xml:space="preserve">
+    <value>Start time:</value>
+  </data>
+  <data name="lblPercentCompleteValue.Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="tbDescription.Properties.AccessibleName" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="lblPercentComplete.AccessibleName" xml:space="preserve">
+    <value>完成百分比</value>
+  </data>
+  <data name="lblPercentComplete.Text" xml:space="preserve">
+    <value>%&amp; 总:</value>
+  </data>
+  <data name="lblSubject.AccessibleName" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="lblSubject.Text" xml:space="preserve">
+    <value>&amp; 主题：</value>
+  </data>
+  <data name="lblResource.AccessibleName" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="lblResource.Text" xml:space="preserve">
+    <value>资源:</value>
+  </data>
+  <data name="lblEndTime.AccessibleName" xml:space="preserve">
+    <value>End time:</value>
+  </data>
+  <data name="lblEndTime.Text" xml:space="preserve">
+    <value>结束时间(&amp;E):</value>
+  </data>
+  <data name="chkAllDay.Properties.AccessibleName" xml:space="preserve">
+    <value>全天事件</value>
+  </data>
+  <data name="chkAllDay.Properties.Caption" xml:space="preserve">
+    <value>和全天事件</value>
+  </data>
+  <data name="edtEndDate.Properties.AccessibleName" xml:space="preserve">
+    <value>结束日期</value>
+  </data>
+  <data name="edtEndTime.Properties.AccessibleName" xml:space="preserve">
+    <value>End time:</value>
+  </data>
+  <data name="tbSubject.Properties.AccessibleName" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="lblLocation.AccessibleName" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="lblLocation.Text" xml:space="preserve">
+    <value>地点(&amp;L):</value>
+  </data>
+  <data name="edtStartDate.Properties.AccessibleName" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="tbLocation.Properties.AccessibleName" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="edtStartTime.Properties.AccessibleName" xml:space="preserve">
+    <value>Start time:</value>
+  </data>
+  <data name="lblStartTime.Text" xml:space="preserve">
+    <value>开始时间(&amp;T):</value>
+  </data>
+</root>

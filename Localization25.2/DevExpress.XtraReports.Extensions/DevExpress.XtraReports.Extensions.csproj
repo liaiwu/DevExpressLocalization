@@ -1,0 +1,1311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="17.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4C0BA46F-2FCC-498B-7740-EC27E6944F8C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>DevExpress.XtraReports.v25.2.Extensions</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DevExpress.XtraReports</RootNamespace>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\DevExpress.Dll\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile></ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG;DXWhidbey</DefineConstants>
+    <DocumentationFile></DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\DevExpress.Dll\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile></ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DXWhidbey</DefineConstants>
+    <DocumentationFile></DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dx25.2.3\DevExpress_Sources_v25.2.3\Bin\Framework\DevExpress.Data.v25.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dx25.2.3\DevExpress_Sources_v25.2.3\Bin\Framework\DevExpress.Utils.v25.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dx25.2.3\DevExpress_Sources_v25.2.3\Bin\Framework\DevExpress.XtraEditors.v25.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v25.2, Version=25.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dx25.2.3\DevExpress_Sources_v25.2.3\Bin\Framework\DevExpress.XtraTreeList.v25.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\AssemblyVersion.cs">
+      <Link>AssemblyVersion.cs</Link>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\FavoritePropertyEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\ReportFilterStringEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\SplitCellsEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\XRSummaryExpressionEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserDesigner\XRDesignForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserDesigner\XRDesignToolBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserDesigner\XRDesignFormExBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserDesigner\XRDesignRibbonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\BandCollectionEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\BordersEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\BindingMapper\BindingMapperForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\CalculatedFieldCollectionEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormattingRuleSheetEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\ParameterBindingEditorContentControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\StyleSheetEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\TableOfContentsLevelCollectionEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\SubBandCollectionEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\ParameterCollectionEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\ParameterBindingCollectionEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\GroupFieldCollectionEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\NewParameterEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormattingRulesEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\GroupSortingSummaryEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\LookUpValuesEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Native\Templates\GalleryUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Native\Templates\ProgressUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Native\Templates\TemplateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGeneration\Wizard\Views\WizardEndPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportGeneration\Wizard\Views\WizardLayoutSettingsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportGeneration\Wizard\Views\WizardPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportGeneration\Wizard\Views\WizardStartPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportGeneration\Wizard\Views\WizardViewOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportGeneration\Wizard\Views\WizardViewOptionsGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportGeneration\Wizard\Views\WizardViewOptionsGrouping.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportGeneration\Wizard\Views\WizardViewOptionsStyles.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\AddGroupingLevelPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\ChooseReportColorSchemePageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\ConfigureReportPageSettingsPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\ChooseReportLayoutPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\ChooseReportStylePageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\ChooseReportTypePageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\ChooseSummaryOptionsPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\ConfigureCrossTabPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\CustomizeLabelPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\MultiQuerySelectFieldsPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\SelectColumnsPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\SelectLabelTypePageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\SetReportTitlePageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\MasterDetailChooseSummaryOptionsPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\MasterDetailAddGroupingLevelPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\MasterDetailSelectDataMembersPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\ChooseReportTemplatePageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\ConfigureReportTemplateQueryPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\MapReportTemplateFieldsPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\SelectReportTemplateDataMemberPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Views\SpecifyReportTemplateOptionsPageView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\ParameterEditor\ParameterEditorContentControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\ParameterEditor\ParameterEditorDynamicListSettingsControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\ParameterEditor\ParameterEditorRangeSettingsControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\ParameterEditor\ParameterEditorStaticLookUpValuesControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\ParameterEditor\ReportParameterCollectionEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\ParameterEditor\ReportParameterEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\ParameterEditor\ParameterEditorStaticListSettingsControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ReportGeneration\Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Design\CalculatedFieldCollectionEditorForm.resx">
+      <DependentUpon>CalculatedFieldCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FavoritePropertyEditorForm.ko.resx">
+      <DependentUpon>FavoritePropertyEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FavoritePropertyEditorForm.resx">
+      <DependentUpon>FavoritePropertyEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FavoritePropertyEditorForm.zh-CN.resx">
+      <DependentUpon>FavoritePropertyEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FavoritePropertyEditorForm.zh-Hans.resx">
+      <DependentUpon>FavoritePropertyEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FavoritePropertyEditorForm.zh-Hant.resx">
+      <DependentUpon>FavoritePropertyEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FavoritePropertyEditorForm.zh-TW.resx">
+      <DependentUpon>FavoritePropertyEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRuleSheetEditorForm.resx">
+      <DependentUpon>FormattingRuleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRuleSheetEditorForm.ko.resx">
+      <DependentUpon>FormattingRuleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRuleSheetEditorForm.zh-CN.resx">
+      <DependentUpon>FormattingRuleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRuleSheetEditorForm.zh-Hans.resx">
+      <DependentUpon>FormattingRuleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRuleSheetEditorForm.zh-Hant.resx">
+      <DependentUpon>FormattingRuleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRuleSheetEditorForm.zh-TW.resx">
+      <DependentUpon>FormattingRuleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterBindingEditorContentControl.resx">
+      <DependentUpon>ParameterBindingEditorContentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\GroupFieldCollectionEditorForm.resx">
+      <DependentUpon>GroupFieldCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterBindingCollectionEditorForm.resx">
+      <DependentUpon>ParameterBindingCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterCollectionEditorForm.resx">
+      <DependentUpon>ParameterCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ReportFilterStringEditorForm.ko.resx">
+      <DependentUpon>ReportFilterStringEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ReportFilterStringEditorForm.resx">
+      <DependentUpon>ReportFilterStringEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ReportFilterStringEditorForm.zh-CN.resx">
+      <DependentUpon>ReportFilterStringEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ReportFilterStringEditorForm.zh-Hans.resx">
+      <DependentUpon>ReportFilterStringEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ReportFilterStringEditorForm.zh-Hant.resx">
+      <DependentUpon>ReportFilterStringEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ReportFilterStringEditorForm.zh-TW.resx">
+      <DependentUpon>ReportFilterStringEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\SplitCellsEditorForm.ko.resx">
+      <DependentUpon>SplitCellsEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\SplitCellsEditorForm.resx">
+      <DependentUpon>SplitCellsEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\SplitCellsEditorForm.zh-CN.resx">
+      <DependentUpon>SplitCellsEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\SplitCellsEditorForm.zh-Hans.resx">
+      <DependentUpon>SplitCellsEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\SplitCellsEditorForm.zh-Hant.resx">
+      <DependentUpon>SplitCellsEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\SplitCellsEditorForm.zh-TW.resx">
+      <DependentUpon>SplitCellsEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\StyleSheetEditorForm.ko.resx">
+      <DependentUpon>StyleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\StyleSheetEditorForm.resx">
+      <DependentUpon>StyleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\StyleSheetEditorForm.zh-CN.resx">
+      <DependentUpon>StyleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\StyleSheetEditorForm.zh-Hans.resx">
+      <DependentUpon>StyleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\StyleSheetEditorForm.zh-Hant.resx">
+      <DependentUpon>StyleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\StyleSheetEditorForm.zh-TW.resx">
+      <DependentUpon>StyleSheetEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\SubBandCollectionEditorForm.resx">
+      <DependentUpon>SubBandCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\TableOfContentsLevelCollectionEditorForm.resx">
+      <DependentUpon>TableOfContentsLevelCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\TableOfContentsLevelCollectionEditorForm.zh-Hans.resx">
+      <DependentUpon>TableOfContentsLevelCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\XRSummaryExpressionEditorForm.ko.resx">
+      <DependentUpon>XRSummaryExpressionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\XRSummaryExpressionEditorForm.resx">
+      <DependentUpon>XRSummaryExpressionEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\XRSummaryExpressionEditorForm.zh-CN.resx">
+      <DependentUpon>XRSummaryExpressionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\XRSummaryExpressionEditorForm.zh-Hans.resx">
+      <DependentUpon>XRSummaryExpressionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\XRSummaryExpressionEditorForm.zh-Hant.resx">
+      <DependentUpon>XRSummaryExpressionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\XRSummaryExpressionEditorForm.zh-TW.resx">
+      <DependentUpon>XRSummaryExpressionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardEndPageView.ko.resx">
+      <DependentUpon>WizardEndPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardEndPageView.resx">
+      <DependentUpon>WizardEndPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardEndPageView.zh-CN.resx">
+      <DependentUpon>WizardEndPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardEndPageView.zh-Hans.resx">
+      <DependentUpon>WizardEndPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardEndPageView.zh-Hant.resx">
+      <DependentUpon>WizardEndPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardEndPageView.zh-TW.resx">
+      <DependentUpon>WizardEndPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardLayoutSettingsPage.ko.resx">
+      <DependentUpon>WizardLayoutSettingsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardLayoutSettingsPage.resx">
+      <DependentUpon>WizardLayoutSettingsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardLayoutSettingsPage.zh-CN.resx">
+      <DependentUpon>WizardLayoutSettingsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardLayoutSettingsPage.zh-Hans.resx">
+      <DependentUpon>WizardLayoutSettingsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardLayoutSettingsPage.zh-Hant.resx">
+      <DependentUpon>WizardLayoutSettingsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardLayoutSettingsPage.zh-TW.resx">
+      <DependentUpon>WizardLayoutSettingsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardPageView.ko.resx">
+      <DependentUpon>WizardPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardPageView.resx">
+      <DependentUpon>WizardPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardPageView.zh-CN.resx">
+      <DependentUpon>WizardPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardPageView.zh-Hans.resx">
+      <DependentUpon>WizardPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardPageView.zh-Hant.resx">
+      <DependentUpon>WizardPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardPageView.zh-TW.resx">
+      <DependentUpon>WizardPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardStartPageView.ko.resx">
+      <DependentUpon>WizardStartPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardStartPageView.resx">
+      <DependentUpon>WizardStartPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardStartPageView.zh-CN.resx">
+      <DependentUpon>WizardStartPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardStartPageView.zh-Hans.resx">
+      <DependentUpon>WizardStartPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardStartPageView.zh-Hant.resx">
+      <DependentUpon>WizardStartPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardStartPageView.zh-TW.resx">
+      <DependentUpon>WizardStartPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptions.ko.resx">
+      <DependentUpon>WizardViewOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptions.resx">
+      <DependentUpon>WizardViewOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptions.zh-CN.resx">
+      <DependentUpon>WizardViewOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptions.zh-Hans.resx">
+      <DependentUpon>WizardViewOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptions.zh-Hant.resx">
+      <DependentUpon>WizardViewOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptions.zh-TW.resx">
+      <DependentUpon>WizardViewOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGeneral.ko.resx">
+      <DependentUpon>WizardViewOptionsGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGeneral.resx">
+      <DependentUpon>WizardViewOptionsGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGeneral.zh-CN.resx">
+      <DependentUpon>WizardViewOptionsGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGeneral.zh-Hans.resx">
+      <DependentUpon>WizardViewOptionsGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGeneral.zh-Hant.resx">
+      <DependentUpon>WizardViewOptionsGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGeneral.zh-TW.resx">
+      <DependentUpon>WizardViewOptionsGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGrouping.ko.resx">
+      <DependentUpon>WizardViewOptionsGrouping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGrouping.resx">
+      <DependentUpon>WizardViewOptionsGrouping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGrouping.zh-CN.resx">
+      <DependentUpon>WizardViewOptionsGrouping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGrouping.zh-Hans.resx">
+      <DependentUpon>WizardViewOptionsGrouping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGrouping.zh-Hant.resx">
+      <DependentUpon>WizardViewOptionsGrouping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsGrouping.zh-TW.resx">
+      <DependentUpon>WizardViewOptionsGrouping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsStyles.ko.resx">
+      <DependentUpon>WizardViewOptionsStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsStyles.resx">
+      <DependentUpon>WizardViewOptionsStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsStyles.zh-CN.resx">
+      <DependentUpon>WizardViewOptionsStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsStyles.zh-Hans.resx">
+      <DependentUpon>WizardViewOptionsStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsStyles.zh-Hant.resx">
+      <DependentUpon>WizardViewOptionsStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGeneration\Wizard\Views\WizardViewOptionsStyles.zh-TW.resx">
+      <DependentUpon>WizardViewOptionsStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignFormExBase.ko.resx">
+      <DependentUpon>XRDesignFormExBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignFormExBase.zh-Hans.resx">
+      <DependentUpon>XRDesignFormExBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignFormExBase.zh-Hant.resx">
+      <DependentUpon>XRDesignFormExBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Localization\LocalizationRes.ko.resx" />
+    <EmbeddedResource Include="Wizards\Localization\LocalizationRes.resx" />
+    <EmbeddedResource Include="Wizards\Localization\LocalizationRes.zh-CN.resx" />
+    <EmbeddedResource Include="Wizards\Localization\LocalizationRes.zh-Hans.resx" />
+    <EmbeddedResource Include="Wizards\Localization\LocalizationRes.zh-Hant.resx" />
+    <EmbeddedResource Include="Wizards\Localization\LocalizationRes.zh-TW.resx" />
+    <EmbeddedResource Include="Wizards\Views\AddGroupingLevelPageView.ko.resx">
+      <DependentUpon>AddGroupingLevelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\AddGroupingLevelPageView.resx">
+      <DependentUpon>AddGroupingLevelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportColorSchemePageView.resx">
+      <DependentUpon>ChooseReportColorSchemePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureCrossTabPageView.ko.resx">
+      <DependentUpon>ConfigureCrossTabPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureCrossTabPageView.zh-CN.resx">
+      <DependentUpon>ConfigureCrossTabPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureCrossTabPageView.zh-Hans.resx">
+      <DependentUpon>ConfigureCrossTabPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureCrossTabPageView.zh-Hant.resx">
+      <DependentUpon>ConfigureCrossTabPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureCrossTabPageView.zh-TW.resx">
+      <DependentUpon>ConfigureCrossTabPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportPageSettingsPageView.ko.resx">
+      <DependentUpon>ConfigureReportPageSettingsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportPageSettingsPageView.resx">
+      <DependentUpon>ConfigureReportPageSettingsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\AddGroupingLevelPageView.zh-CN.resx">
+      <DependentUpon>AddGroupingLevelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\AddGroupingLevelPageView.zh-Hans.resx">
+      <DependentUpon>AddGroupingLevelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\AddGroupingLevelPageView.zh-Hant.resx">
+      <DependentUpon>AddGroupingLevelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\AddGroupingLevelPageView.zh-TW.resx">
+      <DependentUpon>AddGroupingLevelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportLayoutPageView.ko.resx">
+      <DependentUpon>ChooseReportLayoutPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportLayoutPageView.resx">
+      <DependentUpon>ChooseReportLayoutPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportLayoutPageView.zh-CN.resx">
+      <DependentUpon>ChooseReportLayoutPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportLayoutPageView.zh-Hans.resx">
+      <DependentUpon>ChooseReportLayoutPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportLayoutPageView.zh-Hant.resx">
+      <DependentUpon>ChooseReportLayoutPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportLayoutPageView.zh-TW.resx">
+      <DependentUpon>ChooseReportLayoutPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportStylePageView.ko.resx">
+      <DependentUpon>ChooseReportStylePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportStylePageView.resx">
+      <DependentUpon>ChooseReportStylePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportStylePageView.zh-CN.resx">
+      <DependentUpon>ChooseReportStylePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportStylePageView.zh-Hans.resx">
+      <DependentUpon>ChooseReportStylePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportStylePageView.zh-Hant.resx">
+      <DependentUpon>ChooseReportStylePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportStylePageView.zh-TW.resx">
+      <DependentUpon>ChooseReportStylePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportTemplatePageView.resx">
+      <DependentUpon>ChooseReportTemplatePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportTemplatePageView.zh-TW.resx">
+      <DependentUpon>ChooseReportTemplatePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportTypePageView.ko.resx">
+      <DependentUpon>ChooseReportTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportTypePageView.resx">
+      <DependentUpon>ChooseReportTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportTypePageView.zh-CN.resx">
+      <DependentUpon>ChooseReportTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportTypePageView.zh-Hans.resx">
+      <DependentUpon>ChooseReportTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportTypePageView.zh-Hant.resx">
+      <DependentUpon>ChooseReportTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseReportTypePageView.zh-TW.resx">
+      <DependentUpon>ChooseReportTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseSummaryOptionsPageView.ko.resx">
+      <DependentUpon>ChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseSummaryOptionsPageView.resx">
+      <DependentUpon>ChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseSummaryOptionsPageView.zh-CN.resx">
+      <DependentUpon>ChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseSummaryOptionsPageView.zh-Hans.resx">
+      <DependentUpon>ChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseSummaryOptionsPageView.zh-Hant.resx">
+      <DependentUpon>ChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ChooseSummaryOptionsPageView.zh-TW.resx">
+      <DependentUpon>ChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureCrossTabPageView.resx">
+      <DependentUpon>ConfigureCrossTabPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportPageSettingsPageView.zh-CN.resx">
+      <DependentUpon>ConfigureReportPageSettingsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportPageSettingsPageView.zh-Hans.resx">
+      <DependentUpon>ConfigureReportPageSettingsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportPageSettingsPageView.zh-Hant.resx">
+      <DependentUpon>ConfigureReportPageSettingsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportPageSettingsPageView.zh-TW.resx">
+      <DependentUpon>ConfigureReportPageSettingsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportTemplateQueryPageView.ko.resx">
+      <DependentUpon>ConfigureReportTemplateQueryPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportTemplateQueryPageView.resx">
+      <DependentUpon>ConfigureReportTemplateQueryPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportTemplateQueryPageView.zh-CN.resx">
+      <DependentUpon>ConfigureReportTemplateQueryPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportTemplateQueryPageView.zh-Hans.resx">
+      <DependentUpon>ConfigureReportTemplateQueryPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportTemplateQueryPageView.zh-Hant.resx">
+      <DependentUpon>ConfigureReportTemplateQueryPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\ConfigureReportTemplateQueryPageView.zh-TW.resx">
+      <DependentUpon>ConfigureReportTemplateQueryPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\CustomizeLabelPageView.ko.resx">
+      <DependentUpon>CustomizeLabelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\CustomizeLabelPageView.resx">
+      <DependentUpon>CustomizeLabelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\CustomizeLabelPageView.zh-CN.resx">
+      <DependentUpon>CustomizeLabelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\CustomizeLabelPageView.zh-Hans.resx">
+      <DependentUpon>CustomizeLabelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\CustomizeLabelPageView.zh-Hant.resx">
+      <DependentUpon>CustomizeLabelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\CustomizeLabelPageView.zh-TW.resx">
+      <DependentUpon>CustomizeLabelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MapReportTemplateFieldsPageView.resx">
+      <DependentUpon>MapReportTemplateFieldsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MapReportTemplateFieldsPageView.zh-CN.resx">
+      <DependentUpon>MapReportTemplateFieldsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MapReportTemplateFieldsPageView.zh-Hans.resx">
+      <DependentUpon>MapReportTemplateFieldsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MapReportTemplateFieldsPageView.zh-TW.resx">
+      <DependentUpon>MapReportTemplateFieldsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MasterDetailAddGroupingLevelPageView.zh-TW.resx">
+      <DependentUpon>MasterDetailAddGroupingLevelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MasterDetailChooseSummaryOptionsPageView.ko.resx">
+      <DependentUpon>MasterDetailChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MasterDetailChooseSummaryOptionsPageView.zh-CN.resx">
+      <DependentUpon>MasterDetailChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MasterDetailChooseSummaryOptionsPageView.zh-Hans.resx">
+      <DependentUpon>MasterDetailChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MasterDetailChooseSummaryOptionsPageView.zh-Hant.resx">
+      <DependentUpon>MasterDetailChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MasterDetailChooseSummaryOptionsPageView.zh-TW.resx">
+      <DependentUpon>MasterDetailChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MasterDetailSelectDataMembersPageView.zh-TW.resx">
+      <DependentUpon>MasterDetailSelectDataMembersPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MultiQuerySelectFieldsPageView.ko.resx">
+      <DependentUpon>MultiQuerySelectFieldsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MultiQuerySelectFieldsPageView.resx">
+      <DependentUpon>MultiQuerySelectFieldsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectColumnsPageView.ko.resx">
+      <DependentUpon>SelectColumnsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectColumnsPageView.resx">
+      <DependentUpon>SelectColumnsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectColumnsPageView.zh-CN.resx">
+      <DependentUpon>SelectColumnsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectColumnsPageView.zh-Hans.resx">
+      <DependentUpon>SelectColumnsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectColumnsPageView.zh-Hant.resx">
+      <DependentUpon>SelectColumnsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectColumnsPageView.zh-TW.resx">
+      <DependentUpon>SelectColumnsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectLabelTypePageView.ko.resx">
+      <DependentUpon>SelectLabelTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectLabelTypePageView.resx">
+      <DependentUpon>SelectLabelTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectLabelTypePageView.zh-CN.resx">
+      <DependentUpon>SelectLabelTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectLabelTypePageView.zh-Hans.resx">
+      <DependentUpon>SelectLabelTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectLabelTypePageView.zh-Hant.resx">
+      <DependentUpon>SelectLabelTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectLabelTypePageView.zh-TW.resx">
+      <DependentUpon>SelectLabelTypePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectReportTemplateDataMemberPageView.resx">
+      <DependentUpon>SelectReportTemplateDataMemberPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectReportTemplateDataMemberPageView.zh-CN.resx">
+      <DependentUpon>SelectReportTemplateDataMemberPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SelectReportTemplateDataMemberPageView.zh-TW.resx">
+      <DependentUpon>SelectReportTemplateDataMemberPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SetReportTitlePageView.ko.resx">
+      <DependentUpon>SetReportTitlePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SetReportTitlePageView.resx">
+      <DependentUpon>SetReportTitlePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MasterDetailChooseSummaryOptionsPageView.resx">
+      <DependentUpon>MasterDetailChooseSummaryOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MasterDetailAddGroupingLevelPageView.resx">
+      <DependentUpon>MasterDetailAddGroupingLevelPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\MasterDetailSelectDataMembersPageView.resx">
+      <DependentUpon>MasterDetailSelectDataMembersPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SetReportTitlePageView.zh-CN.resx">
+      <DependentUpon>SetReportTitlePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SetReportTitlePageView.zh-Hans.resx">
+      <DependentUpon>SetReportTitlePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SetReportTitlePageView.zh-Hant.resx">
+      <DependentUpon>SetReportTitlePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SetReportTitlePageView.zh-TW.resx">
+      <DependentUpon>SetReportTitlePageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignRibbonForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignRibbonForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignRibbonForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignRibbonForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\TemplateForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\TemplateForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\TemplateForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\TemplateForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\TemplateForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\ProgressUserControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProgressUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\ProgressUserControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProgressUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\ProgressUserControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProgressUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\ProgressUserControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProgressUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\ProgressUserControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProgressUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\GalleryUserControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GalleryUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\GalleryUserControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GalleryUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\GalleryUserControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GalleryUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\GalleryUserControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GalleryUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\GalleryUserControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GalleryUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BindingMapper\BindingMapperForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BindingMapperForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BindingMapper\BindingMapperForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BindingMapperForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BindingMapper\BindingMapperForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BindingMapperForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\NewParameterEditorForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewParameterEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\NewParameterEditorForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewParameterEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\NewParameterEditorForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewParameterEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\LookUpValuesEditorForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LookUpValuesEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\LookUpValuesEditorForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LookUpValuesEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\LookUpValuesEditorForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LookUpValuesEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\GroupSortingSummaryEditorForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GroupSortingSummaryEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\GroupSortingSummaryEditorForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GroupSortingSummaryEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\GroupSortingSummaryEditorForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GroupSortingSummaryEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\GroupSortingSummaryEditorForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GroupSortingSummaryEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRulesEditorForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormattingRulesEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRulesEditorForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormattingRulesEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRulesEditorForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormattingRulesEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BordersEditor.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BordersEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BordersEditor.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BordersEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BordersEditor.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BordersEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BandCollectionEditorForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BandCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BandCollectionEditorForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BandCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BandCollectionEditorForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BandCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\GalleryUserControl.resx">
+      <DependentUpon>GalleryUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\ProgressUserControl.resx">
+      <DependentUpon>ProgressUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignFormExBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignFormExBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignToolBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignToolBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignRibbonForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XRDesignRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BindingMapper\BindingMapperForm.resx">
+      <DependentUpon>BindingMapperForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BindingMapper\BindingMapperForm.zh-Hans.resx">
+      <DependentUpon>BindingMapperForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BindingMapper\BindingMapperForm.zh-Hant.resx">
+      <DependentUpon>BindingMapperForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\NewParameterEditorForm.resx">
+      <DependentUpon>NewParameterEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\NewParameterEditorForm.zh-Hans.resx">
+      <DependentUpon>NewParameterEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\NewParameterEditorForm.zh-Hant.resx">
+      <DependentUpon>NewParameterEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\LookUpValuesEditorForm.resx">
+      <DependentUpon>LookUpValuesEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\LookUpValuesEditorForm.zh-Hans.resx">
+      <DependentUpon>LookUpValuesEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\LookUpValuesEditorForm.zh-Hant.resx">
+      <DependentUpon>LookUpValuesEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Native\Templates\TemplateForm.resx">
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\GroupSortingSummaryEditorForm.resx">
+      <DependentUpon>GroupSortingSummaryEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignForm.zh-Hans.resx">
+      <DependentUpon>XRDesignForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BordersEditor.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BordersEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRulesEditorForm.zh-Hans.resx">
+      <DependentUpon>FormattingRulesEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\GroupSortingSummaryEditorForm.zh-Hans.resx">
+      <DependentUpon>GroupSortingSummaryEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDesigner\XRDesignRibbonForm.zh-Hans.resx">
+      <DependentUpon>XRDesignRibbonForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BandCollectionEditorForm.zh-Hans.resx">
+      <DependentUpon>BandCollectionEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BordersEditor.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BordersEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BandCollectionEditorForm.zh-Hant.resx">
+      <DependentUpon>BandCollectionEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRulesEditorForm.zh-Hant.resx">
+      <DependentUpon>FormattingRulesEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BandCollectionEditorForm.resx">
+      <DependentUpon>BandCollectionEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\BordersEditor.resx">
+      <DependentUpon>BordersEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormattingRulesEditorForm.resx">
+      <DependentUpon>FormattingRulesEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SpecifyReportTemplateOptionsPageView.ko.resx">
+      <DependentUpon>SpecifyReportTemplateOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SpecifyReportTemplateOptionsPageView.resx">
+      <DependentUpon>SpecifyReportTemplateOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SpecifyReportTemplateOptionsPageView.zh-CN.resx">
+      <DependentUpon>SpecifyReportTemplateOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SpecifyReportTemplateOptionsPageView.zh-Hans.resx">
+      <DependentUpon>SpecifyReportTemplateOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SpecifyReportTemplateOptionsPageView.zh-Hant.resx">
+      <DependentUpon>SpecifyReportTemplateOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Views\SpecifyReportTemplateOptionsPageView.zh-TW.resx">
+      <DependentUpon>SpecifyReportTemplateOptionsPageView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorContentControl.resx">
+      <DependentUpon>ParameterEditorContentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorContentControl.ko.resx">
+      <DependentUpon>ParameterEditorContentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorContentControl.zh-CN.resx">
+      <DependentUpon>ParameterEditorContentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorContentControl.zh-Hans.resx">
+      <DependentUpon>ParameterEditorContentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorContentControl.zh-Hant.resx">
+      <DependentUpon>ParameterEditorContentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorContentControl.zh-TW.resx">
+      <DependentUpon>ParameterEditorContentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorDynamicListSettingsControl.resx">
+      <DependentUpon>ParameterEditorDynamicListSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorDynamicListSettingsControl.ko.resx">
+      <DependentUpon>ParameterEditorDynamicListSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorDynamicListSettingsControl.zh-CN.resx">
+      <DependentUpon>ParameterEditorDynamicListSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorDynamicListSettingsControl.zh-Hans.resx">
+      <DependentUpon>ParameterEditorDynamicListSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorDynamicListSettingsControl.zh-Hant.resx">
+      <DependentUpon>ParameterEditorDynamicListSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorDynamicListSettingsControl.zh-TW.resx">
+      <DependentUpon>ParameterEditorDynamicListSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorRangeSettingsControl.resx">
+      <DependentUpon>ParameterEditorRangeSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorRangeSettingsControl.ko.resx">
+      <DependentUpon>ParameterEditorRangeSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorRangeSettingsControl.zh-CN.resx">
+      <DependentUpon>ParameterEditorRangeSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorRangeSettingsControl.zh-Hans.resx">
+      <DependentUpon>ParameterEditorRangeSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorRangeSettingsControl.zh-Hant.resx">
+      <DependentUpon>ParameterEditorRangeSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorRangeSettingsControl.zh-TW.resx">
+      <DependentUpon>ParameterEditorRangeSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorStaticLookUpValuesControl.resx">
+      <DependentUpon>ParameterEditorStaticLookUpValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorStaticLookUpValuesControl.ko.resx">
+      <DependentUpon>ParameterEditorStaticLookUpValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorStaticLookUpValuesControl.zh-CN.resx">
+      <DependentUpon>ParameterEditorStaticLookUpValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorStaticLookUpValuesControl.zh-Hans.resx">
+      <DependentUpon>ParameterEditorStaticLookUpValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorStaticLookUpValuesControl.zh-Hant.resx">
+      <DependentUpon>ParameterEditorStaticLookUpValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorStaticLookUpValuesControl.zh-TW.resx">
+      <DependentUpon>ParameterEditorStaticLookUpValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterCollectionEditorForm.resx">
+      <DependentUpon>ReportParameterCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterCollectionEditorForm.ko.resx">
+      <DependentUpon>ReportParameterCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterCollectionEditorForm.zh-CN.resx">
+      <DependentUpon>ReportParameterCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterCollectionEditorForm.zh-Hans.resx">
+      <DependentUpon>ReportParameterCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterCollectionEditorForm.zh-Hant.resx">
+      <DependentUpon>ReportParameterCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterCollectionEditorForm.zh-TW.resx">
+      <DependentUpon>ReportParameterCollectionEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterEditorForm.resx">
+      <DependentUpon>ReportParameterEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterEditorForm.ko.resx">
+      <DependentUpon>ReportParameterEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterEditorForm.zh-CN.resx">
+      <DependentUpon>ReportParameterEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterEditorForm.zh-Hans.resx">
+      <DependentUpon>ReportParameterEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterEditorForm.zh-Hant.resx">
+      <DependentUpon>ReportParameterEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ReportParameterEditorForm.zh-TW.resx">
+      <DependentUpon>ReportParameterEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\ParameterEditor\ParameterEditorStaticListSettingsControl.resx">
+      <DependentUpon>ParameterEditorStaticListSettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StrongKey.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup></PropertyGroup>
+</Project>

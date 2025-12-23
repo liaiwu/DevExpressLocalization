@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionDesign\Actions\Diagnostic Info.EasyTest Control\ChoiceActionItems\EasyTest Control\Caption" xml:space="preserve">
+    <value>EasyTest 控件</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\ChooseSkin\Caption" xml:space="preserve">
+    <value>选择外观</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Flat\Caption" xml:space="preserve">
+    <value>平面</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Office2003\Caption" xml:space="preserve">
+    <value>Office2003</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\Caption" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Blue\Caption" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\DevExpress Dark Style\Caption" xml:space="preserve">
+    <value>DevExpress 深色样式</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\DevExpress Style\Caption" xml:space="preserve">
+    <value>DevExpress 样式</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Office 2010 Black\Caption" xml:space="preserve">
+    <value>Office 2010 黑色</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Office 2010 Blue\Caption" xml:space="preserve">
+    <value>Office 2010 蓝色</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Office 2010 Silver\Caption" xml:space="preserve">
+    <value>Office 2010 银</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Skins\ChoiceActionItems\Visual Studio 2013 Light\Caption" xml:space="preserve">
+    <value>Visual Studio 2013 光</value>
+  </data>
+  <data name="ActionDesign\Actions\ChooseSkin\ChoiceActionItems\Windows Theme\Caption" xml:space="preserve">
+    <value>Windows 主题</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Close\Caption" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\Exit\Caption" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\OpenObject\Caption" xml:space="preserve">
+    <value>打开对象</value>
+  </data>
+  <data name="ActionDesign\Actions\PageSetup\ToolTip" xml:space="preserve">
+    <value>页面设置</value>
+  </data>
+  <data name="ActionDesign\Actions\Print\ToolTip" xml:space="preserve">
+    <value>打印对话框</value>
+  </data>
+  <data name="ActionDesign\Actions\PrintPreview\ToolTip" xml:space="preserve">
+    <value>打印预览</value>
+  </data>
+  <data name="Non-calculated\Localization\Confirmations\Cancel\Value" xml:space="preserve">
+    <value>要取消更改吗？</value>
+  </data>
+  <data name="Non-calculated\Localization\Confirmations\ConfirmForcedCloseWindow\Value" xml:space="preserve">
+    <value>关闭此窗口会导致错误。是否仍要关闭该窗口？ nWarning: 如果单击 "是", 则所有更改都将丢失。</value>
+  </data>
+  <data name="Non-calculated\Localization\Confirmations\Save\Value" xml:space="preserve">
+    <value>你想要保存更改吗？</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Win.Templates.Utils.NavBarControlVisibility\Hidden\Value" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.ExpressApp.Win.Templates.Utils.NavBarControlVisibility\Visible\Value" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.XtraBars.Docking.DockVisibility\AutoHide\Value" xml:space="preserve">
+    <value>自动隐藏</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.XtraBars.Docking.DockVisibility\Hidden\Value" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="Non-calculated\Localization\Enums\DevExpress.XtraBars.Docking.DockVisibility\Visible\Value" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Non-calculated\Localization\Ribbon\ActionsPageGroup\Value" xml:space="preserve">
+    <value>行动</value>
+  </data>
+  <data name="Non-calculated\Localization\Ribbon\AppearancePageGroup\Value" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="Non-calculated\Localization\Ribbon\HomePage\Value" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="Non-calculated\NavigationItems\NavigationCaption" xml:space="preserve">
+    <value>导航</value>
+  </data>
+</root>

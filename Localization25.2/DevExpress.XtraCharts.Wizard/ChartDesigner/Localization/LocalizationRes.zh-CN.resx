@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChartDesignerStringId.AddSeriesGallery_AreaSeries3DGroup" xml:space="preserve">
+    <value>地区系列 3D</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_AreaSeriesGroup" xml:space="preserve">
+    <value>面积系列</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_BarSeries3DGroup" xml:space="preserve">
+    <value>酒吧系列 3D</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_BarSeriesGroup" xml:space="preserve">
+    <value>酒吧系列</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_FinancialSeriesGroup" xml:space="preserve">
+    <value>金融系列</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_FunnelSeriesGroup" xml:space="preserve">
+    <value>漏斗系列</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_GanttSeriesGroup" xml:space="preserve">
+    <value>甘特图系列</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_LineSeries3DGroup" xml:space="preserve">
+    <value>线系列 3D</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_LineSeriesGroup" xml:space="preserve">
+    <value>线系列</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_PieAndDoughnutSeriesGroup" xml:space="preserve">
+    <value>饼图和圆环图系列</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_PointAndBubbleSeriesGroup" xml:space="preserve">
+    <value>点和气泡系列</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_PolarSeriesGroup" xml:space="preserve">
+    <value>极地系列</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_RadarSeriesGroup" xml:space="preserve">
+    <value>雷达系列</value>
+  </data>
+  <data name="ChartDesignerStringId.AddSeriesGallery_RangeSeriesGroup" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="ChartDesignerStringId.ChartDataControl_LargeDataCaption" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="ChartDesignerStringId.ChartDataControl_LargeDataText" xml:space="preserve">
+    <value>数据集包含大量的数据。如果指定的数据成员，则将启动系列初始化一个漫长的过程。
+你想要继续吗？</value>
+  </data>
+  <data name="ChartDesignerStringId.ChartDataControl_SelectedDataMemberNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ChartDesignerStringId.CollectionEditor_ImpossibleToCreateInstanceMessage" xml:space="preserve">
+    <value>不能创建实例。</value>
+  </data>
+  <data name="ChartDesignerStringId.DesignerFormBase_OnCloseMsgBoxCaption" xml:space="preserve">
+    <value>关闭图表设计器</value>
+  </data>
+  <data name="ChartDesignerStringId.DesignerFormBase_OnCloseMsgBoxText" xml:space="preserve">
+    <value>你想要保存所做的更改吗？</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_Argument" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_High" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_Low" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_Open" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_Series" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_ToolTipHint" xml:space="preserve">
+    <value>工具提示</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_Value1" xml:space="preserve">
+    <value>值为 1</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_Value2" xml:space="preserve">
+    <value>值为 2</value>
+  </data>
+  <data name="ChartDesignerStringId.DragDropDataMembers_Weight" xml:space="preserve">
+    <value>权重</value>
+  </data>
+  <data name="ChartDesignerStringId.KeyCollectionEditorForm_Caption" xml:space="preserve">
+    <value>密钥集合编辑器</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Appearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Behavior" xml:space="preserve">
+    <value>行为</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Border" xml:space="preserve">
+    <value>边框</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_General" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_GridLines" xml:space="preserve">
+    <value>网格线</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Label" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Layout" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_LineStyle" xml:space="preserve">
+    <value>线条样式</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_LinkOptions" xml:space="preserve">
+    <value>链接选项</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Marker1Options" xml:space="preserve">
+    <value>数据 1 标记选项</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Marker2Options" xml:space="preserve">
+    <value>2 标记选项</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_MarkerOptions" xml:space="preserve">
+    <value>数据标记选项</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_MaxLimit" xml:space="preserve">
+    <value>最大限制</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_MinLimit" xml:space="preserve">
+    <value>最小限制</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Misc" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Navigation" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Point1" xml:space="preserve">
+    <value>1 点</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Point2" xml:space="preserve">
+    <value>2 点</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_ScrollBarOptions" xml:space="preserve">
+    <value>滚动栏选项</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_TextOptions" xml:space="preserve">
+    <value>文本选项</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Tickmarks" xml:space="preserve">
+    <value>刻度线</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_Title" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_View" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_VisualRange" xml:space="preserve">
+    <value>可视范围</value>
+  </data>
+  <data name="ChartDesignerStringId.OptionsControlCategory_WholeRange" xml:space="preserve">
+    <value>整个范围</value>
+  </data>
+  <data name="ChartDesignerStringId.PropertyGridCategory_Appearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="ChartDesignerStringId.PropertyGridCategory_Behavior" xml:space="preserve">
+    <value>行为</value>
+  </data>
+  <data name="ChartDesignerStringId.PropertyGridCategory_Data" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="ChartDesignerStringId.PropertyGridCategory_Elements" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="ChartDesignerStringId.PropertyGridCategory_General" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="ChartDesignerStringId.PropertyGridCategory_Layout" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="ChartDesignerStringId.PropertyGridCategory_Misc" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_AdditionalLegendCollection" xml:space="preserve">
+    <value>额外的传说</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_AdditionalPaneCollection" xml:space="preserve">
+    <value>附加的窗格</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_AnnotationCollection" xml:space="preserve">
+    <value>注释</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_Chart" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_ChartTitle" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_ChartTitleCollection" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_ConstantLineCollection" xml:space="preserve">
+    <value>恒行</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_FunnelDiagram3D" xml:space="preserve">
+    <value>3D 漏斗图</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_GanttDiagram" xml:space="preserve">
+    <value>甘特图图</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_IndicatorCollection" xml:space="preserve">
+    <value>指数</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_Legend" xml:space="preserve">
+    <value>图例</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_PaneTitle" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_PolarDiagram" xml:space="preserve">
+    <value>极坐标图</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_RadarDiagram" xml:space="preserve">
+    <value>雷达图</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_ScaleBreakCollection" xml:space="preserve">
+    <value>刻度分隔线</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SeriesCollection" xml:space="preserve">
+    <value>系列</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SeriesLabel" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SeriesPointCollection" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SeriesTemplate" xml:space="preserve">
+    <value>自动创建系列</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SeriesTitle" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SeriesTitleCollection" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SimpleDiagram" xml:space="preserve">
+    <value>简单的图</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SimpleDiagram3D" xml:space="preserve">
+    <value>3D 简单图</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_StackedBarTotalLabel" xml:space="preserve">
+    <value>堆积条形图总标签</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_StripCollection" xml:space="preserve">
+    <value>小条</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SwiftPlotDiagram" xml:space="preserve">
+    <value>斯威夫特绘制关系图</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SwiftPlotSecondaryAxisXCollection" xml:space="preserve">
+    <value>二次比方</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_SwiftPlotSecondaryAxisYCollection" xml:space="preserve">
+    <value>二次 y 轴</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_TotalLabel" xml:space="preserve">
+    <value>总标签</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_XYDiagram" xml:space="preserve">
+    <value>XY 图</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_XYDiagram3D" xml:space="preserve">
+    <value>3D 的 XY 图</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_XYDiagramSecondaryAxisXCollection" xml:space="preserve">
+    <value>二次比方</value>
+  </data>
+  <data name="ChartDesignerStringId.Tree_XYDiagramSecondaryAxisYCollection" xml:space="preserve">
+    <value>二次 y 轴</value>
+  </data>
+  <data name="ChartDesignerStringId.UITypeEditor_NoneItem" xml:space="preserve">
+    <value>无</value>
+  </data>
+</root>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbZ.Text" xml:space="preserve">
+    <value>Z:</value>
+  </data>
+  <data name="lbY.Text" xml:space="preserve">
+    <value>Y:</value>
+  </data>
+  <data name="lbX.Text" xml:space="preserve">
+    <value>X:</value>
+  </data>
+  <data name="spaceOrder.Text" xml:space="preserve">
+    <value>次序:</value>
+  </data>
+  <data name="cbRotationOrder.Properties.Items" xml:space="preserve">
+    <value>XYZ</value>
+  </data>
+  <data name="cbRotationOrder.Properties.Items1" xml:space="preserve">
+    <value>XZY</value>
+  </data>
+  <data name="cbRotationOrder.Properties.Items2" xml:space="preserve">
+    <value>YXZ</value>
+  </data>
+  <data name="cbRotationOrder.Properties.Items3" xml:space="preserve">
+    <value>YZX</value>
+  </data>
+  <data name="cbRotationOrder.Properties.Items4" xml:space="preserve">
+    <value>ZXY</value>
+  </data>
+  <data name="cbRotationOrder.Properties.Items5" xml:space="preserve">
+    <value>专题</value>
+  </data>
+  <data name="grAngles.Text" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="rgRotationType.Properties.Items1" xml:space="preserve">
+    <value>使用鼠标 （高级旋转）</value>
+  </data>
+  <data name="rgRotationType.Properties.Items3" xml:space="preserve">
+    <value>使用鼠标 （高级旋转）</value>
+  </data>
+  <data name="rgRotationType.Properties.Items5" xml:space="preserve">
+    <value>使用角度</value>
+  </data>
+  <data name="groupAngles.Text" xml:space="preserve">
+    <value>旋转类型</value>
+  </data>
+  <data name="chUseTouchDevice.Properties.Caption" xml:space="preserve">
+    <value>使用触摸设备</value>
+  </data>
+  <data name="chUseMouse.Properties.Caption" xml:space="preserve">
+    <value>使用鼠标</value>
+  </data>
+  <data name="groupRotationOptions.Text" xml:space="preserve">
+    <value>旋转选项</value>
+  </data>
+</root>

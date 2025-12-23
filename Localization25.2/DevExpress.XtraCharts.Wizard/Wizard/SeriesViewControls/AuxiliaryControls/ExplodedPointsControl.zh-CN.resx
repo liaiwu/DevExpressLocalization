@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beFilters.EditValue" xml:space="preserve">
+    <value>单击省略号按钮...</value>
+  </data>
+  <data name="chartLabelControl3.Text" xml:space="preserve">
+    <value>过滤条件:</value>
+  </data>
+  <data name="beExplodedPoints.EditValue" xml:space="preserve">
+    <value>单击省略号按钮...</value>
+  </data>
+  <data name="chartLabelControl2.Text" xml:space="preserve">
+    <value>点:</value>
+  </data>
+  <data name="cbExplodeMode.Properties.Items" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="cbExplodeMode.Properties.Items1" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="cbExplodeMode.Properties.Items2" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="cbExplodeMode.Properties.Items3" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="cbExplodeMode.Properties.Items4" xml:space="preserve">
+    <value>使用点</value>
+  </data>
+  <data name="cbExplodeMode.Properties.Items5" xml:space="preserve">
+    <value>使用过滤器</value>
+  </data>
+  <data name="chartLabelControl1.Text" xml:space="preserve">
+    <value>模式:</value>
+  </data>
+  <data name="chartLabelControl4.Text" xml:space="preserve">
+    <value>间距 (%):</value>
+  </data>
+</root>

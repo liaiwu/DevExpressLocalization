@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VGridStringId.RowCustomizationText" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationNewCategoryFormText" xml:space="preserve">
+    <value>新增数据类别</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationNewCategoryFormLabelText" xml:space="preserve">
+    <value>标题：</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationNewCategoryText" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationDeleteCategoryText" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="VGridStringId.InvalidRecordExceptionText" xml:space="preserve">
+    <value>是否要修改不正确的数据值？</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationTabPageCategoriesText" xml:space="preserve">
+    <value>分类</value>
+  </data>
+  <data name="VGridStringId.RowCustomizationTabPageRowsText" xml:space="preserve">
+    <value>数据列</value>
+  </data>
+  <data name="VGridStringId.StyleCreatorName" xml:space="preserve">
+    <value>风格定制器</value>
+  </data>
+  <data name="VGridStringId.MenuReset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="VGridStringId.MenuRowPropertiesExpressionEditor" xml:space="preserve">
+    <value>表达式编辑器...</value>
+  </data>
+  <data name="VGridStringId.MenuPropertySortAscending" xml:space="preserve">
+    <value>升序排列</value>
+  </data>
+  <data name="VGridStringId.MenuPropertySortDescending" xml:space="preserve">
+    <value>降序排列</value>
+  </data>
+  <data name="VGridStringId.MenuPropertyClearSorting" xml:space="preserve">
+    <value>清除排序</value>
+  </data>
+  <data name="VGridStringId.MenuRowCustomization" xml:space="preserve">
+    <value>行选择器</value>
+  </data>
+  <data name="VGridStringId.MenuRowBestFit" xml:space="preserve">
+    <value>最佳匹配</value>
+  </data>
+  <data name="VGridStringId.MenuRowClearFilter" xml:space="preserve">
+    <value>清除筛选器</value>
+  </data>
+  <data name="VGridStringId.MenuRowFilterEditor" xml:space="preserve">
+    <value>筛选器编辑器...</value>
+  </data>
+  <data name="VGridStringId.MenuRowFindFilterShow" xml:space="preserve">
+    <value>显示查找面板</value>
+  </data>
+  <data name="VGridStringId.MenuRowFindFilterHide" xml:space="preserve">
+    <value>隐藏查找面板</value>
+  </data>
+  <data name="VGridStringId.MenuRowExpand" xml:space="preserve">
+    <value>展开</value>
+  </data>
+  <data name="VGridStringId.MenuRowCollapse" xml:space="preserve">
+    <value>折叠</value>
+  </data>
+  <data name="VGridStringId.MenuRowExpandAll" xml:space="preserve">
+    <value>全部展开</value>
+  </data>
+  <data name="VGridStringId.MenuRowCollapseAll" xml:space="preserve">
+    <value>全部折叠</value>
+  </data>
+  <data name="VGridStringId.FindControlFindButton" xml:space="preserve">
+    <value>查找</value>
+  </data>
+  <data name="VGridStringId.FindControlClearButton" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="VGridStringId.FindNullPrompt" xml:space="preserve">
+    <value>输入搜索文本，搜索...</value>
+  </data>
+  <data name="VGridStringId.ExpressionEditorFieldsName" xml:space="preserve">
+    <value>字段</value>
+  </data>
+  <data name="VGridStringId.FilterPanelCustomizeButton" xml:space="preserve">
+    <value>编辑筛选器</value>
+  </data>
+  <data name="VGridStringId.PopupFilterAll" xml:space="preserve">
+    <value>(全部)</value>
+  </data>
+  <data name="VGridStringId.PopupFilterBlanks" xml:space="preserve">
+    <value>(空白)</value>
+  </data>
+  <data name="VGridStringId.PopupFilterNonBlanks" xml:space="preserve">
+    <value>(非空白)</value>
+  </data>
+  <data name="VGridStringId.FilterEditorOkButton" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="VGridStringId.FilterEditorCancelButton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="VGridStringId.FilterEditorApplyButton" xml:space="preserve">
+    <value>应用(&amp;A)</value>
+  </data>
+  <data name="VGridStringId.FilterEditorCaption" xml:space="preserve">
+    <value>筛选器编辑器</value>
+  </data>
+  <data name="VGridStringId.WindowErrorCaption" xml:space="preserve">
+    <value>错误</value>
+  </data>
+</root>

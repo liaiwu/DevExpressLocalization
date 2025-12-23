@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbSeriesViewType.EditValue" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="cheAutoLayoutSettings.Properties.Caption" xml:space="preserve">
+    <value>自动布局设置</value>
+  </data>
+  <data name="cheAutoBindingSettings.Properties.Caption" xml:space="preserve">
+    <value>自动绑定设置</value>
+  </data>
+  <data name="grFamiliarDataSourceOptions.Text" xml:space="preserve">
+    <value>常用数据源选项</value>
+  </data>
+  <data name="lblDataFilters.Text" xml:space="preserve">
+    <value>数据过滤:</value>
+  </data>
+  <data name="lblSortBy.Text" xml:space="preserve">
+    <value>点排序依据:</value>
+  </data>
+  <data name="cbPointSorting.Properties.Items" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="cbPointSorting.Properties.Items1" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="cbPointSorting.Properties.Items2" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="lblPointSortOrder.Text" xml:space="preserve">
+    <value>点排列次序:</value>
+  </data>
+  <data name="cbSeriesSorting.Properties.Items" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="cbSeriesSorting.Properties.Items1" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="cbSeriesSorting.Properties.Items2" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="lblSeriesSortOrder.Text" xml:space="preserve">
+    <value>视图排列次序:</value>
+  </data>
+  <data name="grSort.Text" xml:space="preserve">
+    <value>排序 &amp;&amp;过滤</value>
+  </data>
+  <data name="lblNameSuffix.Text" xml:space="preserve">
+    <value>名称后缀:</value>
+  </data>
+  <data name="lblNamePrefix.Text" xml:space="preserve">
+    <value>名称前缀:</value>
+  </data>
+  <data name="lblSeries.Text" xml:space="preserve">
+    <value>系列:</value>
+  </data>
+  <data name="lblViewType.Text" xml:space="preserve">
+    <value>视图类型:</value>
+  </data>
+  <data name="lblDataMember.Text" xml:space="preserve">
+    <value>数据成员:</value>
+  </data>
+  <data name="lblDataSource.Text" xml:space="preserve">
+    <value>选择数据库:</value>
+  </data>
+  <data name="grSeriesProperties.Text" xml:space="preserve">
+    <value>系类属性</value>
+  </data>
+</root>

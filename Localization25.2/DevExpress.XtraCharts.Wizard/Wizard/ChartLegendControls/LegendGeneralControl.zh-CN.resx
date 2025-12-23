@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbHAlignment.Properties.Items" xml:space="preserve">
+    <value>图表做不外侧</value>
+  </data>
+  <data name="cbHAlignment.Properties.Items1" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="cbHAlignment.Properties.Items2" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="cbHAlignment.Properties.Items3" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="cbHAlignment.Properties.Items4" xml:space="preserve">
+    <value>图表右部外侧</value>
+  </data>
+  <data name="chartLabelControl6.Text" xml:space="preserve">
+    <value>水平方向:</value>
+  </data>
+  <data name="cbVAlignment.Properties.Items" xml:space="preserve">
+    <value>图表顶部外侧</value>
+  </data>
+  <data name="cbVAlignment.Properties.Items1" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="cbVAlignment.Properties.Items2" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="cbVAlignment.Properties.Items3" xml:space="preserve">
+    <value>底部</value>
+  </data>
+  <data name="cbVAlignment.Properties.Items4" xml:space="preserve">
+    <value>图表底部外侧</value>
+  </data>
+  <data name="chartLabelControl5.Text" xml:space="preserve">
+    <value>垂直方向l:</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>对齐方式</value>
+  </data>
+  <data name="cbDirection.Properties.Items" xml:space="preserve">
+    <value>顶部到底部</value>
+  </data>
+  <data name="cbDirection.Properties.Items1" xml:space="preserve">
+    <value>底部到顶部</value>
+  </data>
+  <data name="cbDirection.Properties.Items2" xml:space="preserve">
+    <value>自左向右</value>
+  </data>
+  <data name="cbDirection.Properties.Items3" xml:space="preserve">
+    <value>自右向左</value>
+  </data>
+  <data name="chartLabelControl7.Text" xml:space="preserve">
+    <value>方向:</value>
+  </data>
+  <data name="chartLabelControl1.Text" xml:space="preserve">
+    <value>水平方向(%):</value>
+  </data>
+  <data name="chartLabelControl3.Text" xml:space="preserve">
+    <value>垂直方向(%):</value>
+  </data>
+  <data name="grLimits.Text" xml:space="preserve">
+    <value>阈值</value>
+  </data>
+  <data name="chEquallySpacedItems.Properties.Caption" xml:space="preserve">
+    <value>相等间隔排列</value>
+  </data>
+  <data name="chUseCheckBoxes.Properties.Caption" xml:space="preserve">
+    <value>使用复选框</value>
+  </data>
+  <data name="gcMargins.Text" xml:space="preserve">
+    <value>边距</value>
+  </data>
+</root>

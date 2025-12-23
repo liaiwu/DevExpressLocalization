@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DevExpress.DataAccess.Parameter.Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.Parameter.Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="DevExpress.DataAccess.Parameter.Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SqlDataSource" xml:space="preserve">
+    <value>SqlDataSource</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFDataSource" xml:space="preserve">
+    <value>EFDataSource</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFDataSource.Connection" xml:space="preserve">
+    <value>的连接</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFDataSource.StoredProcedures" xml:space="preserve">
+    <value>存储过程</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFStoredProcedureInfo.Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFStoredProcedureInfo.Parameters" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFDataSource.Filters" xml:space="preserve">
+    <value>筛选器</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFConnectionParameters.ConnectionString" xml:space="preserve">
+    <value>连接字符串</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFConnectionParameters.ConnectionStringName" xml:space="preserve">
+    <value>连接字符串的名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.EFConnectionParameters.Source" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="DevExpress.DataAccess.EntityFramework.DBSetFilter.Parameters" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.ObjectDataSource" xml:space="preserve">
+    <value>ObjectDataSource</value>
+  </data>
+  <data name="DevExpress.DataAccess.ObjectBinding.ObjectDataSource.Constructor" xml:space="preserve">
+    <value>构造函数</value>
+  </data>
+  <data name="DevExpress.DataAccess.ObjectBinding.ObjectDataSource.DataMember" xml:space="preserve">
+    <value>数据成员</value>
+  </data>
+  <data name="DevExpress.DataAccess.ObjectBinding.ObjectDataSource.DataSource" xml:space="preserve">
+    <value>数据源</value>
+  </data>
+  <data name="DevExpress.DataAccess.ObjectBinding.ObjectDataSource.Parameters" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.CustomSqlQuery.Sql" xml:space="preserve">
+    <value>SQL</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SqlDataSource.ConnectionName" xml:space="preserve">
+    <value>连接名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SqlDataSource.ConnectionParameters" xml:space="preserve">
+    <value>连接参数</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SqlDataSource.Queries" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SqlDataSource.Relations" xml:space="preserve">
+    <value>关系</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SqlQuery.Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SqlQuery.Parameters" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.StoredProcQuery.StoredProcName" xml:space="preserve">
+    <value>存储过程的名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.TableQuery.FilterString" xml:space="preserve">
+    <value>筛选器字符串</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.TableQuery.GroupFilterString" xml:space="preserve">
+    <value>组筛选器字符串</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.TableQuery.Top" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.TableQuery.Skip" xml:space="preserve">
+    <value>跳过</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SelectQuery.Distinct" xml:space="preserve">
+    <value>不同</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SelectQuery.FilterString" xml:space="preserve">
+    <value>筛选器字符串</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SelectQuery.GroupFilterString" xml:space="preserve">
+    <value>组筛选器字符串</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SelectQuery.Skip" xml:space="preserve">
+    <value>跳过</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SelectQuery.Top" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SqlDataSource.ConnectionOptions" xml:space="preserve">
+    <value>连接选项</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.CsvSourceOptions.CellRange" xml:space="preserve">
+    <value>单元格区域</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.CsvSourceOptions.Culture" xml:space="preserve">
+    <value>文化</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.CsvSourceOptions.DetectEncoding" xml:space="preserve">
+    <value>检测编码</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.CsvSourceOptions.DetectNewlineType" xml:space="preserve">
+    <value>检测到换行符类型</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.CsvSourceOptions.DetectValueSeparator" xml:space="preserve">
+    <value>检测值分隔符</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.CsvSourceOptions.Encoding" xml:space="preserve">
+    <value>编码</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.CsvSourceOptions.NewlineType" xml:space="preserve">
+    <value>换行符类型</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.CsvSourceOptions.TextQualifier" xml:space="preserve">
+    <value>文本限定符</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.CsvSourceOptions.TrimBlanks" xml:space="preserve">
+    <value>修剪空白</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.CsvSourceOptions.ValueSeparator" xml:space="preserve">
+    <value>值分隔符</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelDataSource" xml:space="preserve">
+    <value>ExcelDataSource</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelDataSource.FileName" xml:space="preserve">
+    <value>文件名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelDataSource.SourceOptions" xml:space="preserve">
+    <value>源选项</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelDataSource.ExcelSourceOptions" xml:space="preserve">
+    <value>Excel 源选项</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelDataSource.CsvSourceOptions" xml:space="preserve">
+    <value>CSV 源选项</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelDefinedNameSettings.DefinedName" xml:space="preserve">
+    <value>定义名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelDefinedNameSettings.Scope" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.ImportSettings" xml:space="preserve">
+    <value>导入设置</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.ExcelTableSettings" xml:space="preserve">
+    <value>Excel 表设置</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.ExcelDefinedNameSettings" xml:space="preserve">
+    <value>Excel 定义的名称设置</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.ExcelWorksheetSettings" xml:space="preserve">
+    <value>Excel 工作表设置</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.SkipHiddenColumns" xml:space="preserve">
+    <value>跳过隐藏列</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptions.SkipHiddenRows" xml:space="preserve">
+    <value>跳过隐藏行</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptionsBase.SkipEmptyRows" xml:space="preserve">
+    <value>跳过空的行</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelSourceOptionsBase.UseFirstRowAsHeader" xml:space="preserve">
+    <value>使用第一行作为标题</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelTableSettings.TableName" xml:space="preserve">
+    <value>表的名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelWorksheetSettings.CellRange" xml:space="preserve">
+    <value>单元格区域</value>
+  </data>
+  <data name="DevExpress.DataAccess.Excel.ExcelWorksheetSettings.WorksheetName" xml:space="preserve">
+    <value>工作表名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.ConnectionOptions.CloseConnection" xml:space="preserve">
+    <value>关闭连接</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.ConnectionOptions.DbCommandTimeout" xml:space="preserve">
+    <value>命令超时</value>
+  </data>
+  <data name="DevExpress.DataAccess.ConnectionParameters.DataConnectionParametersBase" xml:space="preserve">
+    <value>连接参数</value>
+  </data>
+  <data name="DevExpress.DataAccess.MongoDB.MongoDBQuery.Parameters" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DevExpress.Xpo.XPObjectSource.FilterString" xml:space="preserve">
+    <value>筛选器</value>
+  </data>
+  <data name="DevExpress.Xpo.XPObjectSource.Parameters" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DevExpress.Xpo.XPObjectSource.Properties" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="DevExpress.Xpo.XPObjectSource.Tag" xml:space="preserve">
+    <value>标记</value>
+  </data>
+  <data name="DevExpress.DataAccess.ConnectionParameters.AsaConnectionType.File" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="DevExpress.DataAccess.ConnectionParameters.MsSqlAuthorizationType.Windows" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="DevExpress.DataAccess.ConnectionParameters.MySqlSslMode.Default" xml:space="preserve">
+    <value>默认值</value>
+  </data>
+  <data name="DevExpress.DataAccess.ConnectionParameters.MySqlSslMode.None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DevExpress.DataAccess.Sql.SqlIsolationLevel.None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DevExpress.DataAccess.DataSourceParameterBase.Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DevExpress.DataAccess.DataSourceParameterBase.Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="DevExpress.DataAccess.DataSourceParameterBase.Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+</root>

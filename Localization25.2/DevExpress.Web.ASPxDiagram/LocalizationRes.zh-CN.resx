@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxDiagramStringId.SimpleView" xml:space="preserve">
+    <value>简单视图</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Style" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Style_Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="ASPxDiagramStringId.TextBold" xml:space="preserve">
+    <value>加粗</value>
+  </data>
+  <data name="ASPxDiagramStringId.TextItalic" xml:space="preserve">
+    <value>斜体</value>
+  </data>
+  <data name="ASPxDiagramStringId.TextUnderline" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="ASPxDiagramStringId.PageSize" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="ASPxDiagramStringId.PageOrientation" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Style_Object" xml:space="preserve">
+    <value>对象</value>
+  </data>
+  <data name="ASPxDiagramStringId.LineStyleSolid" xml:space="preserve">
+    <value>实线</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Diagram_Page" xml:space="preserve">
+    <value>页</value>
+  </data>
+  <data name="ASPxDiagramStringId.PageOrientationLandscape" xml:space="preserve">
+    <value>横向</value>
+  </data>
+  <data name="ASPxDiagramStringId.PageOrientationPortrait" xml:space="preserve">
+    <value>纵向</value>
+  </data>
+  <data name="ASPxDiagramStringId.Properties_Layout" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorType" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorStart" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorLineEndingNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ASPxDiagramStringId.ConnectorLineEndingArrow" xml:space="preserve">
+    <value>箭头</value>
+  </data>
+  <data name="ASPxDiagramStringId.Toolbox_General" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="ASPxDiagramStringId.Toolbox_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="ASPxDiagramStringId.ToolboxSearchNullText" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="ASPxDiagramStringId.Undo" xml:space="preserve">
+    <value>撤消</value>
+  </data>
+  <data name="ASPxDiagramStringId.Redo" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="ASPxDiagramStringId.Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="ASPxDiagramStringId.Cut" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="ASPxDiagramStringId.Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="ASPxDiagramStringId.Paste" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="ASPxDiagramStringId.Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ASPxDiagramStringId.SelectAll" xml:space="preserve">
+    <value>选择所有</value>
+  </data>
+  <data name="ASPxDiagramStringId.Dialog_Button_OK" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="ASPxDiagramStringId.Dialog_Button_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Rectangle" xml:space="preserve">
+    <value>矩形</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Ellipse" xml:space="preserve">
+    <value>椭圆</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Cross" xml:space="preserve">
+    <value>交叉线</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Triangle" xml:space="preserve">
+    <value>三角形</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Pentagon" xml:space="preserve">
+    <value>五边形</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Hexagon" xml:space="preserve">
+    <value>六边形</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Star" xml:space="preserve">
+    <value>星形</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Document" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Data" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Merge" xml:space="preserve">
+    <value>合并</value>
+  </data>
+  <data name="ASPxDiagramStringId.Shape_Or" xml:space="preserve">
+    <value>或者</value>
+  </data>
+</root>

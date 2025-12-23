@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="lblIndentAt.Text" xml:space="preserve">
+    <value>缩进位置：</value>
+  </data>
+  <data name="lblTextPosition.Text" xml:space="preserve">
+    <value>文本位置</value>
+  </data>
+  <data name="lblAlignedAt.Text" xml:space="preserve">
+    <value>对齐位置：</value>
+  </data>
+  <data name="lblNumberPosition.Text" xml:space="preserve">
+    <value>编号位置</value>
+  </data>
+  <data name="lblStartAt.Text" xml:space="preserve">
+    <value>起始编号：</value>
+  </data>
+  <data name="lblNumberStyle.Text" xml:space="preserve">
+    <value>编号样式：</value>
+  </data>
+  <data name="btnFont.Text" xml:space="preserve">
+    <value>字体...</value>
+  </data>
+  <data name="lblNumberFormat.Text" xml:space="preserve">
+    <value>编号格式</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>自定义编号的列表</value>
+  </data>
+</root>

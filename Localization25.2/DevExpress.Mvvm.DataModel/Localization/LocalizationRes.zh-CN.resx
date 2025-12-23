@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ScaffoldingStringId.Confirmation_Delete" xml:space="preserve">
+    <value>你想要删除此 {0} 吗？</value>
+  </data>
+  <data name="ScaffoldingStringId.Confirmation_Save" xml:space="preserve">
+    <value>你想要保存更改吗？</value>
+  </data>
+  <data name="ScaffoldingStringId.Confirmation_Reset" xml:space="preserve">
+    <value>单击确定重新加载实体并放弃未保存的更改。单击取消继续编辑数据。</value>
+  </data>
+  <data name="ScaffoldingStringId.Confirmation_ResetLayout" xml:space="preserve">
+    <value>是你确定你想要重置布局吗？重新打开此视图的新布局，才能生效。</value>
+  </data>
+  <data name="ScaffoldingStringId.Confirmation_Caption" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="ScaffoldingStringId.Confirmation_SaveParent" xml:space="preserve">
+    <value>你之前需要将保存父 {0} 实体添加新记录。你想要现在保存它吗？</value>
+  </data>
+  <data name="ScaffoldingStringId.Warning_Caption" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="ScaffoldingStringId.Warning_SomeFieldsContainInvalidData" xml:space="preserve">
+    <value>某些字段包含无效数据。单击确定关闭该页面并丢失未保存的更改。按取消继续编辑数据。</value>
+  </data>
+  <data name="ScaffoldingStringId.Exception_UpdateErrorCaption" xml:space="preserve">
+    <value>更新错误</value>
+  </data>
+  <data name="ScaffoldingStringId.Exception_ValidationErrorCaption" xml:space="preserve">
+    <value>验证错误</value>
+  </data>
+  <data name="ScaffoldingStringId.Exception_DataServiceRequestErrorCaption" xml:space="preserve">
+    <value>DataService 请求错误</value>
+  </data>
+  <data name="ScaffoldingStringId.Entity_Changed" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ScaffoldingStringId.Entity_New" xml:space="preserve">
+    <value>(New)</value>
+  </data>
+  <data name="ScaffoldingStringId.Entity_Deleted" xml:space="preserve">
+    <value>（已删除）</value>
+  </data>
+  <data name="ScaffoldingStringId.AddRemoveDetailEntities_SelectObjects" xml:space="preserve">
+    <value>选择要添加的对象</value>
+  </data>
+</root>

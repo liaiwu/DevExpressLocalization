@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Non-calculated\ActionDesign\Actions\Open\Caption" xml:space="preserve">
+    <value>打开......</value>
+  </data>
+  <data name="ActionDesign\Actions\Open\ToolTip" xml:space="preserve">
+    <value>使用外部应用程序打开附加文件</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\SaveTo\Caption" xml:space="preserve">
+    <value>另存为...</value>
+  </data>
+  <data name="ActionDesign\Actions\SaveTo\ToolTip" xml:space="preserve">
+    <value>保存附加到所选记录的文件</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\Actions\AddFromFile\Caption" xml:space="preserve">
+    <value>从文件添加...</value>
+  </data>
+  <data name="ActionDesign\Actions\AddFromFile\ToolTip" xml:space="preserve">
+    <value>使用所选文件创建新记录</value>
+  </data>
+  <data name="Non-calculated\ActionDesign\DisableReasons\AttachmentAssigned\Caption" xml:space="preserve">
+    <value>附件为空</value>
+  </data>
+  <data name="Non-calculated\Localization\FileAttachments\Editor_Clear\Value" xml:space="preserve">
+    <value>清除内容</value>
+  </data>
+  <data name="Non-calculated\Localization\FileAttachments\Editor_Open\Value" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="Non-calculated\Localization\FileAttachments\Editor_Save\Value" xml:space="preserve">
+    <value>另存为...</value>
+  </data>
+  <data name="Non-calculated\Localization\FileAttachments\OverwritePrompt\Value" xml:space="preserve">
+    <value>{0}" 文件已存在。是否要替换它？</value>
+  </data>
+  <data name="Non-calculated\Localization\FileAttachments\OverwritePromptCaption\Value" xml:space="preserve">
+    <value>另存为...</value>
+  </data>
+  <data name="Non-calculated\Localization\FileAttachments\WordAll\Value" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="Non-calculated\Localization\FileAttachments\WordFiles\Value" xml:space="preserve">
+    <value>文件</value>
+  </data>
+</root>

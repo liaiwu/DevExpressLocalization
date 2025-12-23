@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ceWorkdaysOnly.Properties.Caption" xml:space="preserve">
+    <value>仅工作日</value>
+  </data>
+  <data name="ceSaturday.Properties.Caption" xml:space="preserve">
+    <value>星期六</value>
+  </data>
+  <data name="ceFriday.Properties.Caption" xml:space="preserve">
+    <value>星期五</value>
+  </data>
+  <data name="ceThursday.Properties.Caption" xml:space="preserve">
+    <value>星期四</value>
+  </data>
+  <data name="ceWednesday.Properties.Caption" xml:space="preserve">
+    <value>星期三</value>
+  </data>
+  <data name="ceTuesday.Properties.Caption" xml:space="preserve">
+    <value>星期二</value>
+  </data>
+  <data name="ceMonday.Properties.Caption" xml:space="preserve">
+    <value>星期一</value>
+  </data>
+  <data name="ceSunday.Properties.Caption" xml:space="preserve">
+    <value>星期日</value>
+  </data>
+  <data name="grWorkdays.Text" xml:space="preserve">
+    <value>工作日</value>
+  </data>
+  <data name="btnExactWorkdays.EditValue" xml:space="preserve">
+    <value>单击省略号按钮...</value>
+  </data>
+  <data name="labelExactWorkdays.Text" xml:space="preserve">
+    <value>精确的工作时间:</value>
+  </data>
+  <data name="btnHolidays.EditValue" xml:space="preserve">
+    <value>单击省略号按钮...</value>
+  </data>
+  <data name="labelHolidays.Text" xml:space="preserve">
+    <value>假期:</value>
+  </data>
+  <data name="grKnownDays.Text" xml:space="preserve">
+    <value>已知的日期</value>
+  </data>
+</root>

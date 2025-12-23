@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="labelSelectReport.Text" xml:space="preserve">
+    <value>选择的报告：</value>
+  </data>
+  <data name="labelSelectFields.Text" xml:space="preserve">
+    <value>选择字段并向它们分配汇总函数：</value>
+  </data>
+  <data name="ignoreNullValuesEdit.Properties.Caption" xml:space="preserve">
+    <value>忽略空值</value>
+  </data>
+  <data name="gridColumnFields.Caption" xml:space="preserve">
+    <value>字段</value>
+  </data>
+  <data name="gridColumnSummaryFunctions.Caption" xml:space="preserve">
+    <value>汇总函数</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="noRowsMessage.Text" xml:space="preserve">
+    <value>没有要计算汇总的字段</value>
+  </data>
+</root>

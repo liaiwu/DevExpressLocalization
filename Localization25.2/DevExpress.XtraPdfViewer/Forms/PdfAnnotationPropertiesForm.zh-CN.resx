@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="colorLabel.Text" xml:space="preserve">
+    <value>颜色:</value>
+  </data>
+  <data name="markupTypeComboBoxEdit.Properties.Items" xml:space="preserve">
+    <value>突出显示</value>
+  </data>
+  <data name="markupTypeComboBoxEdit.Properties.Items1" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="markupTypeComboBoxEdit.Properties.Items2" xml:space="preserve">
+    <value>波浪下划线</value>
+  </data>
+  <data name="markupTypeComboBoxEdit.Properties.Items3" xml:space="preserve">
+    <value>删除线</value>
+  </data>
+  <data name="noteIconComboBox.Properties.Items3" xml:space="preserve">
+    <value>圆形</value>
+  </data>
+  <data name="noteIconComboBox.Properties.Items6" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="noteIconComboBox.Properties.Items9" xml:space="preserve">
+    <value>交叉线</value>
+  </data>
+  <data name="noteIconComboBox.Properties.Items15" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="noteIconComboBox.Properties.Items18" xml:space="preserve">
+    <value>插入</value>
+  </data>
+  <data name="noteIconComboBox.Properties.Items30" xml:space="preserve">
+    <value>段落</value>
+  </data>
+  <data name="noteIconComboBox.Properties.Items33" xml:space="preserve">
+    <value>向右箭头</value>
+  </data>
+  <data name="noteIconComboBox.Properties.Items39" xml:space="preserve">
+    <value>星形</value>
+  </data>
+  <data name="noteIconComboBox.Properties.Items42" xml:space="preserve">
+    <value>向上箭头</value>
+  </data>
+  <data name="appearanceGroupHeader.Text" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="authorLabel.Text" xml:space="preserve">
+    <value>作者：</value>
+  </data>
+  <data name="subjectLabel.Text" xml:space="preserve">
+    <value>主题:</value>
+  </data>
+  <data name="modificationDateLabel.Text" xml:space="preserve">
+    <value>修改者：</value>
+  </data>
+  <data name="creationDateLabel.Text" xml:space="preserve">
+    <value>创建者：</value>
+  </data>
+  <data name="commentLabel.Text" xml:space="preserve">
+    <value>注释：</value>
+  </data>
+  <data name="generalGroupHeader.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="setAsDefaultButton.Text" xml:space="preserve">
+    <value>设为默认值</value>
+  </data>
+  <data name="okButton.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="cancelButton.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="markupTypeLabel.Text" xml:space="preserve">
+    <value>标记类型：</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>批注属性</value>
+  </data>
+</root>

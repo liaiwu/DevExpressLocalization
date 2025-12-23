@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="cbMarginsApplyTo.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbMarginsApplyTo.Properties.AccessibleName" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="lblMarginsApplyTo.Text" xml:space="preserve">
+    <value>应用:</value>
+  </data>
+  <data name="chkLandscape.Properties.AccessibleName" xml:space="preserve">
+    <value>横向</value>
+  </data>
+  <data name="chkLandscape.Properties.Caption" xml:space="preserve">
+    <value>横向</value>
+  </data>
+  <data name="chkPortrait.Properties.AccessibleName" xml:space="preserve">
+    <value>纵向</value>
+  </data>
+  <data name="chkPortrait.Properties.Caption" xml:space="preserve">
+    <value>纵向</value>
+  </data>
+  <data name="lblOrientation.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="lblPages.Text" xml:space="preserve">
+    <value>页</value>
+  </data>
+  <data name="lblMarginRIght.Text" xml:space="preserve">
+    <value>右:</value>
+  </data>
+  <data name="lblMargins.Text" xml:space="preserve">
+    <value>边距</value>
+  </data>
+  <data name="lblMarginLeft.Text" xml:space="preserve">
+    <value>左:</value>
+  </data>
+  <data name="lblMarginTop.Text" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="lblMarginBottom.Text" xml:space="preserve">
+    <value>底部:</value>
+  </data>
+  <data name="cbLayoutApplyTo.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbLayoutApplyTo.Properties.AccessibleName" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="lblLayoutApplyTo.Text" xml:space="preserve">
+    <value>应用:</value>
+  </data>
+  <data name="lblFooter.Text" xml:space="preserve">
+    <value>&amp; 页脚:</value>
+  </data>
+  <data name="lblHeader.Text" xml:space="preserve">
+    <value>&amp; 标题︰</value>
+  </data>
+  <data name="lblFromEdge.Text" xml:space="preserve">
+    <value>从边缘︰</value>
+  </data>
+  <data name="lblSectionDirection.Text" xml:space="preserve">
+    <value>段落方向(&amp;C)：</value>
+  </data>
+  <data name="lblSection.Text" xml:space="preserve">
+    <value>段落</value>
+  </data>
+  <data name="chkDifferentFirstPage.Properties.AccessibleName" xml:space="preserve">
+    <value>起始页不同</value>
+  </data>
+  <data name="chkDifferentFirstPage.Properties.Caption" xml:space="preserve">
+    <value>起始页不同</value>
+  </data>
+  <data name="chkDifferentOddAndEvenPage.Properties.AccessibleName" xml:space="preserve">
+    <value>基数页和偶数页不同</value>
+  </data>
+  <data name="chkDifferentOddAndEvenPage.Properties.Caption" xml:space="preserve">
+    <value>基数页和偶数页不同</value>
+  </data>
+  <data name="lblHeadersAndFooters.Text" xml:space="preserve">
+    <value>页眉和页脚</value>
+  </data>
+  <data name="cbSectionStart.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbSectionStart.Properties.AccessibleName" xml:space="preserve">
+    <value>段落开始</value>
+  </data>
+  <data name="lblSectionStart.Text" xml:space="preserve">
+    <value>段落开始</value>
+  </data>
+  <data name="cbPaperApplyTo.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbPaperApplyTo.Properties.AccessibleName" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="lblPaperApplyTo.Text" xml:space="preserve">
+    <value>应用:</value>
+  </data>
+  <data name="cbPaperSize.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbPaperSize.Properties.AccessibleName" xml:space="preserve">
+    <value>页面大小</value>
+  </data>
+  <data name="lblPaperHeight.Text" xml:space="preserve">
+    <value>右:</value>
+  </data>
+  <data name="lblPaperSize.Text" xml:space="preserve">
+    <value>页面大小</value>
+  </data>
+  <data name="lblPaperWidth.Text" xml:space="preserve">
+    <value>宽度:</value>
+  </data>
+  <data name="tabPageMargins.Text" xml:space="preserve">
+    <value>边距</value>
+  </data>
+  <data name="tabPagePaper.Text" xml:space="preserve">
+    <value>页面</value>
+  </data>
+  <data name="tabPageLayout.Text" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>页面设置</value>
+  </data>
+</root>

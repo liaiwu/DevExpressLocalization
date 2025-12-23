@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BarsStringId.HistoryItem_Undo" xml:space="preserve">
+    <value>撤消</value>
+  </data>
+  <data name="BarsStringId.HistoryItem_Redo" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_AddOrRemoveItemCaption" xml:space="preserve">
+    <value>定制</value>
+  </data>
+  <data name="BarsStringId.CustomizationForm_Caption" xml:space="preserve">
+    <value>定制</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_VisibleItemCaption" xml:space="preserve">
+    <value>可见</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_BeginGroupItemCaption" xml:space="preserve">
+    <value>开始一个分组</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_DeleteItemCaption" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_ResetItemCaption" xml:space="preserve">
+    <value>复位</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_LinkItemCaption" xml:space="preserve">
+    <value>标题:</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_DisplayModeItemCaption" xml:space="preserve">
+    <value>显示模式:</value>
+  </data>
+  <data name="BarsStringId.BarItemDisplayMode_Default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="BarsStringId.BarItemDisplayMode_Content" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="BarsStringId.BarItemDisplayMode_ContentAndGlyph" xml:space="preserve">
+    <value>内容和轮廓</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_GlyphAlignmentItemCaption" xml:space="preserve">
+    <value>轮廓位置:</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_AlignmentItemCaption" xml:space="preserve">
+    <value>位置:</value>
+  </data>
+  <data name="BarsStringId.CustomizationMenu_GlyphSizeItemCaption" xml:space="preserve">
+    <value>轮廓大小:</value>
+  </data>
+  <data name="BarsStringId.Dock_Left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="BarsStringId.Dock_Right" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="BarsStringId.Dock_Top" xml:space="preserve">
+    <value>顶部</value>
+  </data>
+  <data name="BarsStringId.Dock_Bottom" xml:space="preserve">
+    <value>底部</value>
+  </data>
+  <data name="BarsStringId.BarItemAlignment_Default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="BarsStringId.BarItemAlignment_Near" xml:space="preserve">
+    <value>附近</value>
+  </data>
+  <data name="BarsStringId.BarItemAlignment_Far" xml:space="preserve">
+    <value>远处</value>
+  </data>
+  <data name="BarsStringId.GlyphSize_Default" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="BarsStringId.GlyphSize_Small" xml:space="preserve">
+    <value>小</value>
+  </data>
+  <data name="BarsStringId.GlyphSize_Large" xml:space="preserve">
+    <value>大</value>
+  </data>
+  <data name="BarsStringId.GalleryControlFilterMenu_ShowAllItemCaption" xml:space="preserve">
+    <value>显示所有</value>
+  </data>
+  <data name="BarsStringId.BarManagerCategory_UnassignedCategoryCaption" xml:space="preserve">
+    <value>未命名项目</value>
+  </data>
+  <data name="BarsStringId.BarManagerCategory_AllItemsCategoryCaption" xml:space="preserve">
+    <value>所有项目</value>
+  </data>
+  <data name="BarsStringId.ToolbarsCustomizationControl_EditorWindowCaption" xml:space="preserve">
+    <value>工具栏标题编辑器</value>
+  </data>
+  <data name="BarsStringId.LinkListItem_CustomizationItemCaption" xml:space="preserve">
+    <value>自定义...</value>
+  </data>
+  <data name="BarsStringId.ToolbarListItem_CustomizationItemCaption" xml:space="preserve">
+    <value>自定义...</value>
+  </data>
+  <data name="BarsStringId.ToolbarCaptionEditor_Caption" xml:space="preserve">
+    <value>工具栏名称:</value>
+  </data>
+  <data name="BarsStringId.Ok" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="BarsStringId.Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="BarsStringId.New" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="BarsStringId.Rename" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="BarsStringId.Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_IconsGroupCaption" xml:space="preserve">
+    <value>图标</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_ScreenTipsGroupCaption" xml:space="preserve">
+    <value>屏幕提示</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_LargeIconsInToolbarsCaption" xml:space="preserve">
+    <value>工具栏使用大图标</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_LargeIconsInMenuCaption" xml:space="preserve">
+    <value>菜单使用大图标</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_ShowScreenTipsOnToolbarsCaption" xml:space="preserve">
+    <value>在工具栏上显示屏幕提示</value>
+  </data>
+  <data name="BarsStringId.OptionsControl_ShowShortcutKeysOnScreenTipsCaption" xml:space="preserve">
+    <value>在工具栏上显示快捷键</value>
+  </data>
+  <data name="BarsStringId.CommandsCustomizationControl_CategoriesListCaption" xml:space="preserve">
+    <value>分类:</value>
+  </data>
+  <data name="BarsStringId.CommandsCustomizationControl_CommandsListCaption" xml:space="preserve">
+    <value>命令:</value>
+  </data>
+  <data name="BarsStringId.CommandsCustomizationControl_DescriptionCaption" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="BarsStringId.Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="BarsStringId.CustomizationControl_ToolbarsTabCaption" xml:space="preserve">
+    <value>工具栏</value>
+  </data>
+  <data name="BarsStringId.CustomizationControl_CommandsTabCaption" xml:space="preserve">
+    <value>命令</value>
+  </data>
+  <data name="BarsStringId.CustomizationControl_OptionsTabCaption" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="BarsStringId.ToolbarsCustomizationControl_ToolbarsListCaption" xml:space="preserve">
+    <value>工具栏:</value>
+  </data>
+  <data name="BarsStringId.BarItemSearchControl_NullText" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+</root>

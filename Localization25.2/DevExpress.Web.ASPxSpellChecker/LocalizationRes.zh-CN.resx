@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxSpellCheckerStringId.OptionsFormCaption" xml:space="preserve">
+    <value>拼写选项</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.SpellCheckFormCaption" xml:space="preserve">
+    <value>检查拼写</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.FinishSpellChecking" xml:space="preserve">
+    <value>拼写检查完毕.</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.NoSuggestionsText" xml:space="preserve">
+    <value>(无建议)</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.NotInDictionary" xml:space="preserve">
+    <value>未包含在词典里:</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreOnceButton" xml:space="preserve">
+    <value>忽略一次</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreAllButton" xml:space="preserve">
+    <value>全部忽略</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.AddToDictionaryButton" xml:space="preserve">
+    <value>添加到词典</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.ChangeTo" xml:space="preserve">
+    <value>更改为:</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.ChangeButton" xml:space="preserve">
+    <value>更改</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.ChangeAllButton" xml:space="preserve">
+    <value>全部更改</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.GeneralOptions" xml:space="preserve">
+    <value>常规选项</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreUppercase" xml:space="preserve">
+    <value>忽略所有字母大写的单词</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreMixedCase" xml:space="preserve">
+    <value>忽略混合大小写</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreNumbers" xml:space="preserve">
+    <value>忽略含数字的单词</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreEmails" xml:space="preserve">
+    <value>忽略E-mail地址</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreUrls" xml:space="preserve">
+    <value>忽略网址</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.IgnoreTags" xml:space="preserve">
+    <value>忽略标记标签</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.InternationalDictionaries" xml:space="preserve">
+    <value>国际词典</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.ChooseDictionary" xml:space="preserve">
+    <value>选择用于拼写检查的词典.</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.Language" xml:space="preserve">
+    <value>语言:</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.OptionsButton" xml:space="preserve">
+    <value>选项...</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.CloseButton" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.OkButton" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="ASPxSpellCheckerStringId.CancelButton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+</root>

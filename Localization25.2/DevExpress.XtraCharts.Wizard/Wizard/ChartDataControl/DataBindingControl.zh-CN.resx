@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="grValueSettings.Text" xml:space="preserve">
+    <value>值属性</value>
+  </data>
+  <data name="lblSummaryFunction.Text" xml:space="preserve">
+    <value>汇总函数:</value>
+  </data>
+  <data name="lblValue4.Text" xml:space="preserve">
+    <value>值:</value>
+  </data>
+  <data name="lblValue3.Text" xml:space="preserve">
+    <value>值:</value>
+  </data>
+  <data name="lblValue2.Text" xml:space="preserve">
+    <value>值:</value>
+  </data>
+  <data name="lblValue1.Text" xml:space="preserve">
+    <value>值:</value>
+  </data>
+  <data name="cbBindingMode.EditValue" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="cbBindingMode.Properties.Items" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="cbBindingMode.Properties.Items1" xml:space="preserve">
+    <value>汇总函数</value>
+  </data>
+  <data name="lblBindingMode.Text" xml:space="preserve">
+    <value>绑定模式:</value>
+  </data>
+  <data name="cbValueScaleType.EditValue" xml:space="preserve">
+    <value>数值型</value>
+  </data>
+  <data name="cbValueScaleType.Properties.Items" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="cbValueScaleType.Properties.Items1" xml:space="preserve">
+    <value>日期时间型</value>
+  </data>
+  <data name="lblValueScaleType.Text" xml:space="preserve">
+    <value>值类型:</value>
+  </data>
+  <data name="grArgumentSettings.Text" xml:space="preserve">
+    <value>参数属性</value>
+  </data>
+  <data name="lblArgument.Text" xml:space="preserve">
+    <value>参数:</value>
+  </data>
+  <data name="cbArgumentScaleType.EditValue" xml:space="preserve">
+    <value>文本值</value>
+  </data>
+  <data name="cbArgumentScaleType.Properties.Items" xml:space="preserve">
+    <value>文本值</value>
+  </data>
+  <data name="cbArgumentScaleType.Properties.Items1" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="cbArgumentScaleType.Properties.Items2" xml:space="preserve">
+    <value>日期时间型</value>
+  </data>
+  <data name="cbArgumentScaleType.Properties.Items3" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="lblArgumentScaleType.Text" xml:space="preserve">
+    <value>参数类型:</value>
+  </data>
+  <data name="lblColor.Text" xml:space="preserve">
+    <value>颜色:</value>
+  </data>
+  <data name="grColorSettings.Text" xml:space="preserve">
+    <value>颜色属性</value>
+  </data>
+</root>

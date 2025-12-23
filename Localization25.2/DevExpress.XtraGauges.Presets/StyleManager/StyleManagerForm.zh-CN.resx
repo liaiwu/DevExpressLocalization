@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="checkAutoLayout.Properties.Caption" xml:space="preserve">
+    <value>自动布局</value>
+  </data>
+  <data name="ceUseSkinSettings.Properties.Caption" xml:space="preserve">
+    <value>使用皮肤设置</value>
+  </data>
+  <data name="btnChangeStyle.Text" xml:space="preserve">
+    <value>改变样式</value>
+  </data>
+  <data name="itemWidth.Text" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="itemLeft.Text" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="itemTop.Text" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="itemHeight.Text" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="groupBounds.Text" xml:space="preserve">
+    <value>带区</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>左：</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>右：</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>所有：</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>顶：</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>底：</value>
+  </data>
+  <data name="groupPadding.Text" xml:space="preserve">
+    <value>间距</value>
+  </data>
+  <data name="itemInterval.Text" xml:space="preserve">
+    <value>区间</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>图表布局:</value>
+  </data>
+  <data name="itemBackgroundImage.Text" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="itemBackgroundImageLayout.Text" xml:space="preserve">
+    <value>图片布局</value>
+  </data>
+  <data name="itemBackColor.Text" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="groupBackground.Text" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="controlStyleGroup.Text" xml:space="preserve">
+    <value>图表容器样式</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="groupStyle.Text" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="gaugesStyleGroup.Text" xml:space="preserve">
+    <value>图标样式</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>样式管理器</value>
+  </data>
+</root>

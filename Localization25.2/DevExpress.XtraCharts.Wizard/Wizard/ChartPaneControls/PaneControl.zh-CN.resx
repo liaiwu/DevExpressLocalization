@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="chVisible.Properties.Caption" xml:space="preserve">
+    <value>显示(&amp;V)</value>
+  </data>
+  <data name="tbGeneral.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="tbAppearance.Text" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="lblColor.Text" xml:space="preserve">
+    <value>颜色:</value>
+  </data>
+  <data name="cbBorderVisible.Properties.Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="tbBorder.Text" xml:space="preserve">
+    <value>边框</value>
+  </data>
+  <data name="tbShadow.Text" xml:space="preserve">
+    <value>阴影</value>
+  </data>
+  <data name="chEnableAxisYZooming.Properties.Caption" xml:space="preserve">
+    <value>可缩放</value>
+  </data>
+  <data name="chEnableAxisYScrolling.Properties.Caption" xml:space="preserve">
+    <value>可滚动</value>
+  </data>
+  <data name="gcAxisY.Text" xml:space="preserve">
+    <value>Y轴</value>
+  </data>
+  <data name="chEnableAxisXZooming.Properties.Caption" xml:space="preserve">
+    <value>可缩放</value>
+  </data>
+  <data name="chEnableAxisXScrolling.Properties.Caption" xml:space="preserve">
+    <value>可滚动</value>
+  </data>
+  <data name="gcAxisX.Text" xml:space="preserve">
+    <value>X轴</value>
+  </data>
+  <data name="lblNote.Text" xml:space="preserve">
+    <value>当指定了 对应的字段后，从适当的图表选项中得到的真实数据将显示在括号中。
+</value>
+  </data>
+  <data name="tbScrollingZooming.Text" xml:space="preserve">
+    <value>滚动&amp;&amp; 缩放</value>
+  </data>
+  <data name="tbScrollBarOptions.Text" xml:space="preserve">
+    <value>滚动条</value>
+  </data>
+</root>

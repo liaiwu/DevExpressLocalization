@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbYearlyWeekDays.Properties.AccessibleName" xml:space="preserve">
+    <value>可编辑文本</value>
+  </data>
+  <data name="lblYearlyOf.AccessibleName" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="lblYearlyOf.Text" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="cbYearlyMonth1.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbYearlyMonth1.Properties.AccessibleName" xml:space="preserve">
+    <value>可编辑文本</value>
+  </data>
+  <data name="chkDay.Properties.AccessibleName" xml:space="preserve">
+    <value>每</value>
+  </data>
+  <data name="chkDay.Properties.Caption" xml:space="preserve">
+    <value>每(&amp;V)</value>
+  </data>
+  <data name="chkWeekOfMonth.Properties.AccessibleName" xml:space="preserve">
+    <value>每</value>
+  </data>
+  <data name="chkWeekOfMonth.Properties.Caption" xml:space="preserve">
+    <value>每(&amp;E)</value>
+  </data>
+  <data name="cbYearlyWeekOfMonth.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbYearlyWeekOfMonth.Properties.AccessibleName" xml:space="preserve">
+    <value>可编辑文本</value>
+  </data>
+  <data name="cbYearlyMonth.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbYearlyMonth.Properties.AccessibleName" xml:space="preserve">
+    <value>每一个可编辑的文本</value>
+  </data>
+  <data name="spinYearlyDayNumber.Properties.AccessibleName" xml:space="preserve">
+    <value>每一个可编辑的文本</value>
+  </data>
+  <data name="spinYearlyDayNumber.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
+  <data name="cbYearlyMonth1item.Text" xml:space="preserve">
+    <value>的</value>
+  </data>
+  <data name="lblRecurrenceEvery.Text" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="lblYear.Text" xml:space="preserve">
+    <value>年份</value>
+  </data>
+</root>

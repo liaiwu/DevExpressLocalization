@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FieldValueSizeExceedsMaxLength" xml:space="preserve">
+    <value>此字段的值的长度不能超过 {0}</value>
+  </data>
+  <data name="LogonAttemptsAmountedToLimitWin" xml:space="preserve">
+    <value>三次不成功的登录尝试，现在应用程序将会关闭之后。请考虑联系管理员对您的登录信息。</value>
+  </data>
+  <data name="ObjectAccessPermissionCannotBeEmpty" xml:space="preserve">
+    <value>的对象类型字段不能为空和至少一个 access 字段必须有值，没有任何的区别。</value>
+  </data>
+  <data name="ObjectToSaveWasChanged" xml:space="preserve">
+    <value>您试图保存的对象是由其他用户更改。请刷新数据。</value>
+  </data>
+  <data name="RequestedObjectHasBeenDeleted" xml:space="preserve">
+    <value>在只读模式下显示数据，因为它已被删除。</value>
+  </data>
+  <data name="RequestedObjectIsNotFound" xml:space="preserve">
+    <value>找不到请求的对象，因此无法处理。</value>
+  </data>
+  <data name="SimultaneousChangeDataMessage" xml:space="preserve">
+    <value>警告： 在检测到相同的信息在不同的窗口视图的同时修改： \n{0} \n它将能够在一个窗口/视图只保存修改。</value>
+  </data>
+  <data name="SimultaneousChangeDataMessageItem" xml:space="preserve">
+    <value>-'{0}' 窗口/视图 ({1})，'{2}' 对象 ({3})</value>
+  </data>
+  <data name="CircularReference" xml:space="preserve">
+    <value>不能完成此操作，因为它会导致循环引用。</value>
+  </data>
+  <data name="SystemExceptionMessageFormat" xml:space="preserve">
+    <value>错误编号为 {0} 已 occurred.\r\nError 消息： {1}</value>
+  </data>
+  <data name="TheFollowingErrorOccurred" xml:space="preserve">
+    <value>出现以下错误：</value>
+  </data>
+  <data name="UserFriendlyConnectionFailedException" xml:space="preserve">
+    <value>与数据库的连接失败。请联系您的系统管理员。</value>
+  </data>
+  <data name="UserFriendlySqlException" xml:space="preserve">
+    <value>错误发生了连接到数据库。请联系您的系统管理员。</value>
+  </data>
+  <data name="MaskValidationErrorMessage" xml:space="preserve">
+    <value>输入丢失的符号</value>
+  </data>
+  <data name="ApplicationUpdateError" xml:space="preserve">
+    <value>更新已成功完成。但是，数据库的版本仍大于应用程序的版本。请联系您的系统管理员。</value>
+  </data>
+  <data name="CriteriaEditorsDataTypeIsNull" xml:space="preserve">
+    <value>请指定您要为其构造一个标准的对象类型.</value>
+  </data>
+  <data name="ActionIsNotSingleChoiceAction" xml:space="preserve">
+    <value>不能注册 '{0}' 行动 '{1}' 行动的容器中。'{0}' 行动不是 '{2}' 类型。</value>
+  </data>
+</root>

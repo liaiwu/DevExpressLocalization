@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="spinDailyDaysCount.Properties.AccessibleName" xml:space="preserve">
+    <value>每天可编辑文本</value>
+  </data>
+  <data name="spinDailyDaysCount.Properties.Mask.EditMask" xml:space="preserve">
+    <value>N00</value>
+  </data>
+  <data name="lblDailyDaysCount.AccessibleName" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="lblDailyDaysCount.Text" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="chkDay.Properties.AccessibleName" xml:space="preserve">
+    <value>每</value>
+  </data>
+  <data name="chkDay.Properties.Caption" xml:space="preserve">
+    <value>每(&amp;V)</value>
+  </data>
+  <data name="chkEveryWeekDay.Properties.AccessibleName" xml:space="preserve">
+    <value>每个工作日</value>
+  </data>
+  <data name="chkEveryWeekDay.Properties.Caption" xml:space="preserve">
+    <value>每个工作日(&amp;K)</value>
+  </data>
+  <data name="lblDailyDaysCountLayoutItem.Text" xml:space="preserve">
+    <value>天</value>
+  </data>
+</root>

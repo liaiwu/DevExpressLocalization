@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chbUseKeyboardWithMouse.Properties.Caption" xml:space="preserve">
+    <value>使用键盘和鼠标</value>
+  </data>
+  <data name="chbUseKeyboard.Properties.Caption" xml:space="preserve">
+    <value>使用键盘</value>
+  </data>
+  <data name="chbUseMouseWheel.Properties.Caption" xml:space="preserve">
+    <value>使用鼠标滚轮</value>
+  </data>
+  <data name="chbUseTouchDevice.Properties.Caption" xml:space="preserve">
+    <value>使用触摸设备</value>
+  </data>
+  <data name="lbMaxZoomPercentY.Text" xml:space="preserve">
+    <value>Y 轴最大缩放级别 (%):</value>
+  </data>
+  <data name="lbMaxZoomPercentX.Text" xml:space="preserve">
+    <value>X 轴最大缩放级别 (%):</value>
+  </data>
+</root>

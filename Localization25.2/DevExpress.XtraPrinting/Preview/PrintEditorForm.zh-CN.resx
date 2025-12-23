@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbDuplex.Text" xml:space="preserve">
+    <value>双面打印:</value>
+  </data>
+  <data name="lbPageRangeComment.Text" xml:space="preserve">
+    <value>例如，5-12</value>
+  </data>
+  <data name="lbPrintToFile.Text" xml:space="preserve">
+    <value>打印到文件：</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="lbFilePath.Text" xml:space="preserve">
+    <value>文件路径:</value>
+  </data>
+  <data name="lbPaperSource.Text" xml:space="preserve">
+    <value>纸张来源：</value>
+  </data>
+  <data name="chbCollate.Properties.Caption" xml:space="preserve">
+    <value>整理</value>
+  </data>
+  <data name="rbSomePages.Properties.Caption" xml:space="preserve">
+    <value>页数：</value>
+  </data>
+  <data name="rbSelection.Properties.Caption" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="rbCurrentPage.Properties.Caption" xml:space="preserve">
+    <value>当前页</value>
+  </data>
+  <data name="rbRangeAll.Properties.Caption" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="lbPageRange.Text" xml:space="preserve">
+    <value>页范围：</value>
+  </data>
+  <data name="btnPrinterPreferences.Text" xml:space="preserve">
+    <value>首选项</value>
+  </data>
+  <data name="lbCopies.Text" xml:space="preserve">
+    <value>副本份数：</value>
+  </data>
+  <data name="lbPrinterDocumentsInQueueCaption.Text" xml:space="preserve">
+    <value>队列中的文档：</value>
+  </data>
+  <data name="lbPrinterCommentCaption.Text" xml:space="preserve">
+    <value>注释：</value>
+  </data>
+  <data name="lbPrinterLocationCaption.Text" xml:space="preserve">
+    <value>位置：</value>
+  </data>
+  <data name="lbPrinterStatusCaption.Text" xml:space="preserve">
+    <value>状态:</value>
+  </data>
+  <data name="lbPrinterName.Text" xml:space="preserve">
+    <value>打印机名称：</value>
+  </data>
+  <data name="btnPrint.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+</root>

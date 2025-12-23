@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblUpdateDelay.Text" xml:space="preserve">
+    <value>更新延时:</value>
+  </data>
+  <data name="cheSelectionOnly.Properties.Caption" xml:space="preserve">
+    <value>仅限选定内容</value>
+  </data>
+  <data name="grSelection.Text" xml:space="preserve">
+    <value>工作区</value>
+  </data>
+  <data name="labelMaxPointCountInSeries.Text" xml:space="preserve">
+    <value>在系列中的最大点数:</value>
+  </data>
+  <data name="labelMaxSeriesCount.Text" xml:space="preserve">
+    <value>最大的系列数目:</value>
+  </data>
+  <data name="grDataLimits.Text" xml:space="preserve">
+    <value>数据限制</value>
+  </data>
+  <data name="cheSinglePageOnly.Properties.Caption" xml:space="preserve">
+    <value>只有单个页</value>
+  </data>
+  <data name="cheRetrieveEmptyCells.Properties.Caption" xml:space="preserve">
+    <value>检索空单元格</value>
+  </data>
+  <data name="cheRetrieveDataByColumns.Properties.Caption" xml:space="preserve">
+    <value>检索数据的列</value>
+  </data>
+  <data name="grDataRepresentation.Text" xml:space="preserve">
+    <value>数据表示</value>
+  </data>
+  <data name="cheRetrieveRowCustomTotals.Properties.Caption" xml:space="preserve">
+    <value>检索行自定义汇总</value>
+  </data>
+  <data name="cheRetrieveRowGrandTotals.Properties.Caption" xml:space="preserve">
+    <value>检索行总计</value>
+  </data>
+  <data name="cheRetrieveRowTotals.Properties.Caption" xml:space="preserve">
+    <value>检索行合计</value>
+  </data>
+  <data name="cheRetrieveColumnCustomTotals.Properties.Caption" xml:space="preserve">
+    <value>检索列自定义汇总</value>
+  </data>
+  <data name="cheRetrieveColumnGrandTotals.Properties.Caption" xml:space="preserve">
+    <value>检索列总计</value>
+  </data>
+  <data name="cheRetrieveColumnTotals.Properties.Caption" xml:space="preserve">
+    <value>检索列汇总</value>
+  </data>
+  <data name="grRetrieveTotals.Text" xml:space="preserve">
+    <value>检索合计</value>
+  </data>
+</root>

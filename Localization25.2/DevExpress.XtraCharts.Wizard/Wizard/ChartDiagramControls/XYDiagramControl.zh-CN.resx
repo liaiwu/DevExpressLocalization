@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cbPaneLayoutDirection.Properties.Items" xml:space="preserve">
+    <value>垂直</value>
+  </data>
+  <data name="cbPaneLayoutDirection.Properties.Items1" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="lblPaneLayoutDirection.Text" xml:space="preserve">
+    <value>方向:</value>
+  </data>
+  <data name="lblPaneDistance.Text" xml:space="preserve">
+    <value>间距:</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>面板布局</value>
+  </data>
+  <data name="groupControl3.Text" xml:space="preserve">
+    <value>边距</value>
+  </data>
+  <data name="chRotated.Properties.Caption" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="tbGeneral.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="groupControl2.Text" xml:space="preserve">
+    <value>面板</value>
+  </data>
+  <data name="groupControl5.Text" xml:space="preserve">
+    <value>次Y轴</value>
+  </data>
+  <data name="groupControl4.Text" xml:space="preserve">
+    <value>次X轴</value>
+  </data>
+  <data name="tbElements.Text" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="tbScrollingZooming.Text" xml:space="preserve">
+    <value>滚动&amp;&amp; 缩放</value>
+  </data>
+</root>

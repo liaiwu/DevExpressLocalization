@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DocumentViewerStringId.CommandCloseCaption" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandNextPageCaption" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandNextPageDescription" xml:space="preserve">
+    <value>显示下一页。</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandOpenCaption" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandPreviousPageCaption" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandPreviousPageDescription" xml:space="preserve">
+    <value>显示前一页。</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSetActualSizeZoomModeCaption" xml:space="preserve">
+    <value>实际大小</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSetFitVisibleZoomModeCaption" xml:space="preserve">
+    <value>适合可见</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSetFitWidthZoomModeCaption" xml:space="preserve">
+    <value>适合宽度</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandSetPageLevelZoomModeCaption" xml:space="preserve">
+    <value>缩放到页面级别</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoom100Caption" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomCaption" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomInCaption" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomInDescription" xml:space="preserve">
+    <value>放大以获取 PDF 文档的特写视图。</value>
+  </data>
+  <data name="DocumentViewerStringId.CommandZoomOutCaption" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="DocumentViewerStringId.FileRibbonGroupCaption" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlCaseSensitive" xml:space="preserve">
+    <value>区分大小写</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlClose" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlNext" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlPrevious" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlSearchCaption" xml:space="preserve">
+    <value>搜索：</value>
+  </data>
+  <data name="DocumentViewerStringId.FindControlWholeWordsOnly" xml:space="preserve">
+    <value>全字匹配</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageShowFindTextCaption" xml:space="preserve">
+    <value>查找</value>
+  </data>
+  <data name="DocumentViewerStringId.MessageShowFindTextHintCaption" xml:space="preserve">
+    <value>查找文本</value>
+  </data>
+  <data name="DocumentViewerStringId.NavigationRibbonGroupCaption" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="DocumentViewerStringId.OpenFileDialogTitle" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="DocumentViewerStringId.RotateRibbonGroupCaption" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="DocumentViewerStringId.ZoomRibbonGroupCaption" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+</root>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_ShowQuickAccessToolbarBelowTheRibbon" xml:space="preserve">
+    <value>在下方显示快速工具栏</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_ShowQuickAccessToolbarAboveTheRibbon" xml:space="preserve">
+    <value>在上方显示快捷工具栏</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_MinimizeRibbon" xml:space="preserve">
+    <value>最小化工具栏</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_RemoveFromToolbar" xml:space="preserve">
+    <value>从工具栏中移除</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_AddToToolbar" xml:space="preserve">
+    <value>添加到工具栏</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ToolbarCaptionEditorWindowCaption" xml:space="preserve">
+    <value>设置元素名称</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_AddNewPageMenuItemCoreContent" xml:space="preserve">
+    <value>添加新页</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_AddNewGroupMenuItemCoreContent" xml:space="preserve">
+    <value>添加新组</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ShowPageMenuItemCoreContent" xml:space="preserve">
+    <value>显示页面</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_RenameMenuItemCoreContent" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_RemoveMenuItemCoreContent" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ResetMenuItemCoreContent" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_MoveUpMenuItemCoreContent" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_MoveDownMenuItemCoreContent" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_NewPageCaption" xml:space="preserve">
+    <value>新页</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_NewPageGroupCation" xml:space="preserve">
+    <value>添加新组</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_AllItemsComboBoxItemContent" xml:space="preserve">
+    <value>所有项</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_AllTabsComboBoxItemContent" xml:space="preserve">
+    <value>所有标签</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_MainTabsComboBoxItemContent" xml:space="preserve">
+    <value>主标签</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ToolTabsComboBoxItemContent" xml:space="preserve">
+    <value>工具标签</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ResetOnlySelectedRibbonPageString" xml:space="preserve">
+    <value>只重置选中Ribbon页</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ResetAllCustomizationsString" xml:space="preserve">
+    <value>重置所有</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ImportCustomizationFileString" xml:space="preserve">
+    <value>导入自定义文件</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ExportAllCustomizationsString" xml:space="preserve">
+    <value>导出自定义文件</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_IsCustomTextString" xml:space="preserve">
+    <value>(自定义)</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_BarButtonGroupString" xml:space="preserve">
+    <value>工具按钮组</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_IsUnnamedItemString" xml:space="preserve">
+    <value>未命名项</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ImportExportString" xml:space="preserve">
+    <value>导出/导入</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_AddItemButtonContentString" xml:space="preserve">
+    <value>添加&gt;&gt;</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_RemoveItemButtonContentString" xml:space="preserve">
+    <value>&lt;&lt;移除</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_CustomizationsStringTextBlockText" xml:space="preserve">
+    <value>自定义:</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ApplyChangesButtonContent" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_CloseButtonContent" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_CustomizationFormCaption" xml:space="preserve">
+    <value>Ribbon自定义窗体</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ToolbarCaptionEditorWindowCaptionForm" xml:space="preserve">
+    <value>元素名称:</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_SeparatorString" xml:space="preserve">
+    <value>分离器</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonPopupMenuItemText_CustomizeRibbonMenuItem" xml:space="preserve">
+    <value>自定义Ribbon</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ResetAllCustomizationsQuestion" xml:space="preserve">
+    <value>删除所有Ribbon和自定义快捷菜单？</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_DropDownNewCaption" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_ChooseCommandsFrom" xml:space="preserve">
+    <value>选择命令从：</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_CustomizeTheRibbon" xml:space="preserve">
+    <value>自定义Ribbon</value>
+  </data>
+  <data name="RibbonControlStringId.SpacingModeStrings_MenuHeaderCaption" xml:space="preserve">
+    <value>优化命令之间的间距</value>
+  </data>
+  <data name="RibbonControlStringId.SpacingModeStrings_MouseModeContent" xml:space="preserve">
+    <value>鼠标</value>
+  </data>
+  <data name="RibbonControlStringId.SpacingModeStrings_MouseModeDescription" xml:space="preserve">
+    <value>标准功能区和命令。为与鼠标一起使用而优化。</value>
+  </data>
+  <data name="RibbonControlStringId.SpacingModeStrings_TouchModeContent" xml:space="preserve">
+    <value>触摸</value>
+  </data>
+  <data name="RibbonControlStringId.SpacingModeStrings_TouchModeDescription" xml:space="preserve">
+    <value>命令之间更多的空间。优化使用的触摸。</value>
+  </data>
+  <data name="RibbonControlStringId.RibbonCustomizationStrings_File" xml:space="preserve">
+    <value>文件</value>
+  </data>
+</root>

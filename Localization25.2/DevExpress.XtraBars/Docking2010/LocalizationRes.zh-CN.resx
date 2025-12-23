@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DocumentManagerStringId.CommandActivate" xml:space="preserve">
+    <value>激活</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandClose" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandCloseAll" xml:space="preserve">
+    <value>关闭所有文档</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandCloseAllButThis" xml:space="preserve">
+    <value>除此之外全部关闭</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandFloat" xml:space="preserve">
+    <value>浮动</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandFloatAll" xml:space="preserve">
+    <value>浮动所有</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandNewDocumentGroup" xml:space="preserve">
+    <value>新Tab分组</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandNewHorizontalDocumentGroup" xml:space="preserve">
+    <value>新的水平Tab分组</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandNewVerticalDocumentGroup" xml:space="preserve">
+    <value>新的垂直Tab分组</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMoveToNextDocumentGroup" xml:space="preserve">
+    <value>移动到下一个Tab分组</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMoveToPrevDocumentGroup" xml:space="preserve">
+    <value>移动到上一个Tab分组</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMoveToMainDocumentGroup" xml:space="preserve">
+    <value>将移动到主文档组</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandVerticalOrientation" xml:space="preserve">
+    <value>垂直</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandHorizontalOrientation" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDockAll" xml:space="preserve">
+    <value>停靠所有</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandCascade" xml:space="preserve">
+    <value>层叠窗口</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileVertical" xml:space="preserve">
+    <value>并排显示窗体</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileHorizontal" xml:space="preserve">
+    <value>层叠显示窗体</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandArrangeIcons" xml:space="preserve">
+    <value>排列图标</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDock" xml:space="preserve">
+    <value>停靠为Tab文档样式</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDockWidget" xml:space="preserve">
+    <value>停靠</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMinimizeAll" xml:space="preserve">
+    <value>最小化窗体</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandRestoreAll" xml:space="preserve">
+    <value>还原窗体</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandMaximize" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandRestore" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandRotate" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandFlip" xml:space="preserve">
+    <value>倒装</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandRotateDescription" xml:space="preserve">
+    <value>旋转布局</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandFlipDescription" xml:space="preserve">
+    <value>倒装文件</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandBack" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandHome" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandBackDescription" xml:space="preserve">
+    <value>后退</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandHomeDescription" xml:space="preserve">
+    <value>导航到主屏幕</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDetail" xml:space="preserve">
+    <value>详细</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDetailDescription" xml:space="preserve">
+    <value>导航到当前视图</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandOverview" xml:space="preserve">
+    <value>概括</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandExit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandExitDescription" xml:space="preserve">
+    <value>退出应用程序</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileLargeSize" xml:space="preserve">
+    <value>大</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileLargeSizeDescription" xml:space="preserve">
+    <value>更改到大拼贴大小</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileSmallSize" xml:space="preserve">
+    <value>小</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileSmallSizeDescription" xml:space="preserve">
+    <value>更改图块大小为小</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileWideSize" xml:space="preserve">
+    <value>宽</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileWideSizeDescription" xml:space="preserve">
+    <value>更改图块大小对全</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileMediumSize" xml:space="preserve">
+    <value>介质</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileMediumSizeDescription" xml:space="preserve">
+    <value>更改至中等的拼贴大小</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileSizeFlyoutPanel" xml:space="preserve">
+    <value>拼贴大小</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandTileSizeFlyoutPanelDescription" xml:space="preserve">
+    <value>更改图块大小</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandToggleTileSize" xml:space="preserve">
+    <value>切换大小</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandToggleTileSizeDescription" xml:space="preserve">
+    <value>更改Tile大小</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandClearSelection" xml:space="preserve">
+    <value>清除集合</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandClearSelectionDescription" xml:space="preserve">
+    <value>清除Tiles集合</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandOverviewDescription" xml:space="preserve">
+    <value>查看文档列表</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandEnableFullScreenMode" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandEnableFullScreenModeDescription" xml:space="preserve">
+    <value>切换到全屏视图</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDisableFullScreenMode" xml:space="preserve">
+    <value>禁用全屏</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandDisableFullScreenModeDescription" xml:space="preserve">
+    <value>切换到普通视图</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandOpenedWindowsDialog" xml:space="preserve">
+    <value>窗体...</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandWorkspacesDialog" xml:space="preserve">
+    <value>工作区...</value>
+  </data>
+  <data name="DocumentManagerStringId.RemoveWorkspaceItemCaption" xml:space="preserve">
+    <value>删除工作区</value>
+  </data>
+  <data name="DocumentManagerStringId.CaptureWorkspaceItemCaption" xml:space="preserve">
+    <value>捕获工作区</value>
+  </data>
+  <data name="DocumentManagerStringId.LoadWorkspaceItemCaption" xml:space="preserve">
+    <value>负载工作区...</value>
+  </data>
+  <data name="DocumentManagerStringId.SaveWorkspaceItemCaption" xml:space="preserve">
+    <value>保存工作区</value>
+  </data>
+  <data name="DocumentManagerStringId.SaveCurrentWorkspaceItemCaption" xml:space="preserve">
+    <value>保存当前工作区...</value>
+  </data>
+  <data name="DocumentManagerStringId.SaveWorkspaceFormCaption" xml:space="preserve">
+    <value>保存工作区</value>
+  </data>
+  <data name="DocumentManagerStringId.LoadWorkspaceFormCaption" xml:space="preserve">
+    <value>负载工作区</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspaceNameFormErrorMessage" xml:space="preserve">
+    <value>{0} 工作区中已经存在。你想要替换它吗?</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspaceNameFormCaption" xml:space="preserve">
+    <value>替换工作区</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspaceNameWarningMessage" xml:space="preserve">
+    <value>工作区名称不能为空.</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspaceRemoveWarningMessage" xml:space="preserve">
+    <value>是否确实要删除 {0} 工作区?</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspaceRemoveCaption" xml:space="preserve">
+    <value>删除工作区</value>
+  </data>
+  <data name="DocumentManagerStringId.OpenedWindowsDialogNameColumnCaption" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DocumentManagerStringId.OpenedWindowsDialogPathColumnCaption" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspacesDialogNameColumnCaption" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspacesDialogPathColumnCaption" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="DocumentManagerStringId.OpenedWindowsDialogCaption" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="DocumentManagerStringId.WorkspacesDialogCaption" xml:space="preserve">
+    <value>工作区</value>
+  </data>
+  <data name="DocumentManagerStringId.ActivateDocumentButtonText" xml:space="preserve">
+    <value>激活</value>
+  </data>
+  <data name="DocumentManagerStringId.CloseDocumentButtonText" xml:space="preserve">
+    <value>关闭窗体</value>
+  </data>
+  <data name="DocumentManagerStringId.CloseAllDocumentsButtonText" xml:space="preserve">
+    <value>关闭所有</value>
+  </data>
+  <data name="DocumentManagerStringId.CloseDocumentWarningMessage" xml:space="preserve">
+    <value>确信您想要关闭 {0} 文件?</value>
+  </data>
+  <data name="DocumentManagerStringId.CloseAllDocumentsWarningMessage" xml:space="preserve">
+    <value>确信你想关闭所有的文档呢？</value>
+  </data>
+  <data name="DocumentManagerStringId.ApplyWorkspaceButtonText" xml:space="preserve">
+    <value>将工作区中的应用</value>
+  </data>
+  <data name="DocumentManagerStringId.RemoveWorkspaceButtonText" xml:space="preserve">
+    <value>删除工作区</value>
+  </data>
+  <data name="DocumentManagerStringId.RemoveAllWorkspacesButtonText" xml:space="preserve">
+    <value>所有工作区中删除</value>
+  </data>
+  <data name="DocumentManagerStringId.LoadWorkspaceButtonText" xml:space="preserve">
+    <value>负载工作区...</value>
+  </data>
+  <data name="DocumentManagerStringId.SaveWorkspaceButtonText" xml:space="preserve">
+    <value>保存工作区</value>
+  </data>
+  <data name="DocumentManagerStringId.SaveWorkspaceAsButtonText" xml:space="preserve">
+    <value>另存为工作区...</value>
+  </data>
+  <data name="DocumentManagerStringId.RemoveAllWorkspacesWarningMessage" xml:space="preserve">
+    <value>是否确实要删除所有工作区?</value>
+  </data>
+  <data name="DocumentManagerStringId.DeferredLoadingExceptionMessage" xml:space="preserve">
+    <value>延迟加载内容没有执行，请查看当前控件的视图查询事件</value>
+  </data>
+  <data name="DocumentManagerStringId.DuplicateDocumentInTileExceptionMessage" xml:space="preserve">
+    <value>你只能有一个平铺在涉及通过文档属性的每个文档的时间。如果你想要创建引用同一文档的多个拼贴，将此文件放入页面容器和瓷砖将此容器为这些设置作为 ActivationTarget.</value>
+  </data>
+  <data name="DocumentManagerStringId.NonDocumentModeInitializationExceptionMessage" xml:space="preserve">
+    <value>不能执行无文档模式的初始化，请设置DocumentManager的 ClientControl属性</value>
+  </data>
+  <data name="DocumentManagerStringId.NonDocumentModeInappropriateViewExceptionMessage" xml:space="preserve">
+    <value>此类型的视图不用于非文档模式。</value>
+  </data>
+  <data name="DocumentManagerStringId.DocumentModeInappropriateViewExceptionMessage" xml:space="preserve">
+    <value>此类型的视图被用于非文档模式下只。</value>
+  </data>
+  <data name="DocumentManagerStringId.NullParentContainerExceptionMessage" xml:space="preserve">
+    <value>DocumentManager必须有一个父容器。确保设置以下属性之一MdiParent，ClientControl或ContainerControl。</value>
+  </data>
+  <data name="DocumentManagerStringId.NonUniqueNameExceptionMessage" xml:space="preserve">
+    <value>每个视图元素 （文档或平铺） 必须有一个唯一的名称。</value>
+  </data>
+  <data name="DocumentManagerStringId.OverlapAllControlsWarning" xml:space="preserve">
+    <value>DocumentManager 占用所有的可用空间，并可能与其他控件重叠。要限制文档管理器的大小，请使用 ContainerControl 属性来将其放入一个单独的容器。</value>
+  </data>
+  <data name="DocumentManagerStringId.LoadingIndicatorCaption" xml:space="preserve">
+    <value>请等待</value>
+  </data>
+  <data name="DocumentManagerStringId.LoadingIndicatorDescription" xml:space="preserve">
+    <value>加载...</value>
+  </data>
+  <data name="DocumentManagerStringId.SplashScreenCaption" xml:space="preserve">
+    <value>加载...</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandResetLayout" xml:space="preserve">
+    <value>重置窗体布局</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandPinTab" xml:space="preserve">
+    <value>固定标签</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandUnpinTab" xml:space="preserve">
+    <value>取消锁定标签</value>
+  </data>
+  <data name="DocumentManagerStringId.CommandCloseAllButPinned" xml:space="preserve">
+    <value>关闭除固定外的所有</value>
+  </data>
+  <data name="DocumentManagerStringId.NoPreviewAvailableText" xml:space="preserve">
+    <value>没有可用的预览</value>
+  </data>
+  <data name="DocumentManagerStringId.TabbedViewLayoutModeChangingDialogCaption" xml:space="preserve">
+    <value>禁用 FreeLayoutMode</value>
+  </data>
+  <data name="DocumentManagerStringId.TabbedViewLayoutModeChangingDialogText" xml:space="preserve">
+    <value>是你确定你想要应用默认的线性布局模式？</value>
+  </data>
+  <data name="DocumentManagerStringId.BarManagerCustomizationFormWarningCaption" xml:space="preserve">
+    <value>信息</value>
+  </data>
+</root>

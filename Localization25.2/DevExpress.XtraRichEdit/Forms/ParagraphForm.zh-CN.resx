@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblDirection.AccessibleName" xml:space="preserve">
+    <value>大纲级别</value>
+  </data>
+  <data name="dontHyphenate.Properties.Caption" xml:space="preserve">
+    <value>不要用连字符号连接(&amp;D)</value>
+  </data>
+  <data name="btnCancel.AccessibleName" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btnTabs.AccessibleName" xml:space="preserve">
+    <value>制表位</value>
+  </data>
+  <data name="btnTabs.Text" xml:space="preserve">
+    <value>制表位(&amp;T)...</value>
+  </data>
+  <data name="btnOk.AccessibleName" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="suppressLineNumbers.Properties.Caption" xml:space="preserve">
+    <value>禁止行号(&amp;S)</value>
+  </data>
+  <data name="labelControl5.Text" xml:space="preserve">
+    <value>格式设置异常</value>
+  </data>
+  <data name="chkPageBreakBefore.Properties.AccessibleName" xml:space="preserve">
+    <value>前分页</value>
+  </data>
+  <data name="chkPageBreakBefore.Properties.Caption" xml:space="preserve">
+    <value>前分页</value>
+  </data>
+  <data name="chkKeepWithNext.Properties.Caption" xml:space="preserve">
+    <value>保持与下一个(&amp;X)</value>
+  </data>
+  <data name="chkKeepLinesTogether.Properties.AccessibleName" xml:space="preserve">
+    <value>保持所有线</value>
+  </data>
+  <data name="chkKeepLinesTogether.Properties.Caption" xml:space="preserve">
+    <value>保持所有线</value>
+  </data>
+  <data name="chkWidowOrphanControl.Properties.AccessibleName" xml:space="preserve">
+    <value>孤行控制</value>
+  </data>
+  <data name="chkWidowOrphanControl.Properties.Caption" xml:space="preserve">
+    <value>孤行控制(&amp;O)</value>
+  </data>
+  <data name="labelControl4.Text" xml:space="preserve">
+    <value>分页</value>
+  </data>
+  <data name="chkContextualSpacing.Properties.AccessibleName" xml:space="preserve">
+    <value>不要在相同的段落之间添加空格</value>
+  </data>
+  <data name="chkContextualSpacing.Properties.Caption" xml:space="preserve">
+    <value>不要在相同的段落之间添加空格</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>间距</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>缩进</value>
+  </data>
+  <data name="radioDirection.Properties.Items1" xml:space="preserve">
+    <value>从左到右</value>
+  </data>
+  <data name="radioDirection.Properties.Items3" xml:space="preserve">
+    <value>从左到右</value>
+  </data>
+  <data name="edtOutlineLevel.Properties.AccessibleName" xml:space="preserve">
+    <value>大纲级别</value>
+  </data>
+  <data name="lblOutlineLevel.AccessibleName" xml:space="preserve">
+    <value>大纲级别</value>
+  </data>
+  <data name="lblOutlineLevel.Text" xml:space="preserve">
+    <value>大纲级别:</value>
+  </data>
+  <data name="edtAlignment.Properties.AccessibleName" xml:space="preserve">
+    <value>对齐方式：</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="lblAlignment.AccessibleName" xml:space="preserve">
+    <value>对齐方式：</value>
+  </data>
+  <data name="lblAlignment.Text" xml:space="preserve">
+    <value>对齐方式(&amp;G)：</value>
+  </data>
+  <data name="indentsAndSpacing.Text" xml:space="preserve">
+    <value>缩进和间距</value>
+  </data>
+  <data name="lineAndPageBreaks.Text" xml:space="preserve">
+    <value>行和分页</value>
+  </data>
+  <data name="lblDirection.Text" xml:space="preserve">
+    <value>方向:</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>段落</value>
+  </data>
+</root>

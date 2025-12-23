@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SharedStrings_Email" xml:space="preserve">
+    <value>电子邮箱地址</value>
+  </data>
+  <data name="SharedStrings_Table_EditButton" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="SharedStrings_Table_DeleteButton" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="SharedStrings_Table_CancelButton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="SharedStrings_Table_SaveButton" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SharedStrings_YesNoValues_Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="SharedStrings_YesNoValues_No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="ChangePassword_Title" xml:space="preserve">
+    <value>更改密码</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword" xml:space="preserve">
+    <value>当前密码</value>
+  </data>
+  <data name="ChangePassword_NewPassword" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="Document_SortType_ByName" xml:space="preserve">
+    <value>按名称排序</value>
+  </data>
+  <data name="Document_SortType_ByCategory" xml:space="preserve">
+    <value>排序类别排序日期修改</value>
+  </data>
+  <data name="Document_SortType_ByDateModified" xml:space="preserve">
+    <value>按修改日期排序</value>
+  </data>
+  <data name="Document_AddOperation" xml:space="preserve">
+    <value>添加文档</value>
+  </data>
+  <data name="Document_AddOperation_AddDashboard" xml:space="preserve">
+    <value>添加仪表板</value>
+  </data>
+  <data name="Document_AddOperation_AddReport" xml:space="preserve">
+    <value>添加报告</value>
+  </data>
+  <data name="Add_Category" xml:space="preserve">
+    <value>添加类别</value>
+  </data>
+  <data name="Document_Filter_AllDocuments" xml:space="preserve">
+    <value>所有文档</value>
+  </data>
+  <data name="Document_Filter_Reports" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="Document_Filter_Dashboards" xml:space="preserve">
+    <value>仪表板</value>
+  </data>
+  <data name="Document_Rename" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="Document_Preview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="Document_Edit" xml:space="preserve">
+    <value>在设计器中编辑</value>
+  </data>
+  <data name="Document_History" xml:space="preserve">
+    <value>历史</value>
+  </data>
+  <data name="Document_GeneratedDocuments" xml:space="preserve">
+    <value>生成的文档</value>
+  </data>
+  <data name="Document_Category" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="Document_ChangeCategory" xml:space="preserve">
+    <value>更改类别</value>
+  </data>
+  <data name="Document_NumberSelected" xml:space="preserve">
+    <value>{0} 个文档被选中</value>
+  </data>
+  <data name="Category_NumberSelected" xml:space="preserve">
+    <value>{0}个类别被选中</value>
+  </data>
+  <data name="Document_Delete_DialogTitle" xml:space="preserve">
+    <value>删除文档</value>
+  </data>
+  <data name="Document_Delete_DialogContent" xml:space="preserve">
+    <value>确定要删除此文档吗？</value>
+  </data>
+  <data name="Document_DeleteMultiple_DialogTitle" xml:space="preserve">
+    <value>删除文档</value>
+  </data>
+  <data name="Document_DeleteMultiple_DialogContent" xml:space="preserve">
+    <value>确定要删除选定的文档吗？</value>
+  </data>
+  <data name="Document_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Documents_Delete" xml:space="preserve">
+    <value>删除文档</value>
+  </data>
+  <data name="Categories_Delete" xml:space="preserve">
+    <value>删除类别</value>
+  </data>
+  <data name="Category_Delete" xml:space="preserve">
+    <value>删除类别</value>
+  </data>
+  <data name="Document_List_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Document_List_DocumentType" xml:space="preserve">
+    <value>文档类型</value>
+  </data>
+  <data name="Document_List_Category" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="Document_List_Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Document_List_Report" xml:space="preserve">
+    <value>报表</value>
+  </data>
+  <data name="Document_List_Preview" xml:space="preserve">
+    <value>预览 {0}</value>
+  </data>
+  <data name="Document_Filter_ByCategory" xml:space="preserve">
+    <value>仅显示此类别</value>
+  </data>
+  <data name="Document_Filter_ByAllCategories" xml:space="preserve">
+    <value>显示所有类别</value>
+  </data>
+  <data name="Revision_Rollback_DialogTitle" xml:space="preserve">
+    <value>回滚到修订版</value>
+  </data>
+  <data name="Revision_Rollback_DialogContent" xml:space="preserve">
+    <value>您确定要回滚到此修订版吗？</value>
+  </data>
+  <data name="Revision_Username" xml:space="preserve">
+    <value>用户名称</value>
+  </data>
+  <data name="Revision_Comment" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="Revision_Date" xml:space="preserve">
+    <value>修订日期</value>
+  </data>
+  <data name="Dialog_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Dialog_OK" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Dialog_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Dialog_Apply" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="Categories_DialogTitle" xml:space="preserve">
+    <value>产品分类</value>
+  </data>
+  <data name="Categories_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Categories_NewButton" xml:space="preserve">
+    <value>新建类别</value>
+  </data>
+  <data name="Categories_Delete_DialogTitle" xml:space="preserve">
+    <value>删除类别</value>
+  </data>
+  <data name="Categories_Delete_DialogContent" xml:space="preserve">
+    <value>确定要永久删除此类别吗？</value>
+  </data>
+  <data name="Categories_DeleteMultiple_DialogContent" xml:space="preserve">
+    <value>确定要删除选定的类别？</value>
+  </data>
+  <data name="Document_Rename_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Document_Rename_Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Document_Rename_DialogTitle" xml:space="preserve">
+    <value>重命名文档</value>
+  </data>
+  <data name="GeneratedDocuments_Count" xml:space="preserve">
+    <value>{0} 个文档已发送 {1}</value>
+  </data>
+  <data name="GeneratedDocuments_Recipients" xml:space="preserve">
+    <value>收件人</value>
+  </data>
+  <data name="GeneratedDocuments_NoRecipients" xml:space="preserve">
+    <value>无收件人</value>
+  </data>
+  <data name="GeneratedDocuments_Open" xml:space="preserve">
+    <value>打开文档</value>
+  </data>
+  <data name="GeneratedDocuments_InProgress" xml:space="preserve">
+    <value>正在进行中...</value>
+  </data>
+  <data name="GeneratedDocuments_Suspended" xml:space="preserve">
+    <value>暂停...</value>
+  </data>
+  <data name="GeneratedDocuments_NoDocuments" xml:space="preserve">
+    <value>没有要显示的文档.</value>
+  </data>
+  <data name="Job_StartNotification" xml:space="preserve">
+    <value>0} 作业已启动</value>
+  </data>
+  <data name="MultipleJobs_StartNotification" xml:space="preserve">
+    <value>所选作业已启动</value>
+  </data>
+  <data name="Job_AddOperation" xml:space="preserve">
+    <value>添加作业</value>
+  </data>
+  <data name="Job_AddOperation_AddJob" xml:space="preserve">
+    <value>添加作业</value>
+  </data>
+  <data name="Job_AddOperation_AddBillingStatement" xml:space="preserve">
+    <value>添加帐单</value>
+  </data>
+  <data name="Job_List_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Job_List_Document" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="Job_List_NextRun" xml:space="preserve">
+    <value>下一次运行</value>
+  </data>
+  <data name="Job_SortType_ByJobName" xml:space="preserve">
+    <value>按作业名称排序</value>
+  </data>
+  <data name="Job_SortType_ByDocumentName" xml:space="preserve">
+    <value>按文档名称排序</value>
+  </data>
+  <data name="Job_SortType_ByJobType" xml:space="preserve">
+    <value>按作业类型排序</value>
+  </data>
+  <data name="Job_SortType_ByDateModified" xml:space="preserve">
+    <value>按修改日期排序</value>
+  </data>
+  <data name="Job_SortType_ByNextStart" xml:space="preserve">
+    <value>开始下一个</value>
+  </data>
+  <data name="JobWizard_PageTitle_GeneralProperties" xml:space="preserve">
+    <value>常规属性</value>
+  </data>
+  <data name="JobWizard_PageTitle_DocumentParameters" xml:space="preserve">
+    <value>文档参数</value>
+  </data>
+  <data name="JobWizard_PageTitle_EmailSettings" xml:space="preserve">
+    <value>电子邮件设置</value>
+  </data>
+  <data name="JobWizard_PageTitle_EmailRecipients" xml:space="preserve">
+    <value>电子邮件收件人</value>
+  </data>
+  <data name="JobWizard_PageTitle_ExportToFileSystem" xml:space="preserve">
+    <value>导出到文件系统</value>
+  </data>
+  <data name="Job_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Job_Execute" xml:space="preserve">
+    <value>立即执行</value>
+  </data>
+  <data name="Job_ExecuteAll" xml:space="preserve">
+    <value>全部执行</value>
+  </data>
+  <data name="Job_Enable" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="Job_Disable" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="Job_ViewDocument" xml:space="preserve">
+    <value>查看文档</value>
+  </data>
+  <data name="Job_GeneratedDocuments" xml:space="preserve">
+    <value>生成的文档</value>
+  </data>
+  <data name="Job_InternalSubscribers" xml:space="preserve">
+    <value>内部订阅者</value>
+  </data>
+  <data name="Job_ExternalSubscribers" xml:space="preserve">
+    <value>外部订阅者</value>
+  </data>
+  <data name="Job_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Job_NumberSelected" xml:space="preserve">
+    <value>{0} 个作业被选中</value>
+  </data>
+  <data name="Job_Delete_DialogTitle" xml:space="preserve">
+    <value>删除作业</value>
+  </data>
+  <data name="Job_Delete_DialogContent" xml:space="preserve">
+    <value>确定要删除此作业吗？</value>
+  </data>
+  <data name="Job_DeleteMultiple_DialogTitle" xml:space="preserve">
+    <value>删除作业</value>
+  </data>
+  <data name="Job_DeleteMultiple_DialogContent" xml:space="preserve">
+    <value>确定要删除选定的作业吗？</value>
+  </data>
+  <data name="Job_Enable_DialogTitle" xml:space="preserve">
+    <value>启用作业</value>
+  </data>
+  <data name="Job_Disable_DialogTitle" xml:space="preserve">
+    <value>禁用作业</value>
+  </data>
+  <data name="Job_Enable_DialogContent" xml:space="preserve">
+    <value>确实要启用此作业吗？</value>
+  </data>
+  <data name="Job_Disable_DialogContent" xml:space="preserve">
+    <value>确定要禁用此作业吗？</value>
+  </data>
+  <data name="JobWizard_Title" xml:space="preserve">
+    <value>计划新作业</value>
+  </data>
+  <data name="JobWizard_Previous" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="JobWizard_Next" xml:space="preserve">
+    <value>下一个</value>
+  </data>
+  <data name="JobWizard_Finish" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="JobWizard_GeneralPage_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="JobWizard_GeneralPage_Document" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="JobWizard_GeneralPage_RetentionPeriod" xml:space="preserve">
+    <value>保留期限（天）</value>
+  </data>
+  <data name="JobWizard_GeneralPage_SelectDocument" xml:space="preserve">
+    <value>选择一个文档...</value>
+  </data>
+  <data name="JobWizard_GeneralPage_Document_LastModifiedBy" xml:space="preserve">
+    <value>最后修改者</value>
+  </data>
+  <data name="JobWizard_GeneralPage_Document_Preview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="JobWizard_GeneralPage_DataModel" xml:space="preserve">
+    <value>数据模型</value>
+  </data>
+  <data name="JobWizard_GeneralPage_DataMember" xml:space="preserve">
+    <value>数据成员</value>
+  </data>
+  <data name="JobWizard_GeneralPage_EmailAddressField" xml:space="preserve">
+    <value>电子邮件地址栏</value>
+  </data>
+  <data name="JobWizard_GeneralPage_EmailRecipientField" xml:space="preserve">
+    <value>电子邮件收件人字段</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_ParameterValueType_Static" xml:space="preserve">
+    <value>静态</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_ParameterValueType_Calculated" xml:space="preserve">
+    <value>已计算</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_NoParameters" xml:space="preserve">
+    <value>文档没有参数。</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousTask" xml:space="preserve">
+    <value>上个季度开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousQuarter" xml:space="preserve">
+    <value>上个季度开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousMonth" xml:space="preserve">
+    <value>上个月开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousWeek" xml:space="preserve">
+    <value>上周开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousDay" xml:space="preserve">
+    <value>前一天的开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfPreviousYear" xml:space="preserve">
+    <value>上一年开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfCurrentQuarter" xml:space="preserve">
+    <value>本季度开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfCurrentMonth" xml:space="preserve">
+    <value>本月开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfCurrentWeek" xml:space="preserve">
+    <value>本周开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfCurrentDay" xml:space="preserve">
+    <value>从今天开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfCurrentYear" xml:space="preserve">
+    <value>本年度开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfNextQuarter" xml:space="preserve">
+    <value>下个季度开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfNextMonth" xml:space="preserve">
+    <value>下个月开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfNextWeek" xml:space="preserve">
+    <value>下周开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfNextDay" xml:space="preserve">
+    <value>第二天开始</value>
+  </data>
+  <data name="JobWizard_DocumentParametersPage_CalculatedDateTimeValue_StartOfNextYear" xml:space="preserve">
+    <value>明年开始</value>
+  </data>
+  <data name="JobWizard_SchedulePage_StartDate" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="JobWizard_SchedulePage_RunOnce" xml:space="preserve">
+    <value>运行一次</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_DeliveryFormat" xml:space="preserve">
+    <value>文档格式</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_DeliveryFormat_Url" xml:space="preserve">
+    <value>文档预览网址</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_DeliveryFormat_Pdf" xml:space="preserve">
+    <value>附PDF</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_DeliveryFormat_Excel" xml:space="preserve">
+    <value>附加的Excel工作簿</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_DeliveryFormat_Html" xml:space="preserve">
+    <value>嵌入式HTML</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_SendAs" xml:space="preserve">
+    <value>发送方式</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_SendAsFormat_IndividualEmails" xml:space="preserve">
+    <value>个人电子邮件</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_SendAsFormat_OneEmail" xml:space="preserve">
+    <value>向多个收件人发送一封电子邮件</value>
+  </data>
+  <data name="JobWizard_EmailDeliveryPage_SendBlankDocument" xml:space="preserve">
+    <value>发送空白文档</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_Username" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_FirstName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_LastName" xml:space="preserve">
+    <value>姓氏</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_Email" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_AccountType" xml:space="preserve">
+    <value>账户类型</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_FilterTooltip_All" xml:space="preserve">
+    <value>全部显示</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_InternalSubscribers_FilterTooltip_Selected" xml:space="preserve">
+    <value>仅显示所选</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_ExternalSubscribers_Placeholder" xml:space="preserve">
+    <value>键入逗号分隔的外部订阅者电子邮件地址...</value>
+  </data>
+  <data name="JobWizard_EmailRecepientsPage_ExternalSubscribers_ValidationMessage" xml:space="preserve">
+    <value>格式无效。输入以逗号分隔的有效电子邮件地址.</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_FilesToExport" xml:space="preserve">
+    <value>要导出的文件</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_FilesToExport_Placeholder" xml:space="preserve">
+    <value>输入文件路径，以逗号分隔…</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_Example" xml:space="preserve">
+    <value>示例：\\someServer\ReportsByYear#Year#\Sales#Month##Day#.pdf</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_ShowMore" xml:space="preserve">
+    <value>显示更多</value>
+  </data>
+  <data name="JobWizard_ExportToFileSystemPage_Info" xml:space="preserve">
+    <value>您可以在文件夹和/或文件名中使用以下占位符，以在导出过程中将其转换为当前日期/时间值：&lt;br /&gt; &lt;ul&gt; &lt;li&gt;＃Year＃-四位数； &lt;/ li&gt; &lt;li&gt; ＃Month＃-两位数字; &lt;/ li&gt; &lt;li&gt;＃Day＃-两位数字; &lt;/ li&gt; &lt;li&gt;＃Hour＃-两位数字（24小时格式）; &lt;/ li&gt; &lt;li&gt; #Minute ＃-两位数字。&lt;/ li&gt; &lt;/ ul&gt;支持的导出格式：&lt;ul&gt; &lt;li&gt;报告– CSV，DOCX，HTML，MHT，PDF，RTF，TXT，XLS，XLSX &lt;/ li&gt; &lt;li&gt;仪表板– PDF，PNG，XLSX &lt;/ li&gt; &lt;/ ul&gt;</value>
+  </data>
+  <data name="User_List_Username" xml:space="preserve">
+    <value>用户名称</value>
+  </data>
+  <data name="Document_List_ShowCategories" xml:space="preserve">
+    <value>显示类别</value>
+  </data>
+  <data name="Document_List_HideCategories" xml:space="preserve">
+    <value>隐藏类别</value>
+  </data>
+  <data name="User_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="User_Permissions" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="User_AccountStatus_Activate" xml:space="preserve">
+    <value>激活</value>
+  </data>
+  <data name="User_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Group_Permissions" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="Group_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Group_Delete_DialogTitle" xml:space="preserve">
+    <value>删除组</value>
+  </data>
+  <data name="Group_Delete_DialogContent" xml:space="preserve">
+    <value>确定要删除此组吗？</value>
+  </data>
+  <data name="Permissions_Title" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="Permissions_New" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="Permissions_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Permissions_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Permissions_Scope" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="Permissions_Group" xml:space="preserve">
+    <value>分组</value>
+  </data>
+  <data name="Permissions_EntityName" xml:space="preserve">
+    <value>实体名称</value>
+  </data>
+  <data name="Permissions_AccessType" xml:space="preserve">
+    <value>访问类型</value>
+  </data>
+  <data name="Permissions_Delete_DialogTitle" xml:space="preserve">
+    <value>删除权限</value>
+  </data>
+  <data name="Permissions_Delete_DialogContent" xml:space="preserve">
+    <value>确实要删除选定的权限吗？</value>
+  </data>
+  <data name="User_Edit_Username" xml:space="preserve">
+    <value>用户名称</value>
+  </data>
+  <data name="User_Edit_UpdateButton" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="User_Edit_NewGroupButton" xml:space="preserve">
+    <value>新建组</value>
+  </data>
+  <data name="Entity_Selector_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Document_Selector_DocumentName" xml:space="preserve">
+    <value>文档名称</value>
+  </data>
+  <data name="Document_Selector_DocumentType" xml:space="preserve">
+    <value>文档类型</value>
+  </data>
+  <data name="Document_Selector_DocumentCategory" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="AccessType_Create" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="AccessType_Read" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="AccessType_Modify" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="AccessType_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="PermissionScope_AllCategories" xml:space="preserve">
+    <value>所有分类</value>
+  </data>
+  <data name="PermissionScope_Category" xml:space="preserve">
+    <value>特定类别</value>
+  </data>
+  <data name="PermissionScope_AllDocuments" xml:space="preserve">
+    <value>所有文件</value>
+  </data>
+  <data name="PermissionScope_Document" xml:space="preserve">
+    <value>具体文件</value>
+  </data>
+  <data name="PermissionScope_AllDataModels" xml:space="preserve">
+    <value>所有数据模型</value>
+  </data>
+  <data name="SharedStrings_NoItemsSelected" xml:space="preserve">
+    <value>未选择任何项目</value>
+  </data>
+  <data name="SharedStrings_Loading" xml:space="preserve">
+    <value>加载...</value>
+  </data>
+  <data name="SharedStrings_SelectAll" xml:space="preserve">
+    <value>选择所有</value>
+  </data>
+  <data name="LicenseStatus_Type_Trial" xml:space="preserve">
+    <value>试用版</value>
+  </data>
+  <data name="LicenseStatus_Type_Registered" xml:space="preserve">
+    <value>已注册</value>
+  </data>
+  <data name="ServerSettings_AuthenticationType_ReportServer" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="ServerSettings_AuthenticationType_Windows" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="ServerSettings_General_SiteURL" xml:space="preserve">
+    <value>网站网址</value>
+  </data>
+  <data name="ServerSettings_General_Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="ServerSettings_Email_UserName" xml:space="preserve">
+    <value>用户名称</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Format_Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="ServerSettings_OpenIDConnect_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ServerSettings_WsFederation_AppIdUri" xml:space="preserve">
+    <value>应用 id uri</value>
+  </data>
+  <data name="ServerSettings_WsFederation_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ServerSettings_WebSiteRestartRequest" xml:space="preserve">
+    <value>重新启动网站以应用新设置.</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Subject_Placeholder" xml:space="preserve">
+    <value>在此处键入电子邮件主题...</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Body_Placeholder" xml:space="preserve">
+    <value>在此处键入电子邮件正文...</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Name_ActivateAccountRequest" xml:space="preserve">
+    <value>账户激活</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Name_ScheduledDocumentError" xml:space="preserve">
+    <value>作业错误</value>
+  </data>
+  <data name="ServerSettings_EmailTemplates_Name_ScheduledDocumentAttachment" xml:space="preserve">
+    <value>附加的生成的文档</value>
+  </data>
+  <data name="ServerSettings_SelfSignUp_UserGroup" xml:space="preserve">
+    <value>选择用户组...</value>
+  </data>
+  <data name="DataModel_New_DialogTitle" xml:space="preserve">
+    <value>新建数据模型</value>
+  </data>
+  <data name="DataModel_Edit_DialogTitle" xml:space="preserve">
+    <value>编辑数据模型</value>
+  </data>
+  <data name="DataModel_EditSchema_DialogTitle" xml:space="preserve">
+    <value>编辑数据模型架构</value>
+  </data>
+  <data name="DataModel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DataModel_Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="DataModel_Provider" xml:space="preserve">
+    <value>提供程序</value>
+  </data>
+  <data name="DataModel_ConnectionString" xml:space="preserve">
+    <value>连接字符串</value>
+  </data>
+  <data name="DataModel_Server" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="DataModel_Username" xml:space="preserve">
+    <value>用户名称</value>
+  </data>
+  <data name="DataModel_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="DataModel_Database" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="DataModel_AdditionalParameters" xml:space="preserve">
+    <value>其他参数</value>
+  </data>
+  <data name="DataModel_Authentication" xml:space="preserve">
+    <value>验证码</value>
+  </data>
+  <data name="DataModel_Port" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="DataModel_WindowsAuthentication" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="DataModel_ServerAuthentication" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="DataModel_Tables" xml:space="preserve">
+    <value>表格</value>
+  </data>
+  <data name="DataModel_Procedures" xml:space="preserve">
+    <value>存储过程</value>
+  </data>
+  <data name="DataModel_Queries" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="DataModel_Fields" xml:space="preserve">
+    <value>字段</value>
+  </data>
+  <data name="DataModel_Columns" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="DataModel_NoColumns_Placeholder" xml:space="preserve">
+    <value>选择一个表以查看其列</value>
+  </data>
+  <data name="DataModel_NoFields_Placeholder" xml:space="preserve">
+    <value>选择要查看字段的过程</value>
+  </data>
+  <data name="DataModel_ProcedureHasNoFields" xml:space="preserve">
+    <value>存储过程没有结果集</value>
+  </data>
+  <data name="DataModel_NoQueriesExist" xml:space="preserve">
+    <value>数据模型不包含任何查询</value>
+  </data>
+  <data name="DataModel_NewQuery_Button" xml:space="preserve">
+    <value>新查询</value>
+  </data>
+  <data name="DataModel_EditQuery_Button" xml:space="preserve">
+    <value>编辑查询</value>
+  </data>
+  <data name="DataModel_DeleteQuery_Button" xml:space="preserve">
+    <value>删除查询</value>
+  </data>
+  <data name="DataModel_Query_Delete_DialogTitle" xml:space="preserve">
+    <value>删除查询</value>
+  </data>
+  <data name="DataModel_Query_Delete_DialogContent" xml:space="preserve">
+    <value>您确定要永久删除此查询吗？</value>
+  </data>
+  <data name="DataModel_SecurityWarning" xml:space="preserve">
+    <value>安全警告: 报表和仪表板服务器的数据库不加密数据模型配置 (包括连接凭据)</value>
+  </data>
+  <data name="DataModel_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="DataModel_Delete_DialogTitle" xml:space="preserve">
+    <value>删除数据模型</value>
+  </data>
+  <data name="DataModel_Delete_DialogContent" xml:space="preserve">
+    <value>确实要永久删除此数据模型吗？</value>
+  </data>
+  <data name="DataModel_DeleteMultiple_DialogTitle" xml:space="preserve">
+    <value>删除数据模型</value>
+  </data>
+  <data name="DataModel_DeleteMultiple_DialogContent" xml:space="preserve">
+    <value>确实要永久删除选定的数据模型吗？</value>
+  </data>
+  <data name="DataModel_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DataModel_NumberSelected" xml:space="preserve">
+    <value>{0} 个数据模型被选中</value>
+  </data>
+  <data name="DataModel_Add" xml:space="preserve">
+    <value>添加数据模型</value>
+  </data>
+  <data name="DataModel_SortType_ByName" xml:space="preserve">
+    <value>按名称排序</value>
+  </data>
+  <data name="DataModel_SortType_ByDescription" xml:space="preserve">
+    <value>按说明排序</value>
+  </data>
+  <data name="DataModel_SortType_ByDateModified" xml:space="preserve">
+    <value>按修改日期排序</value>
+  </data>
+  <data name="SharedStrings_SearchBox_Placeholder" xml:space="preserve">
+    <value>搜索。。。</value>
+  </data>
+  <data name="DataModel_SaveSelection_DialogTitle" xml:space="preserve">
+    <value>保存所选内容</value>
+  </data>
+  <data name="DataModel_SaveSelection_DialogContent" xml:space="preserve">
+    <value>是否要保存所选内容？</value>
+  </data>
+  <data name="AppSection_Documents" xml:space="preserve">
+    <value>文档资料</value>
+  </data>
+  <data name="AppSection_DataModels" xml:space="preserve">
+    <value>数据模型</value>
+  </data>
+  <data name="AppSection_Scheduling" xml:space="preserve">
+    <value>排程</value>
+  </data>
+  <data name="AppSection_Users" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="AppSection_LogOut" xml:space="preserve">
+    <value>注销</value>
+  </data>
+  <data name="ThemeSettings_AccentColor" xml:space="preserve">
+    <value>口音</value>
+  </data>
+  <data name="ThemeSettings_DeleteButtonColor" xml:space="preserve">
+    <value>"删除" 按钮</value>
+  </data>
+  <data name="ThemeSettings_ResetButton" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="ThemeSettings_TextColor" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="FileUpload_ExceedsMaximumSize" xml:space="preserve">
+    <value>文件超过 {0} 字节.</value>
+  </data>
+  <data name="FileUpload_GeneralError" xml:space="preserve">
+    <value>读取文件时出错.</value>
+  </data>
+  <data name="FileUpload_WrongImageFormat" xml:space="preserve">
+    <value>不支持的图像格式.</value>
+  </data>
+  <data name="Branding_CustomTitle" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="Branding_SiteURL" xml:space="preserve">
+    <value>网站网址</value>
+  </data>
+  <data name="Branding_SiteURL_Placeholder" xml:space="preserve">
+    <value>http://www.yourcompany.com</value>
+  </data>
+  <data name="Branding_CustomLogo" xml:space="preserve">
+    <value>徽标</value>
+  </data>
+  <data name="Branding_SelectImage" xml:space="preserve">
+    <value>选择图像</value>
+  </data>
+  <data name="Branding_DeleteImage" xml:space="preserve">
+    <value>删除图像</value>
+  </data>
+  <data name="ServerSettings_ShowLinkToClassicInterface" xml:space="preserve">
+    <value>显示指向经典界面的链接</value>
+  </data>
+  <data name="SharedStrings_PageNotFound_Error" xml:space="preserve">
+    <value>请求的页面不存在.</value>
+  </data>
+  <data name="GeneratedDocuments_ResultLimitReached" xml:space="preserve">
+    <value>将显示{1}个文档中的第一个{0}。</value>
+  </data>
+  <data name="Dashboard_ExportToXml" xml:space="preserve">
+    <value>导出到 xml</value>
+  </data>
+  <data name="Report_ExportToRepx" xml:space="preserve">
+    <value>导出到 repx</value>
+  </data>
+  <data name="Dialog_No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Dialog_Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="DataModel_DisabledProcedure_Tooltip" xml:space="preserve">
+    <value>不能选择此存储过程, 因为具有相同名称的查询已存在.</value>
+  </data>
+  <data name="DataModel_DisabledTable_Tooltip" xml:space="preserve">
+    <value>无法选择此表, 因为具有相同名称的查询已存在.</value>
+  </data>
+  <data name="ThemeSettings_ReportDesigner" xml:space="preserve">
+    <value>报表设计器</value>
+  </data>
+  <data name="DataModel_CommandTimeout" xml:space="preserve">
+    <value>命令超时 (秒)</value>
+  </data>
+  <data name="DataModel_SetCustomCommandTimeout" xml:space="preserve">
+    <value>设置自定义命令超时</value>
+  </data>
+  <data name="DataModel_Queries_RunQueryBuilder" xml:space="preserve">
+    <value>运行查询生成器</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery" xml:space="preserve">
+    <value>编写自定义 Sql 查询</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery_DialogTitle" xml:space="preserve">
+    <value>编写自定义 Sql 查询</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery_Name_Placeholder" xml:space="preserve">
+    <value>在此处输入查询名称...</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery_Query" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="DataModel_Queries_WriteCustomSqlQuery_Query_Placeholder" xml:space="preserve">
+    <value>在此处键入查询...</value>
+  </data>
+  <data name="Dashboard_AutoRefresh" xml:space="preserve">
+    <value>自动刷新</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_Label" xml:space="preserve">
+    <value>自动刷新间隔</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_10Minutes" xml:space="preserve">
+    <value>10 分钟</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_10Seconds" xml:space="preserve">
+    <value>10秒</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_15Minutes" xml:space="preserve">
+    <value>15 分钟</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_1Hour" xml:space="preserve">
+    <value>1 小时</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_1Minute" xml:space="preserve">
+    <value>1分钟</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_20Seconds" xml:space="preserve">
+    <value>20秒</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_2Minutes" xml:space="preserve">
+    <value>2分钟</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_30Minutes" xml:space="preserve">
+    <value>30 分钟</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_30Seconds" xml:space="preserve">
+    <value>30秒</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_5Minutes" xml:space="preserve">
+    <value>5 分钟</value>
+  </data>
+  <data name="Dashboard_AutoRefresh_Off" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Report_LegacyDataSourceAndScripts_Upgrade" xml:space="preserve">
+    <value>此报表中使用的数据源是使用较旧的Report and Dashboard Server版本创建的。单击“确定”以自动更新此数据源。该报表还包含应手动更新的脚本。有关更多信息，请参见&lt;a style="color:white" target="_blank" href="https://devexpress.com/Support/Center/Question/Details/T511341"&gt; T511341 &lt;/a&gt;。</value>
+  </data>
+  <data name="Report_LegacyDataSource_AutoUpgrade" xml:space="preserve">
+    <value>此报表中使用的数据源是使用较旧的Report and Dashboard Server版本创建的。单击“确定”以自动更新此数据源。</value>
+  </data>
+  <data name="Report_LegacyDataSource_Title" xml:space="preserve">
+    <value>此报表使用较旧的数据源版本。</value>
+  </data>
+  <data name="DataModel_CubeName" xml:space="preserve">
+    <value>多维数据集名称</value>
+  </data>
+  <data name="LicenseStatus_Type_TrialExpired" xml:space="preserve">
+    <value>试用过期</value>
+  </data>
+  <data name="SharedStrings_Group_Mode" xml:space="preserve">
+    <value>分组</value>
+  </data>
+</root>

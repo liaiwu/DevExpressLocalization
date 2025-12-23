@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASPxEditorsStringId.DefaultErrorText" xml:space="preserve">
+    <value>无效的值</value>
+  </data>
+  <data name="ASPxEditorsStringId.RegExValidationErrorText" xml:space="preserve">
+    <value>正则表达式验证失败</value>
+  </data>
+  <data name="ASPxEditorsStringId.RequiredFieldErrorText" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_DropZone" xml:space="preserve">
+    <value>放在这里的图像文件</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_Empty" xml:space="preserve">
+    <value>没有图像</value>
+  </data>
+  <data name="ASPxEditorsStringId.BinaryImage_InvalidData" xml:space="preserve">
+    <value>无效的图像数据</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_OK" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_NextMonthAlt" xml:space="preserve">
+    <value>下个月</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_PrevPeriodAlt" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_NextPeriodAlt" xml:space="preserve">
+    <value>向前</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_FastNavigation_PrevPeriodAlt" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_FastNavigation_NextPeriodAlt" xml:space="preserve">
+    <value>向前</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_FastNavigation_PrevYearAlt" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_FastNavigation_NextYearAlt" xml:space="preserve">
+    <value>向前</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_FastNavigation_HeaderBackAlt" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="ASPxEditorsStringId.Calendar_FastNavigation_HeaderBackRtlAlt" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_CustomColor" xml:space="preserve">
+    <value>自定义颜色...</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ASPxEditorsStringId.ColorEdit_OK" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="ASPxEditorsStringId.TokenBox_TokenRemoveButtonToolTip" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_OK" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_GroupType" xml:space="preserve">
+    <value>与,或,非与,非或</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ClauseType" xml:space="preserve">
+    <value>等于,不等于,大于,大于等于,小于,小于等于,介于,不介于,包含,不包含,开头是,结尾是,类似于,不类似于,为空,不为空,等于以下任一,不等于以下任一,,,Is beyond this year,Is later this year,Is later this month,Is next week,Is later this week,Is tomorrow,Is today,Is yesterday,Is earlier this week,Is last week,Is earlier this month,Is earlier this year,Is prior this year</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_BetweenAnd" xml:space="preserve">
+    <value>与</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Not" xml:space="preserve">
+    <value>Not</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddConditionHint" xml:space="preserve">
+    <value>为当前组添加一个新条件</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_RemoveConditionHint" xml:space="preserve">
+    <value>移除该条件</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddValueHint" xml:space="preserve">
+    <value>为当前列表添加一个新项</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ClearFilter" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_ShowFilterControl" xml:space="preserve">
+    <value>创建过滤器</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddGroup" xml:space="preserve">
+    <value>添加组</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_AddCondition" xml:space="preserve">
+    <value>添加条件</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_Empty" xml:space="preserve">
+    <value>&amp; 这是 ； 空 &amp; gt;</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_PopupHeaderText" xml:space="preserve">
+    <value>过滤器编辑器</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_TextFilterTabCaption" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="ASPxEditorsStringId.FilterControl_DateTimeOperatorMenuCaption" xml:space="preserve">
+    <value>日期运算符</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultImageAlternateText" xml:space="preserve">
+    <value>验证码图片</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_RefreshText" xml:space="preserve">
+    <value>显示另一个代码</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultErrorText" xml:space="preserve">
+    <value>提交的代码不正确</value>
+  </data>
+  <data name="ASPxEditorsStringId.Captcha_DefaultTextBoxLabelText" xml:space="preserve">
+    <value>型所示的代码：</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Checked" xml:space="preserve">
+    <value>选中</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Unchecked" xml:space="preserve">
+    <value>未选中</value>
+  </data>
+  <data name="ASPxEditorsStringId.CheckBox_Undefined" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Increment" xml:space="preserve">
+    <value>增量</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Decrement" xml:space="preserve">
+    <value>递减</value>
+  </data>
+  <data name="ASPxEditorsStringId.TrackBar_Drag" xml:space="preserve">
+    <value>拖</value>
+  </data>
+  <data name="ASPxEditorsStringId.ListBoxFilteringEditorNullText" xml:space="preserve">
+    <value>输入要筛选的文本..。</value>
+  </data>
+  <data name="ASPxEditorsStringId.ListBoxSelectAllText" xml:space="preserve">
+    <value>选择所有</value>
+  </data>
+</root>

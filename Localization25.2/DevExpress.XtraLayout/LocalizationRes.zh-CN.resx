@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LayoutStringId.CustomizationParentName" xml:space="preserve">
+    <value>定制</value>
+  </data>
+  <data name="LayoutStringId.DefaultItemText" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="LayoutStringId.DefaultActionText" xml:space="preserve">
+    <value>默认动作</value>
+  </data>
+  <data name="LayoutStringId.BestFitMenuText" xml:space="preserve">
+    <value>最佳匹配</value>
+  </data>
+  <data name="LayoutStringId.DefaultEmptyText" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="LayoutStringId.LayoutItemDescription" xml:space="preserve">
+    <value>版面设计控制器的项目元素</value>
+  </data>
+  <data name="LayoutStringId.LayoutGroupDescription" xml:space="preserve">
+    <value>版面设计控制器的群组元素</value>
+  </data>
+  <data name="LayoutStringId.TabbedGroupDescription" xml:space="preserve">
+    <value>版面控制器的群组标签页元素</value>
+  </data>
+  <data name="LayoutStringId.LayoutControlDescription" xml:space="preserve">
+    <value>版面控制</value>
+  </data>
+  <data name="LayoutStringId.CustomizationFormTitle" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="LayoutStringId.TreeViewPageTitle" xml:space="preserve">
+    <value>版面布局树状视图</value>
+  </data>
+  <data name="LayoutStringId.HiddenItemsPageTitle" xml:space="preserve">
+    <value>隐藏项目</value>
+  </data>
+  <data name="LayoutStringId.RenameSelected" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="LayoutStringId.HideItemMenutext" xml:space="preserve">
+    <value>隐藏项目</value>
+  </data>
+  <data name="LayoutStringId.LockItemSizeMenuText" xml:space="preserve">
+    <value>锁定项目大小</value>
+  </data>
+  <data name="LayoutStringId.UnLockItemSizeMenuText" xml:space="preserve">
+    <value>解除项目大小锁定</value>
+  </data>
+  <data name="LayoutStringId.GroupItemsMenuText" xml:space="preserve">
+    <value>分组</value>
+  </data>
+  <data name="LayoutStringId.UnGroupItemsMenuText" xml:space="preserve">
+    <value>取消分组</value>
+  </data>
+  <data name="LayoutStringId.CreateTabbedGroupMenuText" xml:space="preserve">
+    <value>创建群组标签页</value>
+  </data>
+  <data name="LayoutStringId.AddTabMenuText" xml:space="preserve">
+    <value>增加标签页</value>
+  </data>
+  <data name="LayoutStringId.UnGroupTabbedGroupMenuText" xml:space="preserve">
+    <value>解除分组标签页设定</value>
+  </data>
+  <data name="LayoutStringId.TreeViewRootNodeName" xml:space="preserve">
+    <value>最上层</value>
+  </data>
+  <data name="LayoutStringId.ShowCustomizationFormMenuText" xml:space="preserve">
+    <value>定制版面</value>
+  </data>
+  <data name="LayoutStringId.HideCustomizationFormMenuText" xml:space="preserve">
+    <value>隐藏自定义布局面板</value>
+  </data>
+  <data name="LayoutStringId.EmptySpaceItemDefaultText" xml:space="preserve">
+    <value>空白区域项目</value>
+  </data>
+  <data name="LayoutStringId.SplitterItemDefaultText" xml:space="preserve">
+    <value>拆分器</value>
+  </data>
+  <data name="LayoutStringId.ControlGroupDefaultText" xml:space="preserve">
+    <value>群组</value>
+  </data>
+  <data name="LayoutStringId.EmptyRootGroupText" xml:space="preserve">
+    <value>拖动控件到此处</value>
+  </data>
+  <data name="LayoutStringId.EmptyTabbedGroupText" xml:space="preserve">
+    <value>将群组拖放到群组标签页区域</value>
+  </data>
+  <data name="LayoutStringId.ResetLayoutMenuText" xml:space="preserve">
+    <value>重设版面</value>
+  </data>
+  <data name="LayoutStringId.RenameMenuText" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="LayoutStringId.TextPositionMenuText" xml:space="preserve">
+    <value>文本位置</value>
+  </data>
+  <data name="LayoutStringId.TextPositionLeftMenuText" xml:space="preserve">
+    <value>左边</value>
+  </data>
+  <data name="LayoutStringId.TextPositionRightMenuText" xml:space="preserve">
+    <value>右边</value>
+  </data>
+  <data name="LayoutStringId.TextPositionTopMenuText" xml:space="preserve">
+    <value>上方</value>
+  </data>
+  <data name="LayoutStringId.TextPositionBottomMenuText" xml:space="preserve">
+    <value>下方</value>
+  </data>
+  <data name="LayoutStringId.ShowTextMenuItem" xml:space="preserve">
+    <value>显示文本</value>
+  </data>
+  <data name="LayoutStringId.HideTextMenuItem" xml:space="preserve">
+    <value>隐藏文本</value>
+  </data>
+  <data name="LayoutStringId.LockSizeMenuItem" xml:space="preserve">
+    <value>锁定大小</value>
+  </data>
+  <data name="LayoutStringId.LockWidthMenuItem" xml:space="preserve">
+    <value>锁定宽度</value>
+  </data>
+  <data name="LayoutStringId.CreateEmptySpaceItem" xml:space="preserve">
+    <value>新建空白区域项</value>
+  </data>
+  <data name="LayoutStringId.LockHeightMenuItem" xml:space="preserve">
+    <value>锁定高度</value>
+  </data>
+  <data name="LayoutStringId.LockMenuGroup" xml:space="preserve">
+    <value>强制限定大小</value>
+  </data>
+  <data name="LayoutStringId.FreeSizingMenuItem" xml:space="preserve">
+    <value>允许改变大小</value>
+  </data>
+  <data name="LayoutStringId.ResetConstraintsToDefaultsMenuItem" xml:space="preserve">
+    <value>重设为默认值</value>
+  </data>
+  <data name="LayoutStringId.UndoButtonHintText" xml:space="preserve">
+    <value>撤消上次操作</value>
+  </data>
+  <data name="LayoutStringId.RedoButtonHintText" xml:space="preserve">
+    <value>重复上次操作</value>
+  </data>
+  <data name="LayoutStringId.SaveButtonHintText" xml:space="preserve">
+    <value>将设置的版面布局保存到XML文件中</value>
+  </data>
+  <data name="LayoutStringId.LoadButtonHintText" xml:space="preserve">
+    <value>从XML文件中加载版面布局</value>
+  </data>
+  <data name="LayoutStringId.LayoutResetConfirmationText" xml:space="preserve">
+    <value>您要重置您的自定义布局.是否要继续?</value>
+  </data>
+  <data name="LayoutStringId.LayoutResetConfirmationDialogCaption" xml:space="preserve">
+    <value>重置布局确认</value>
+  </data>
+  <data name="LayoutStringId.UndoHintCaption" xml:space="preserve">
+    <value>撤消(Ctrl+Z)</value>
+  </data>
+  <data name="LayoutStringId.RedoHintCaption" xml:space="preserve">
+    <value>重复(Ctrl+Y)</value>
+  </data>
+  <data name="LayoutStringId.LoadHintCaption" xml:space="preserve">
+    <value>加载(Ctrl+O)</value>
+  </data>
+  <data name="LayoutStringId.SaveHintCaption" xml:space="preserve">
+    <value>保存(Ctrl+S)</value>
+  </data>
+  <data name="LayoutStringId.SimpleLabelItemDefaultText" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="LayoutStringId.SimpleSeparatorItemDefaultText" xml:space="preserve">
+    <value>分隔符</value>
+  </data>
+  <data name="LayoutStringId.HiddenItemsNodeText" xml:space="preserve">
+    <value>隐藏数据项</value>
+  </data>
+  <data name="LayoutStringId.HideSpaceMenuItem" xml:space="preserve">
+    <value>隐藏文本占位符</value>
+  </data>
+  <data name="LayoutStringId.ShowSpaceMenuItem" xml:space="preserve">
+    <value>显示文本占位符</value>
+  </data>
+  <data name="LayoutStringId.CreateTemplate" xml:space="preserve">
+    <value>创建模板</value>
+  </data>
+  <data name="LayoutStringId.ConvertToRegularLayoutText" xml:space="preserve">
+    <value>转换为常规布局</value>
+  </data>
+  <data name="LayoutStringId.ConvertToTableLayoutText" xml:space="preserve">
+    <value>转换为表格布局</value>
+  </data>
+  <data name="LayoutStringId.ConvertToText" xml:space="preserve">
+    <value>转换为</value>
+  </data>
+  <data name="LayoutStringId.FlowLayoutText" xml:space="preserve">
+    <value>流布局</value>
+  </data>
+  <data name="LayoutStringId.RegularLayoutText" xml:space="preserve">
+    <value>常规布局</value>
+  </data>
+  <data name="LayoutStringId.TableLayoutText" xml:space="preserve">
+    <value>表布局</value>
+  </data>
+  <data name="LayoutStringId.DeleteTemplateText" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="LayoutStringId.EditRows" xml:space="preserve">
+    <value>编辑行</value>
+  </data>
+  <data name="LayoutStringId.EditColumns" xml:space="preserve">
+    <value>编辑列</value>
+  </data>
+  <data name="LayoutStringId.AddItem" xml:space="preserve">
+    <value>添加项</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleMenuText" xml:space="preserve">
+    <value>组样式</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleInherited" xml:space="preserve">
+    <value>继承</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleCard" xml:space="preserve">
+    <value>卡</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleLight" xml:space="preserve">
+    <value>光</value>
+  </data>
+  <data name="LayoutStringId.GroupStyleTitle" xml:space="preserve">
+    <value>标题</value>
+  </data>
+</root>

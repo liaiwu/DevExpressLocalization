@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="labelsOnPage.Text" xml:space="preserve">
+    <value>页面上的标签</value>
+  </data>
+  <data name="labelWizardImageControl.HeightText" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="labelWizardImageControl.HorizontalPitchText" xml:space="preserve">
+    <value>水平间距</value>
+  </data>
+  <data name="labelWizardImageControl.LeftMarginText" xml:space="preserve">
+    <value>左边的距</value>
+  </data>
+  <data name="labelWizardImageControl.TopMarginText" xml:space="preserve">
+    <value>上边距</value>
+  </data>
+  <data name="labelWizardImageControl.VerticalPitchText" xml:space="preserve">
+    <value>垂直间距</value>
+  </data>
+  <data name="labelWizardImageControl.WidthText" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="rbMillimeter.Properties.Caption" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="rbInch.Properties.Caption" xml:space="preserve">
+    <value>英寸</value>
+  </data>
+  <data name="bottomMarginLabel.Text" xml:space="preserve">
+    <value>底边距:</value>
+  </data>
+  <data name="rightMarginLabel.Text" xml:space="preserve">
+    <value>右缘:</value>
+  </data>
+  <data name="leftMarginLabel.Text" xml:space="preserve">
+    <value>左缘:</value>
+  </data>
+  <data name="topMarginLabel.Text" xml:space="preserve">
+    <value>上边距(&amp;T):</value>
+  </data>
+  <data name="verticalPitchLabel.Text" xml:space="preserve">
+    <value>垂直高度(&amp;V):</value>
+  </data>
+  <data name="horizontalPitchLabel.Text" xml:space="preserve">
+    <value>水平宽度(&amp;O):</value>
+  </data>
+  <data name="heightLabel.Text" xml:space="preserve">
+    <value>标签高度:</value>
+  </data>
+  <data name="widthLabel.Text" xml:space="preserve">
+    <value>标签宽度:</value>
+  </data>
+  <data name="pageSizeLabel.Text" xml:space="preserve">
+    <value>页面大小(&amp;P):</value>
+  </data>
+  <data name="labelsCountTextLabel.Text" xml:space="preserve">
+    <value>页上的 7 x 10 标签</value>
+  </data>
+</root>

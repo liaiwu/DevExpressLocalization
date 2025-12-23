@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chbFndRegex.Properties.Caption" xml:space="preserve">
+    <value>使用正则表达式</value>
+  </data>
+  <data name="chbFndRegex.Size" xml:space="preserve">
+    <value>106, 19</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btnReplaceNext.Text" xml:space="preserve">
+    <value>替换</value>
+  </data>
+  <data name="btnFindNext.Text" xml:space="preserve">
+    <value>查找下一个(F)</value>
+  </data>
+  <data name="btnReplaceAll.Text" xml:space="preserve">
+    <value>替换所有</value>
+  </data>
+  <data name="chbFndFindWholeWord.Properties.Caption" xml:space="preserve">
+    <value>全字匹配(&amp;Y)</value>
+  </data>
+  <data name="chbFndFindWholeWord.Size" xml:space="preserve">
+    <value>84, 19</value>
+  </data>
+  <data name="chbFndMatchCase.Properties.Caption" xml:space="preserve">
+    <value>区分大小写(H)</value>
+  </data>
+  <data name="chbFndMatchCase.Size" xml:space="preserve">
+    <value>97, 19</value>
+  </data>
+  <data name="cbFndFindDirection.EditValue" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="cbFndFindDirection.Properties.Items" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="cbFndFindDirection.Properties.Items1" xml:space="preserve">
+    <value>向下</value>
+  </data>
+  <data name="cbFndFindDirection.Properties.Items2" xml:space="preserve">
+    <value>向上</value>
+  </data>
+  <data name="lblFndDirection.Location" xml:space="preserve">
+    <value>31, 51</value>
+  </data>
+  <data name="lblFndDirection.Size" xml:space="preserve">
+    <value>30, 13</value>
+  </data>
+  <data name="lblFndDirection.Text" xml:space="preserve">
+    <value>搜索：</value>
+  </data>
+  <data name="lblFndSearchString.Location" xml:space="preserve">
+    <value>7, 19</value>
+  </data>
+  <data name="lblFndSearchString.Size" xml:space="preserve">
+    <value>54, 13</value>
+  </data>
+  <data name="lblFndSearchString.Text" xml:space="preserve">
+    <value>查找内容：</value>
+  </data>
+  <data name="chbRplRegex.Properties.Caption" xml:space="preserve">
+    <value>使用正则表达式</value>
+  </data>
+  <data name="chbRplRegex.Size" xml:space="preserve">
+    <value>106, 19</value>
+  </data>
+  <data name="chbRplFindWholeWord.Properties.Caption" xml:space="preserve">
+    <value>全字匹配(&amp;Y)</value>
+  </data>
+  <data name="chbRplFindWholeWord.Size" xml:space="preserve">
+    <value>84, 19</value>
+  </data>
+  <data name="chbRplMatchCase.Properties.Caption" xml:space="preserve">
+    <value>区分大小写(H)</value>
+  </data>
+  <data name="chbRplMatchCase.Size" xml:space="preserve">
+    <value>97, 19</value>
+  </data>
+  <data name="cbRplFindDirection.EditValue" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="cbRplFindDirection.Properties.Items" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="cbRplFindDirection.Properties.Items1" xml:space="preserve">
+    <value>向下</value>
+  </data>
+  <data name="cbRplFindDirection.Properties.Items2" xml:space="preserve">
+    <value>向上</value>
+  </data>
+  <data name="lblRplDirection.Location" xml:space="preserve">
+    <value>31, 51</value>
+  </data>
+  <data name="lblRplDirection.Size" xml:space="preserve">
+    <value>30, 13</value>
+  </data>
+  <data name="lblRplDirection.Text" xml:space="preserve">
+    <value>搜索：</value>
+  </data>
+  <data name="lblRplReplaceString.Location" xml:space="preserve">
+    <value>267, 19</value>
+  </data>
+  <data name="lblRplReplaceString.Size" xml:space="preserve">
+    <value>42, 13</value>
+  </data>
+  <data name="lblRplReplaceString.Text" xml:space="preserve">
+    <value>替换为：</value>
+  </data>
+  <data name="lblRplSearchString.Location" xml:space="preserve">
+    <value>7, 19</value>
+  </data>
+  <data name="lblRplSearchString.Size" xml:space="preserve">
+    <value>54, 13</value>
+  </data>
+  <data name="lblRplSearchString.Text" xml:space="preserve">
+    <value>查找内容：</value>
+  </data>
+  <data name="pgFind.Text" xml:space="preserve">
+    <value>查找</value>
+  </data>
+  <data name="pgReplace.Text" xml:space="preserve">
+    <value>替换</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>查找和替换</value>
+  </data>
+</root>

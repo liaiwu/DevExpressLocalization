@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnSaveAndClose.Caption" xml:space="preserve">
+    <value>保存和关闭(&amp;S)</value>
+  </data>
+  <data name="btnRecurrence.Caption" xml:space="preserve">
+    <value>重复周期(&amp;U)...</value>
+  </data>
+  <data name="btnDelete.Caption" xml:space="preserve">
+    <value>删除(&amp;D)</value>
+  </data>
+  <data name="btnSpelling.Caption" xml:space="preserve">
+    <value>拼写检查(&amp;P)...</value>
+  </data>
+  <data name="brTools.Text" xml:space="preserve">
+    <value>工具</value>
+  </data>
+  <data name="mActions.Caption" xml:space="preserve">
+    <value>动作(&amp;A)</value>
+  </data>
+  <data name="btnSave.Caption" xml:space="preserve">
+    <value>保存(&amp;S)</value>
+  </data>
+  <data name="btnClose.Caption" xml:space="preserve">
+    <value>关闭(&amp;C)</value>
+  </data>
+  <data name="brMainMenu.Text" xml:space="preserve">
+    <value>主菜单</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" xml:space="preserve">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" xml:space="preserve">
+    <value>552, 420</value>
+  </data>
+  <data name="tabControl.Dock" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl.Location" xml:space="preserve">
+    <value>0, 49</value>
+  </data>
+  <data name="edtResources.Location" xml:space="preserve">
+    <value>390, 114</value>
+  </data>
+  <data name="edtResources.Size" xml:space="preserve">
+    <value>145, 20</value>
+  </data>
+  <data name="edtResources.TabIndex" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;edtResources.Name" xml:space="preserve">
+    <value>edtResources</value>
+  </data>
+  <data name="&gt;&gt;edtResources.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;edtResources.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbLocation.Location" xml:space="preserve">
+    <value>81, 59</value>
+  </data>
+  <data name="tbLocation.Size" xml:space="preserve">
+    <value>226, 20</value>
+  </data>
+  <data name="tbLocation.TabIndex" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.Name" xml:space="preserve">
+    <value>tbLocation</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;tbLocation.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblHorzSeparator1.Location" xml:space="preserve">
+    <value>9, 90</value>
+  </data>
+  <data name="lblHorzSeparator1.Size" xml:space="preserve">
+    <value>526, 13</value>
+  </data>
+  <data name="lblHorzSeparator1.TabIndex" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblHorzSeparator1.Name" xml:space="preserve">
+    <value>lblHorzSeparator1</value>
+  </data>
+  <data name="&gt;&gt;lblHorzSeparator1.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;lblHorzSeparator1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblInfo.Location" xml:space="preserve">
+    <value>9, 9</value>
+  </data>
+  <data name="lblInfo.Size" xml:space="preserve">
+    <value>526, 8</value>
+  </data>
+  <data name="lblInfo.TabIndex" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Name" xml:space="preserve">
+    <value>lblInfo</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblHorzSeparator2.Location" xml:space="preserve">
+    <value>9, 207</value>
+  </data>
+  <data name="lblHorzSeparator2.Size" xml:space="preserve">
+    <value>526, 13</value>
+  </data>
+  <data name="lblHorzSeparator2.TabIndex" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblHorzSeparator2.Name" xml:space="preserve">
+    <value>lblHorzSeparator2</value>
+  </data>
+  <data name="&gt;&gt;lblHorzSeparator2.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;lblHorzSeparator2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tbSubject.Location" xml:space="preserve">
+    <value>81, 28</value>
+  </data>
+  <data name="tbSubject.Size" xml:space="preserve">
+    <value>454, 20</value>
+  </data>
+  <data name="tbSubject.TabIndex" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbSubject.Name" xml:space="preserve">
+    <value>tbSubject</value>
+  </data>
+  <data name="&gt;&gt;tbSubject.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;tbSubject.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="edtLabel.Location" xml:space="preserve">
+    <value>390, 59</value>
+  </data>
+  <data name="edtLabel.Size" xml:space="preserve">
+    <value>145, 20</value>
+  </data>
+  <data name="edtLabel.TabIndex" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;edtLabel.Name" xml:space="preserve">
+    <value>edtLabel</value>
+  </data>
+  <data name="&gt;&gt;edtLabel.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;edtLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="edtStartDate.EditValue" xml:space="preserve">
+    <value>2007-09-12</value>
+  </data>
+  <data name="edtStartDate.Location" xml:space="preserve">
+    <value>81, 114</value>
+  </data>
+  <data name="edtStartDate.Size" xml:space="preserve">
+    <value>127, 20</value>
+  </data>
+  <data name="edtStartDate.TabIndex" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;edtStartDate.Name" xml:space="preserve">
+    <value>edtStartDate</value>
+  </data>
+  <data name="&gt;&gt;edtStartDate.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;edtStartDate.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cbReminder.Location" xml:space="preserve">
+    <value>404, 231</value>
+  </data>
+  <data name="cbReminder.Size" xml:space="preserve">
+    <value>131, 20</value>
+  </data>
+  <data name="cbReminder.TabIndex" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cbReminder.Name" xml:space="preserve">
+    <value>cbReminder</value>
+  </data>
+  <data name="&gt;&gt;cbReminder.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;cbReminder.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="edtResource.Location" xml:space="preserve">
+    <value>390, 145</value>
+  </data>
+  <data name="edtResource.Size" xml:space="preserve">
+    <value>145, 20</value>
+  </data>
+  <data name="edtResource.TabIndex" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;edtResource.Name" xml:space="preserve">
+    <value>edtResource</value>
+  </data>
+  <data name="&gt;&gt;edtResource.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;edtResource.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="edtShowTimeAs.Location" xml:space="preserve">
+    <value>81, 231</value>
+  </data>
+  <data name="edtShowTimeAs.Size" xml:space="preserve">
+    <value>226, 20</value>
+  </data>
+  <data name="edtShowTimeAs.TabIndex" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;edtShowTimeAs.Name" xml:space="preserve">
+    <value>edtShowTimeAs</value>
+  </data>
+  <data name="&gt;&gt;edtShowTimeAs.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;edtShowTimeAs.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="edtEndDate.EditValue" xml:space="preserve">
+    <value>2007-09-12</value>
+  </data>
+  <data name="edtEndDate.Location" xml:space="preserve">
+    <value>81, 176</value>
+  </data>
+  <data name="edtEndDate.Size" xml:space="preserve">
+    <value>127, 20</value>
+  </data>
+  <data name="edtEndDate.TabIndex" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;edtEndDate.Name" xml:space="preserve">
+    <value>edtEndDate</value>
+  </data>
+  <data name="&gt;&gt;edtEndDate.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;edtEndDate.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tbDescription.Location" xml:space="preserve">
+    <value>9, 262</value>
+  </data>
+  <data name="tbDescription.Size" xml:space="preserve">
+    <value>526, 70</value>
+  </data>
+  <data name="tbDescription.TabIndex" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.Name" xml:space="preserve">
+    <value>tbDescription</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;tbDescription.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="edtStartTime.EditValue" xml:space="preserve">
+    <value>2007-09-12</value>
+  </data>
+  <data name="edtStartTime.Location" xml:space="preserve">
+    <value>219, 114</value>
+  </data>
+  <data name="edtStartTime.Size" xml:space="preserve">
+    <value>88, 20</value>
+  </data>
+  <data name="edtStartTime.TabIndex" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;edtStartTime.Name" xml:space="preserve">
+    <value>edtStartTime</value>
+  </data>
+  <data name="&gt;&gt;edtStartTime.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;edtStartTime.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="edtEndTime.EditValue" xml:space="preserve">
+    <value>2007-09-12</value>
+  </data>
+  <data name="edtEndTime.Location" xml:space="preserve">
+    <value>219, 176</value>
+  </data>
+  <data name="edtEndTime.Size" xml:space="preserve">
+    <value>88, 20</value>
+  </data>
+  <data name="edtEndTime.TabIndex" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;edtEndTime.Name" xml:space="preserve">
+    <value>edtEndTime</value>
+  </data>
+  <data name="&gt;&gt;edtEndTime.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;edtEndTime.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="chkAllDay.Location" xml:space="preserve">
+    <value>318, 176</value>
+  </data>
+  <data name="chkAllDay.Properties.Caption" xml:space="preserve">
+    <value>全天时间</value>
+  </data>
+  <data name="chkAllDay.Size" xml:space="preserve">
+    <value>93, 19</value>
+  </data>
+  <data name="chkAllDay.TabIndex" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;chkAllDay.Name" xml:space="preserve">
+    <value>chkAllDay</value>
+  </data>
+  <data name="&gt;&gt;chkAllDay.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;chkAllDay.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="chkReminder.Location" xml:space="preserve">
+    <value>318, 231</value>
+  </data>
+  <data name="chkReminder.Properties.Caption" xml:space="preserve">
+    <value>提醒(&amp;R)</value>
+  </data>
+  <data name="chkReminder.Size" xml:space="preserve">
+    <value>75, 19</value>
+  </data>
+  <data name="chkReminder.TabIndex" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;chkReminder.Name" xml:space="preserve">
+    <value>chkReminder</value>
+  </data>
+  <data name="&gt;&gt;chkReminder.Parent" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;chkReminder.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="layoutCtrl.Dock" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="layoutCtrl.Location" xml:space="preserve">
+    <value>0, 0</value>
+  </data>
+  <data name="layoutControlGroup.CustomizationFormText" xml:space="preserve">
+    <value>控制分组</value>
+  </data>
+  <data name="layoutLocation.CustomizationFormText" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="layoutLocation.Text" xml:space="preserve">
+    <value>地点(&amp;L):</value>
+  </data>
+  <data name="layoutSubject.CustomizationFormText" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="layoutSubject.Text" xml:space="preserve">
+    <value>主题(&amp;J):</value>
+  </data>
+  <data name="layoutLabel.CustomizationFormText" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="layoutLabel.Text" xml:space="preserve">
+    <value>标签：</value>
+  </data>
+  <data name="layoutDescription.CustomizationFormText" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="layoutShowTimeAs.CustomizationFormText" xml:space="preserve">
+    <value>显示为</value>
+  </data>
+  <data name="layoutShowTimeAs.Text" xml:space="preserve">
+    <value>显示为(&amp;W):</value>
+  </data>
+  <data name="layoutAllDay.CustomizationFormText" xml:space="preserve">
+    <value>全天性活动</value>
+  </data>
+  <data name="layoutInfo.CustomizationFormText" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="layoutReminderGroup.CustomizationFormText" xml:space="preserve">
+    <value>提醒分组</value>
+  </data>
+  <data name="layoutChkReminder.CustomizationFormText" xml:space="preserve">
+    <value>设定提醒</value>
+  </data>
+  <data name="layoutReminder.CustomizationFormText" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="layoutStartGroup.CustomizationFormText" xml:space="preserve">
+    <value>起始群组</value>
+  </data>
+  <data name="layoutStartDate.CustomizationFormText" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="layoutStartDate.Text" xml:space="preserve">
+    <value>开始时间(&amp;T):</value>
+  </data>
+  <data name="layoutStartTime.CustomizationFormText" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="layoutEndGroup.CustomizationFormText" xml:space="preserve">
+    <value>结束分组</value>
+  </data>
+  <data name="layoutEndDate.CustomizationFormText" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="layoutEndDate.Text" xml:space="preserve">
+    <value>结束时间(&amp;E):</value>
+  </data>
+  <data name="layoutEndTime.CustomizationFormText" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="layoutEndGroup.Text" xml:space="preserve">
+    <value>结束分组</value>
+  </data>
+  <data name="layoutResourcesGroup.CustomizationFormText" xml:space="preserve">
+    <value>资源分组</value>
+  </data>
+  <data name="layoutResources.CustomizationFormText" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="layoutResources.Text" xml:space="preserve">
+    <value>资源(&amp;O):</value>
+  </data>
+  <data name="layoutResource.CustomizationFormText" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="layoutResource.Text" xml:space="preserve">
+    <value>资源(&amp;O):</value>
+  </data>
+  <data name="layoutResourcesGroup.Text" xml:space="preserve">
+    <value>资源分组</value>
+  </data>
+  <data name="layoutHorzSeparator1.CustomizationFormText" xml:space="preserve">
+    <value>水平分割线1</value>
+  </data>
+  <data name="layoutHorzSeparator2.CustomizationFormText" xml:space="preserve">
+    <value>水平分隔线2</value>
+  </data>
+  <data name="emptySpaceItem1.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="layoutControlGroup.Text" xml:space="preserve">
+    <value>控制分组</value>
+  </data>
+  <data name="layoutCtrl.Size" xml:space="preserve">
+    <value>543, 340</value>
+  </data>
+  <data name="layoutCtrl.TabIndex" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;layoutCtrl.Name" xml:space="preserve">
+    <value>layoutCtrl</value>
+  </data>
+  <data name="&gt;&gt;layoutCtrl.Parent" xml:space="preserve">
+    <value>tpAppointment</value>
+  </data>
+  <data name="&gt;&gt;layoutCtrl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpAppointment.Size" xml:space="preserve">
+    <value>543, 340</value>
+  </data>
+  <data name="tpAppointment.Text" xml:space="preserve">
+    <value>约会</value>
+  </data>
+  <data name="&gt;&gt;tpAppointment.Name" xml:space="preserve">
+    <value>tpAppointment</value>
+  </data>
+  <data name="&gt;&gt;tpAppointment.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tpAppointment.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl.Size" xml:space="preserve">
+    <value>552, 371</value>
+  </data>
+  <data name="tabControl.TabIndex" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.MinimumSize" xml:space="preserve">
+    <value>560, 454</value>
+  </data>
+  <data name="$this.StartPosition" xml:space="preserve">
+    <value>CenterParent</value>
+  </data>
+  <data name="&gt;&gt;barManager.Name" xml:space="preserve">
+    <value>barManager</value>
+  </data>
+  <data name="&gt;&gt;brTools.Name" xml:space="preserve">
+    <value>brTools</value>
+  </data>
+  <data name="&gt;&gt;btnSaveAndClose.Name" xml:space="preserve">
+    <value>btnSaveAndClose</value>
+  </data>
+  <data name="&gt;&gt;btnRecurrence.Name" xml:space="preserve">
+    <value>btnRecurrence</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="&gt;&gt;btnSpelling.Name" xml:space="preserve">
+    <value>btnSpelling</value>
+  </data>
+  <data name="&gt;&gt;brMainMenu.Name" xml:space="preserve">
+    <value>brMainMenu</value>
+  </data>
+  <data name="&gt;&gt;mActions.Name" xml:space="preserve">
+    <value>mActions</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;barAndDockingController.Name" xml:space="preserve">
+    <value>barAndDockingController</value>
+  </data>
+  <data name="&gt;&gt;spellChecker.Name" xml:space="preserve">
+    <value>spellChecker</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup.Name" xml:space="preserve">
+    <value>layoutControlGroup</value>
+  </data>
+  <data name="&gt;&gt;layoutLocation.Name" xml:space="preserve">
+    <value>layoutLocation</value>
+  </data>
+  <data name="&gt;&gt;layoutSubject.Name" xml:space="preserve">
+    <value>layoutSubject</value>
+  </data>
+  <data name="&gt;&gt;layoutLabel.Name" xml:space="preserve">
+    <value>layoutLabel</value>
+  </data>
+  <data name="&gt;&gt;layoutDescription.Name" xml:space="preserve">
+    <value>layoutDescription</value>
+  </data>
+  <data name="&gt;&gt;layoutShowTimeAs.Name" xml:space="preserve">
+    <value>layoutShowTimeAs</value>
+  </data>
+  <data name="&gt;&gt;layoutAllDay.Name" xml:space="preserve">
+    <value>layoutAllDay</value>
+  </data>
+  <data name="&gt;&gt;layoutInfo.Name" xml:space="preserve">
+    <value>layoutInfo</value>
+  </data>
+  <data name="&gt;&gt;layoutReminderGroup.Name" xml:space="preserve">
+    <value>layoutReminderGroup</value>
+  </data>
+  <data name="&gt;&gt;layoutChkReminder.Name" xml:space="preserve">
+    <value>layoutChkReminder</value>
+  </data>
+  <data name="&gt;&gt;layoutReminder.Name" xml:space="preserve">
+    <value>layoutReminder</value>
+  </data>
+  <data name="&gt;&gt;layoutStartGroup.Name" xml:space="preserve">
+    <value>layoutStartGroup</value>
+  </data>
+  <data name="&gt;&gt;layoutStartDate.Name" xml:space="preserve">
+    <value>layoutStartDate</value>
+  </data>
+  <data name="&gt;&gt;layoutStartTime.Name" xml:space="preserve">
+    <value>layoutStartTime</value>
+  </data>
+  <data name="&gt;&gt;layoutEndGroup.Name" xml:space="preserve">
+    <value>layoutEndGroup</value>
+  </data>
+  <data name="&gt;&gt;layoutEndDate.Name" xml:space="preserve">
+    <value>layoutEndDate</value>
+  </data>
+  <data name="&gt;&gt;layoutEndTime.Name" xml:space="preserve">
+    <value>layoutEndTime</value>
+  </data>
+  <data name="&gt;&gt;layoutResourcesGroup.Name" xml:space="preserve">
+    <value>layoutResourcesGroup</value>
+  </data>
+  <data name="&gt;&gt;layoutResources.Name" xml:space="preserve">
+    <value>layoutResources</value>
+  </data>
+  <data name="&gt;&gt;layoutResource.Name" xml:space="preserve">
+    <value>layoutResource</value>
+  </data>
+  <data name="&gt;&gt;layoutHorzSeparator1.Name" xml:space="preserve">
+    <value>layoutHorzSeparator1</value>
+  </data>
+  <data name="&gt;&gt;layoutHorzSeparator2.Name" xml:space="preserve">
+    <value>layoutHorzSeparator2</value>
+  </data>
+  <data name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AppointmentFormOutlookStyle</value>
+  </data>
+</root>

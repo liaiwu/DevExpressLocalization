@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="lbStandardTypes.Items" xml:space="preserve">
+    <value>#.00</value>
+  </data>
+  <data name="lbStandardTypes.Items1" xml:space="preserve">
+    <value>#,#</value>
+  </data>
+  <data name="lbStandardTypes.Items2" xml:space="preserve">
+    <value>0.E+0.0</value>
+  </data>
+  <data name="lbStandardTypes.Items3" xml:space="preserve">
+    <value>0.E+0.0</value>
+  </data>
+  <data name="lbStandardTypes.Items4" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="lbStandardTypes.Items5" xml:space="preserve">
+    <value>n1</value>
+  </data>
+  <data name="lbStandardTypes.Items6" xml:space="preserve">
+    <value>n2</value>
+  </data>
+  <data name="lbStandardTypes.Items7" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="lbStandardTypes.Items8" xml:space="preserve">
+    <value>e1</value>
+  </data>
+  <data name="lbStandardTypes.Items9" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="lbStandardTypes.Items10" xml:space="preserve">
+    <value>f1</value>
+  </data>
+  <data name="lblPlaceholders.Text" xml:space="preserve">
+    <value>占位符：</value>
+  </data>
+  <data name="lblPattern.Text" xml:space="preserve">
+    <value>形式:</value>
+  </data>
+  <data name="lblFormat.Text" xml:space="preserve">
+    <value>格式:</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>模式编辑器</value>
+  </data>
+</root>

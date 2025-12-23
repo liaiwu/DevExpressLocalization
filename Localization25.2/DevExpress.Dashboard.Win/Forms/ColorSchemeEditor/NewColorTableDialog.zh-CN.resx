@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ceIncludeMeasureNames.Properties.Caption" xml:space="preserve">
+    <value>'MeasureNames' 维度</value>
+  </data>
+  <data name="btnRemove.Text" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>数据源：</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>文本组间隔：</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>日期时间组间隔：</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>新的颜色表</value>
+  </data>
+</root>

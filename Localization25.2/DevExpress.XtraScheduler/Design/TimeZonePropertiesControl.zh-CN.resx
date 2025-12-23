@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblTimeZoneLabel.AccessibleName" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="lblTimeZoneLabel.Text" xml:space="preserve">
+    <value>标签(&amp;L):</value>
+  </data>
+  <data name="tbLabel.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="tbLabel.Properties.AccessibleName" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="lblTimeZone.AccessibleName" xml:space="preserve">
+    <value>时区:</value>
+  </data>
+  <data name="lblTimeZone.Text" xml:space="preserve">
+    <value>时区(&amp;Z):</value>
+  </data>
+  <data name="chkAdjustForDaylightChanges.Properties.AccessibleName" xml:space="preserve">
+    <value>调整白天时间以节省时间</value>
+  </data>
+  <data name="chkAdjustForDaylightChanges.Properties.Caption" xml:space="preserve">
+    <value>调整白天时间以节省时间</value>
+  </data>
+  <data name="lblCurrentTime.AccessibleName" xml:space="preserve">
+    <value>当前时间:</value>
+  </data>
+  <data name="lblCurrentTime.Text" xml:space="preserve">
+    <value>当前时间:</value>
+  </data>
+  <data name="tbCurrentTime.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="tbCurrentTime.Properties.AccessibleName" xml:space="preserve">
+    <value>当前时间:</value>
+  </data>
+  <data name="cbTimeZones.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbTimeZones.Properties.AccessibleName" xml:space="preserve">
+    <value>时区:</value>
+  </data>
+</root>

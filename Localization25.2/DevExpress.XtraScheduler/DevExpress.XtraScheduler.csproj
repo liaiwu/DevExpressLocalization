@@ -1,0 +1,952 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="17.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99D7BF5D-353F-4C75-A10A-03AA2E3AFA4E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>DevExpress.XtraScheduler.v25.2</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DevExpress.XtraScheduler</RootNamespace>
+    <SignAssembly>true</SignAssembly>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\DevExpress.Dll\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE;DEBUG;DXWhidbey</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\DevExpress.Dll\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE;DXWhidbey</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\AssemblyVersion.cs">
+      <Link>AssemblyVersion.cs</Link>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Design\DailyRecurrenceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\HourlyRecurrenceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\MinutelyRecurrenceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\MonthlyRecurrenceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\CalendarDetailsPrintStyleOptionsControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\DailyPrintStyleOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\MemoPrintStyleOptionsControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\MonthlyPrintStyleOptionsControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\PageSetupFormatTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\PageSetupPaperTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\PageSetupResourcesTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\picturePreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\PrintRangeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\PrintStyleOptionsControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\TimeIntervalEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\TriFoldPrintStyleOptionsControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\PrintStyleControls\WeeklyPrintStyleOptionsControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\TimeZonePropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\WeeklyRecurrenceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Design\YearlyRecurrenceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\AppointmentDependencyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AppointmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AppointmentRecurrenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AppointmentRibbonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DefineNewStyleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GotoDateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Legacy\LegacyAppointmentRecurrenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RecurrenceAppointmentEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PageSetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RecurrentAppointmentDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RemindersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShadingSetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TimeRulerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Design\HourlyRecurrenceControl.ko.resx">
+      <DependentUpon>HourlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\HourlyRecurrenceControl.resx">
+      <DependentUpon>HourlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\HourlyRecurrenceControl.zh-CN.resx">
+      <DependentUpon>HourlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\HourlyRecurrenceControl.zh-Hans.resx">
+      <DependentUpon>HourlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\HourlyRecurrenceControl.zh-Hant.resx">
+      <DependentUpon>HourlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\HourlyRecurrenceControl.zh-TW.resx">
+      <DependentUpon>HourlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MinutelyRecurrenceControl.ko.resx">
+      <DependentUpon>MinutelyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MinutelyRecurrenceControl.resx">
+      <DependentUpon>MinutelyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MinutelyRecurrenceControl.zh-CN.resx">
+      <DependentUpon>MinutelyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MinutelyRecurrenceControl.zh-Hans.resx">
+      <DependentUpon>MinutelyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MinutelyRecurrenceControl.zh-Hant.resx">
+      <DependentUpon>MinutelyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MinutelyRecurrenceControl.zh-TW.resx">
+      <DependentUpon>MinutelyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRibbonForm.ko.resx">
+      <DependentUpon>AppointmentRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRibbonForm.resx">
+      <DependentUpon>AppointmentRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRibbonForm.zh-CN.resx">
+      <DependentUpon>AppointmentRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRibbonForm.zh-Hans.resx">
+      <DependentUpon>AppointmentRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRibbonForm.zh-Hant.resx">
+      <DependentUpon>AppointmentRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRibbonForm.zh-TW.resx">
+      <DependentUpon>AppointmentRibbonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Legacy\LegacyAppointmentRecurrenceForm.ko.resx">
+      <DependentUpon>LegacyAppointmentRecurrenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Legacy\LegacyAppointmentRecurrenceForm.resx">
+      <DependentUpon>LegacyAppointmentRecurrenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Legacy\LegacyAppointmentRecurrenceForm.zh-CN.resx">
+      <DependentUpon>LegacyAppointmentRecurrenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Legacy\LegacyAppointmentRecurrenceForm.zh-Hans.resx">
+      <DependentUpon>LegacyAppointmentRecurrenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Legacy\LegacyAppointmentRecurrenceForm.zh-Hant.resx">
+      <DependentUpon>LegacyAppointmentRecurrenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Legacy\LegacyAppointmentRecurrenceForm.zh-TW.resx">
+      <DependentUpon>LegacyAppointmentRecurrenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TimeRulerForm.zh-TW.resx">
+      <DependentUpon>TimeRulerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TimeRulerForm.ko.resx">
+      <DependentUpon>TimeRulerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShadingSetupForm.zh-TW.resx">
+      <DependentUpon>ShadingSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShadingSetupForm.ko.resx">
+      <DependentUpon>ShadingSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RemindersForm.zh-TW.resx">
+      <DependentUpon>RemindersForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrentAppointmentDeleteForm.zh-TW.resx">
+      <DependentUpon>RecurrentAppointmentDeleteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrenceAppointmentEditForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecurrenceAppointmentEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.zh-TW.resx">
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.ko.resx">
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GotoDateForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GotoDateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DefineNewStyleForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DefineNewStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DefineNewStyleForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DefineNewStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRecurrenceForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentRecurrenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentDependencyForm.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentDependencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentDependencyForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentDependencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentDependencyForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentDependencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentDependencyForm.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentDependencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\WeeklyPrintStyleOptionsControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\WeeklyPrintStyleOptionsControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\WeeklyPrintStyleOptionsControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TriFoldPrintStyleOptionsControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TriFoldPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TriFoldPrintStyleOptionsControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TriFoldPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TriFoldPrintStyleOptionsControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TriFoldPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TimeIntervalEditControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimeIntervalEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TimeIntervalEditControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimeIntervalEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TimeIntervalEditControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimeIntervalEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintStyleOptionsControlBase.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintStyleOptionsControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintStyleOptionsControlBase.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintStyleOptionsControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintStyleOptionsControlBase.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintStyleOptionsControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintStyleOptionsControlBase.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintStyleOptionsControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintStyleOptionsControlBase.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintStyleOptionsControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintRangeControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintRangeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintRangeControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintRangeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintRangeControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintRangeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\picturePreviewControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>picturePreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\picturePreviewControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>picturePreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\picturePreviewControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>picturePreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\picturePreviewControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>picturePreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\picturePreviewControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>picturePreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupResourcesTabControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupResourcesTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupResourcesTabControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupResourcesTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupPaperTabControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupPaperTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupPaperTabControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupPaperTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupPaperTabControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupPaperTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupFormatTabControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupFormatTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupFormatTabControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupFormatTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupFormatTabControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupFormatTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MonthlyPrintStyleOptionsControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthlyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MonthlyPrintStyleOptionsControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthlyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MonthlyPrintStyleOptionsControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthlyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MemoPrintStyleOptionsControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MemoPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MemoPrintStyleOptionsControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MemoPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MemoPrintStyleOptionsControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MemoPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\DailyPrintStyleOptions.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DailyPrintStyleOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\DailyPrintStyleOptions.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DailyPrintStyleOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\DailyPrintStyleOptions.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DailyPrintStyleOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\CalendarDetailsPrintStyleOptionsControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CalendarDetailsPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\CalendarDetailsPrintStyleOptionsControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CalendarDetailsPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\CalendarDetailsPrintStyleOptionsControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CalendarDetailsPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\YearlyRecurrenceControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>YearlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\WeeklyRecurrenceControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\WeeklyRecurrenceControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\TimeZonePropertiesControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimeZonePropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\TimeZonePropertiesControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimeZonePropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\TimeZonePropertiesControl.ko.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimeZonePropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MonthlyRecurrenceControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DailyRecurrenceControl.zh-TW.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DailyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DailyRecurrenceControl.ko.resx">
+      <DependentUpon>DailyRecurrenceControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MonthlyRecurrenceControl.ko.resx">
+      <DependentUpon>MonthlyRecurrenceControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\WeeklyRecurrenceControl.ko.resx">
+      <DependentUpon>WeeklyRecurrenceControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\YearlyRecurrenceControl.ko.resx">
+      <DependentUpon>YearlyRecurrenceControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentForm.ko.resx">
+      <DependentUpon>AppointmentForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRecurrenceForm.ko.resx">
+      <DependentUpon>AppointmentRecurrenceForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GotoDateForm.ko.resx">
+      <DependentUpon>GotoDateForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentDependencyForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentDependencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MonthlyRecurrenceControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\YearlyRecurrenceControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>YearlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupResourcesTabControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupResourcesTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DailyRecurrenceControl.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DailyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentDependencyForm.resx">
+      <DependentUpon>AppointmentDependencyForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrenceAppointmentEditForm.ko.resx">
+      <DependentUpon>RecurrenceAppointmentEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrentAppointmentDeleteForm.ko.resx">
+      <DependentUpon>RecurrentAppointmentDeleteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RemindersForm.ko.resx">
+      <DependentUpon>RemindersForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DailyRecurrenceControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DailyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupPaperTabControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupPaperTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\WeeklyPrintStyleOptionsControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MonthlyRecurrenceControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MemoPrintStyleOptionsControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MemoPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupResourcesTabControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupResourcesTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MonthlyPrintStyleOptionsControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthlyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\TimeZonePropertiesControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimeZonePropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintRangeControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintRangeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupFormatTabControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupFormatTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TriFoldPrintStyleOptionsControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TriFoldPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\DailyPrintStyleOptions.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DailyPrintStyleOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\CalendarDetailsPrintStyleOptionsControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CalendarDetailsPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\YearlyRecurrenceControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>YearlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TimeIntervalEditControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimeIntervalEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\WeeklyRecurrenceControl.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TimeRulerForm.zh-Hans.resx">
+      <DependentUpon>TimeRulerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShadingSetupForm.zh-Hans.resx">
+      <DependentUpon>ShadingSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GotoDateForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GotoDateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.zh-Hans.resx">
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRecurrenceForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentRecurrenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RemindersForm.zh-Hans.resx">
+      <DependentUpon>RemindersForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrenceAppointmentEditForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecurrenceAppointmentEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrentAppointmentDeleteForm.zh-Hans.resx">
+      <DependentUpon>RecurrentAppointmentDeleteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DefineNewStyleForm.zh-Hans.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DefineNewStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TimeRulerForm.zh-CN.resx">
+      <DependentUpon>TimeRulerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RemindersForm.zh-CN.resx">
+      <DependentUpon>RemindersForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShadingSetupForm.zh-CN.resx">
+      <DependentUpon>ShadingSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrenceAppointmentEditForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecurrenceAppointmentEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DefineNewStyleForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DefineNewStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrentAppointmentDeleteForm.zh-CN.resx">
+      <DependentUpon>RecurrentAppointmentDeleteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GotoDateForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GotoDateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.zh-CN.resx">
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRecurrenceForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentRecurrenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RemindersForm.zh-Hant.resx">
+      <DependentUpon>RemindersForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\WeeklyPrintStyleOptionsControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GotoDateForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GotoDateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MonthlyPrintStyleOptionsControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthlyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\CalendarDetailsPrintStyleOptionsControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CalendarDetailsPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\TimeZonePropertiesControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimeZonePropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRecurrenceForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppointmentRecurrenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TimeIntervalEditControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TimeIntervalEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MonthlyRecurrenceControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupResourcesTabControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupResourcesTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MemoPrintStyleOptionsControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MemoPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintRangeControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintRangeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\YearlyRecurrenceControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>YearlyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrenceAppointmentEditForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RecurrenceAppointmentEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShadingSetupForm.zh-Hant.resx">
+      <DependentUpon>ShadingSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.zh-Hant.resx">
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DailyRecurrenceControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DailyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrentAppointmentDeleteForm.zh-Hant.resx">
+      <DependentUpon>RecurrentAppointmentDeleteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\DailyPrintStyleOptions.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DailyPrintStyleOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TimeRulerForm.zh-Hant.resx">
+      <DependentUpon>TimeRulerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupPaperTabControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupPaperTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TriFoldPrintStyleOptionsControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TriFoldPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DefineNewStyleForm.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DefineNewStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\WeeklyRecurrenceControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklyRecurrenceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupFormatTabControl.zh-Hant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PageSetupFormatTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DailyRecurrenceControl.resx">
+      <DependentUpon>DailyRecurrenceControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\MonthlyRecurrenceControl.resx">
+      <DependentUpon>MonthlyRecurrenceControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\CalendarDetailsPrintStyleOptionsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CalendarDetailsPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\DailyPrintStyleOptions.resx">
+      <DependentUpon>DailyPrintStyleOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MemoPrintStyleOptionsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MemoPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\MonthlyPrintStyleOptionsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MonthlyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupFormatTabControl.resx">
+      <DependentUpon>PageSetupFormatTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupPaperTabControl.resx">
+      <DependentUpon>PageSetupPaperTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PageSetupResourcesTabControl.resx">
+      <DependentUpon>PageSetupResourcesTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\picturePreviewControl.resx">
+      <DependentUpon>picturePreviewControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintRangeControl.resx">
+      <DependentUpon>PrintRangeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\PrintStyleOptionsControlBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintStyleOptionsControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TimeIntervalEditControl.resx">
+      <DependentUpon>TimeIntervalEditControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\TriFoldPrintStyleOptionsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TriFoldPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PrintStyleControls\WeeklyPrintStyleOptionsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeeklyPrintStyleOptionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\TimeZonePropertiesControl.resx">
+      <DependentUpon>TimeZonePropertiesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\WeeklyRecurrenceControl.resx">
+      <DependentUpon>WeeklyRecurrenceControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\YearlyRecurrenceControl.resx">
+      <DependentUpon>YearlyRecurrenceControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentForm.resx">
+      <DependentUpon>AppointmentForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AppointmentRecurrenceForm.resx">
+      <DependentUpon>AppointmentRecurrenceForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DefineNewStyleForm.resx">
+      <DependentUpon>DefineNewStyleForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GotoDateForm.resx">
+      <DependentUpon>GotoDateForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PageSetupForm.resx">
+      <DependentUpon>PageSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrenceAppointmentEditForm.resx">
+      <DependentUpon>RecurrenceAppointmentEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RecurrentAppointmentDeleteForm.resx">
+      <DependentUpon>RecurrentAppointmentDeleteForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RemindersForm.resx">
+      <DependentUpon>RemindersForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShadingSetupForm.resx">
+      <DependentUpon>ShadingSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TimeRulerForm.resx">
+      <DependentUpon>TimeRulerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

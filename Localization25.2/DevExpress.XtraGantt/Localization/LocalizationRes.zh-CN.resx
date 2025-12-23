@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GanttStringId.ShowHorzLinesCaption" xml:space="preserve">
+    <value>显示水平线</value>
+  </data>
+  <data name="GanttStringId.ShowHorzLinesDescription" xml:space="preserve">
+    <value>显示水平线</value>
+  </data>
+  <data name="GanttStringId.ChartToolsRibbonPageCategoryCaption" xml:space="preserve">
+    <value>甘特图表工具</value>
+  </data>
+  <data name="GanttStringId.TaskRibbonPageCaption" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="GanttStringId.ViewRibbonPageCaption" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="GanttStringId.FormatRibbonPageCaption" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="GanttStringId.SplitViewRibbonPageGroupCaption" xml:space="preserve">
+    <value>分割视图</value>
+  </data>
+  <data name="GanttStringId.ColumnsRibbonPageGroupCaption" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="GanttStringId.ChangeAllowResizeCaption" xml:space="preserve">
+    <value>允许大小更改</value>
+  </data>
+  <data name="GanttStringId.ChangeAllowResizeDescription" xml:space="preserve">
+    <value>允许调整大小</value>
+  </data>
+  <data name="GanttStringId.ChoosePanelVisibilityCaption" xml:space="preserve">
+    <value>面板可见性</value>
+  </data>
+  <data name="GanttStringId.ChoosePanelVisibilityDescription" xml:space="preserve">
+    <value>选择可见面板</value>
+  </data>
+  <data name="GanttStringId.DefaultPanelVisibilityCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="GanttStringId.DefaultPanelVisibilityDescription" xml:space="preserve">
+    <value>设置默认面板显示</value>
+  </data>
+  <data name="GanttStringId.BothPanelsVisibilityCaption" xml:space="preserve">
+    <value>二者</value>
+  </data>
+  <data name="GanttStringId.BothPanelsVisibilityDescription" xml:space="preserve">
+    <value>设置两个面板可见</value>
+  </data>
+  <data name="GanttStringId.ChartPanelVisibilityCaption" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="GanttStringId.ChartPanelVisibilityDescription" xml:space="preserve">
+    <value>设置图表面板 可见</value>
+  </data>
+  <data name="GanttStringId.TreePanelVisibilityCaption" xml:space="preserve">
+    <value>树</value>
+  </data>
+  <data name="GanttStringId.TreePanelVisibilityDescription" xml:space="preserve">
+    <value>设置树面板可见</value>
+  </data>
+  <data name="GanttStringId.ChooseFixedPanelCaption" xml:space="preserve">
+    <value>固定面板</value>
+  </data>
+  <data name="GanttStringId.ChooseFixedPanelDescription" xml:space="preserve">
+    <value>选择固定面板</value>
+  </data>
+  <data name="GanttStringId.DefaultFixedPanelCaption" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="GanttStringId.DefaultFixedPanelDescription" xml:space="preserve">
+    <value>设置默认固定面板状态</value>
+  </data>
+  <data name="GanttStringId.NoneFixedPanelCaption" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="GanttStringId.NoneFixedPanelDescription" xml:space="preserve">
+    <value>设置无固定面板</value>
+  </data>
+  <data name="GanttStringId.ChartFixedPanelCaption" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="GanttStringId.ChartFixedPanelDescription" xml:space="preserve">
+    <value>设置图表固定面板</value>
+  </data>
+  <data name="GanttStringId.TreeFixedPanelCaption" xml:space="preserve">
+    <value>树</value>
+  </data>
+  <data name="GanttStringId.TreeFixedPanelDescription" xml:space="preserve">
+    <value>设置树固定面板</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewInfoLabel" xml:space="preserve">
+    <value>没有什么</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewStopOperationButton" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewPrintButton" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewPrintQuickButton" xml:space="preserve">
+    <value>快速打印</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewPageSetupButton" xml:space="preserve">
+    <value>页面设置</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewZoomInButton" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewZoomOutButton" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewZoom" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewClosePreviewButton" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewBestFit" xml:space="preserve">
+    <value>最佳匹配</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewGroupPrint" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewGroupZoom" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="GanttStringId.PrintPreviewGroupClose" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="GanttStringId.InteractionTooltipStartCaption" xml:space="preserve">
+    <value>任务开始</value>
+  </data>
+  <data name="GanttStringId.InteractionTooltipFinishCaption" xml:space="preserve">
+    <value>任务完成</value>
+  </data>
+  <data name="GanttStringId.InteractionTooltipProgressCaption" xml:space="preserve">
+    <value>进度</value>
+  </data>
+  <data name="GanttStringId.InteractionTooltipPredecessorCaption" xml:space="preserve">
+    <value>前置</value>
+  </data>
+  <data name="GanttStringId.PrintLegendTaskItemCaption" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="GanttStringId.PrintLegendSummaryTaskItemCaption" xml:space="preserve">
+    <value>摘要任务</value>
+  </data>
+  <data name="GanttStringId.PrintLegendMilestoneItemCaption" xml:space="preserve">
+    <value>里程碑</value>
+  </data>
+  <data name="GanttStringId.PrintLegendProgressItemCaption" xml:space="preserve">
+    <value>进度</value>
+  </data>
+  <data name="GanttStringId.PrintLegendSplitItemCaption" xml:space="preserve">
+    <value>拆分</value>
+  </data>
+  <data name="GanttStringId.PrintLegendTaskBaselineItemCaption" xml:space="preserve">
+    <value>基线</value>
+  </data>
+  <data name="GanttStringId.PrintLegendSummaryTaskBaselineItemCaption" xml:space="preserve">
+    <value>摘要基线</value>
+  </data>
+  <data name="GanttStringId.PrintLegendMilestoneBaselineItemCaption" xml:space="preserve">
+    <value>里程碑基线</value>
+  </data>
+  <data name="GanttStringId.PrintLegendCriticalTaskItemCaption" xml:space="preserve">
+    <value>临界</value>
+  </data>
+  <data name="GanttStringId.PrintLegendCriticalSplitItemCaption" xml:space="preserve">
+    <value>临界拆分</value>
+  </data>
+  <data name="GanttStringId.TimelineBarRangeOK" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="GanttStringId.TimelineBarRangeCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+</root>

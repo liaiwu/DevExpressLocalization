@@ -1,0 +1,10 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.git--
+/Localization25.2/.vs/Localization
+/Localization25.2/**/.vs/
+/Localization25.2/**/obj/
+/Localization25.2/DevExpress.DLL
+/Localization25.2/DevExpress.Key/StrongKey.snk

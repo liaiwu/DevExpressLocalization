@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chartLabelControl11.Text" xml:space="preserve">
+    <value>图例文本:</value>
+  </data>
+  <data name="chCheckedInLegend.Properties.Caption" xml:space="preserve">
+    <value>在图例中选中</value>
+  </data>
+  <data name="chCheckableInLegend.Properties.Caption" xml:space="preserve">
+    <value>传说中的 Checkable</value>
+  </data>
+  <data name="chShowInLegend.Properties.Caption" xml:space="preserve">
+    <value>显示在图例中</value>
+  </data>
+  <data name="chartLabelControl4.Text" xml:space="preserve">
+    <value>点排序的依据:</value>
+  </data>
+  <data name="cbSortOrder.Properties.Items" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="cbSortOrder.Properties.Items1" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="cbSortOrder.Properties.Items2" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="chartLabelControl6.Text" xml:space="preserve">
+    <value>点排序次序:</value>
+  </data>
+  <data name="cbValueScaleType.EditValue" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="cbValueScaleType.Properties.Items" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="cbValueScaleType.Properties.Items1" xml:space="preserve">
+    <value>日期时间型</value>
+  </data>
+  <data name="chartLabelControl3.Text" xml:space="preserve">
+    <value>值类型:</value>
+  </data>
+  <data name="cbArgumentScaleType.EditValue" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="cbArgumentScaleType.Properties.Items" xml:space="preserve">
+    <value>文本值</value>
+  </data>
+  <data name="cbArgumentScaleType.Properties.Items1" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="cbArgumentScaleType.Properties.Items2" xml:space="preserve">
+    <value>日期时间型</value>
+  </data>
+  <data name="cbArgumentScaleType.Properties.Items3" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="chartLabelControl2.Text" xml:space="preserve">
+    <value>参数类型:</value>
+  </data>
+  <data name="tbSeriesOptions.Text" xml:space="preserve">
+    <value>系列选项</value>
+  </data>
+  <data name="cbSeriesViewType.EditValue" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="chartLabelControl1.Text" xml:space="preserve">
+    <value>系列视图的类型:</value>
+  </data>
+  <data name="chartLabelControl5.Text" xml:space="preserve">
+    <value>系列名称:</value>
+  </data>
+  <data name="chVisible.Properties.Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="tbGeneral.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="chTopNOptionsEnabled.Properties.Caption" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="tbTopNOptions.Text" xml:space="preserve">
+    <value>前N条选项</value>
+  </data>
+  <data name="tbLegendTextPattern.Text" xml:space="preserve">
+    <value>图例文本模式</value>
+  </data>
+  <data name="grSeriesSettings.Text" xml:space="preserve">
+    <value>系类属性</value>
+  </data>
+  <data name="chartLabelControl7.Text" xml:space="preserve">
+    <value>点排序的依据:</value>
+  </data>
+  <data name="comboBoxEdit2.Properties.Items" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="comboBoxEdit2.Properties.Items1" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="comboBoxEdit2.Properties.Items2" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="chartLabelControl8.Text" xml:space="preserve">
+    <value>点排序次序:</value>
+  </data>
+  <data name="comboBoxEdit3.EditValue" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="comboBoxEdit3.Properties.Items" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="comboBoxEdit3.Properties.Items1" xml:space="preserve">
+    <value>日期时间型</value>
+  </data>
+  <data name="chartLabelControl9.Text" xml:space="preserve">
+    <value>值类型:</value>
+  </data>
+  <data name="comboBoxEdit4.EditValue" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="comboBoxEdit4.Properties.Items" xml:space="preserve">
+    <value>文本值</value>
+  </data>
+  <data name="comboBoxEdit4.Properties.Items1" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="comboBoxEdit4.Properties.Items2" xml:space="preserve">
+    <value>日期时间型</value>
+  </data>
+  <data name="chartLabelControl10.Text" xml:space="preserve">
+    <value>参数类型:</value>
+  </data>
+  <data name="xtraTabPage1.Text" xml:space="preserve">
+    <value>系列选项</value>
+  </data>
+  <data name="xtraTabPage2.Text" xml:space="preserve">
+    <value>点选项</value>
+  </data>
+</root>

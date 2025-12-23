@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnOK.AccessibleName" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="btnOK.Anchor" xml:space="preserve">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnOK.Location" xml:space="preserve">
+    <value>244, 16</value>
+  </data>
+  <data name="btnOK.Size" xml:space="preserve">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.AccessibleName" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnCancel.Anchor" xml:space="preserve">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnCancel.Location" xml:space="preserve">
+    <value>244, 48</value>
+  </data>
+  <data name="btnCancel.Size" xml:space="preserve">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpGroup.Anchor" xml:space="preserve">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="cbShowIn.Anchor" xml:space="preserve">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cbShowIn.EditValue" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="cbShowIn.Location" xml:space="preserve">
+    <value>72, 56</value>
+  </data>
+  <data name="cbShowIn.Properties.AccessibleName" xml:space="preserve">
+    <value>显示在:</value>
+  </data>
+  <data name="cbShowIn.Size" xml:space="preserve">
+    <value>128, 19</value>
+  </data>
+  <data name="cbShowIn.TabIndex" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbShowIn.Name" xml:space="preserve">
+    <value>cbShowIn</value>
+  </data>
+  <data name="&gt;&gt;cbShowIn.Parent" xml:space="preserve">
+    <value>grpGroup</value>
+  </data>
+  <data name="&gt;&gt;cbShowIn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblShowIn.AccessibleName" xml:space="preserve">
+    <value>Show In:</value>
+  </data>
+  <data name="lblShowIn.Location" xml:space="preserve">
+    <value>16, 59</value>
+  </data>
+  <data name="lblShowIn.Size" xml:space="preserve">
+    <value>50, 13</value>
+  </data>
+  <data name="lblShowIn.TabIndex" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblShowIn.Text" xml:space="preserve">
+    <value>显示方式(&amp;S):</value>
+  </data>
+  <data name="&gt;&gt;lblShowIn.Name" xml:space="preserve">
+    <value>lblShowIn</value>
+  </data>
+  <data name="&gt;&gt;lblShowIn.Parent" xml:space="preserve">
+    <value>grpGroup</value>
+  </data>
+  <data name="&gt;&gt;lblShowIn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="edtDate.Anchor" xml:space="preserve">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="edtDate.EditValue" xml:space="preserve">
+    <value>2005-04-13</value>
+  </data>
+  <data name="edtDate.Location" xml:space="preserve">
+    <value>72, 24</value>
+  </data>
+  <data name="edtDate.Properties.AccessibleName" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="edtDate.Size" xml:space="preserve">
+    <value>128, 19</value>
+  </data>
+  <data name="edtDate.TabIndex" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;edtDate.Name" xml:space="preserve">
+    <value>edtDate</value>
+  </data>
+  <data name="&gt;&gt;edtDate.Parent" xml:space="preserve">
+    <value>grpGroup</value>
+  </data>
+  <data name="&gt;&gt;edtDate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblDate.AccessibleName" xml:space="preserve">
+    <value>日期:</value>
+  </data>
+  <data name="lblDate.Location" xml:space="preserve">
+    <value>16, 27</value>
+  </data>
+  <data name="lblDate.Size" xml:space="preserve">
+    <value>34, 13</value>
+  </data>
+  <data name="lblDate.TabIndex" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblDate.Text" xml:space="preserve">
+    <value>日期(&amp;D):</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Name" xml:space="preserve">
+    <value>lblDate</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Parent" xml:space="preserve">
+    <value>grpGroup</value>
+  </data>
+  <data name="&gt;&gt;lblDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpGroup.Location" xml:space="preserve">
+    <value>16, 8</value>
+  </data>
+  <data name="grpGroup.Size" xml:space="preserve">
+    <value>212, 88</value>
+  </data>
+  <data name="grpGroup.TabIndex" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;grpGroup.Name" xml:space="preserve">
+    <value>grpGroup</value>
+  </data>
+  <data name="&gt;&gt;grpGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOK.TabIndex" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" xml:space="preserve">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" xml:space="preserve">
+    <value>328, 110</value>
+  </data>
+  <data name="$this.MinimumSize" xml:space="preserve">
+    <value>336, 144</value>
+  </data>
+  <data name="$this.StartPosition" xml:space="preserve">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>转到日期</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GotoDateForm</value>
+  </data>
+</root>

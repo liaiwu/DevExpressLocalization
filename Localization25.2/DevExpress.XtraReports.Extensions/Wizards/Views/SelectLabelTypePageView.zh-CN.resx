@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="paperSizeTextLabel.Text" xml:space="preserve">
+    <value>标签控件10</value>
+  </data>
+  <data name="paperTypeTextLabel.Text" xml:space="preserve">
+    <value>labelControl9</value>
+  </data>
+  <data name="heightValueLabel.Text" xml:space="preserve">
+    <value>标签控件8</value>
+  </data>
+  <data name="paperSizeLabel.Text" xml:space="preserve">
+    <value>纸张尺寸：</value>
+  </data>
+  <data name="paperTypeLabel.Text" xml:space="preserve">
+    <value>纸张类型︰</value>
+  </data>
+  <data name="heightLabel.Text" xml:space="preserve">
+    <value>高度:</value>
+  </data>
+  <data name="widthLabel.Text" xml:space="preserve">
+    <value>宽度:</value>
+  </data>
+  <data name="numberLabel.Text" xml:space="preserve">
+    <value>产品编号 ︰</value>
+  </data>
+  <data name="productLabel.Text" xml:space="preserve">
+    <value>产品标签 ︰</value>
+  </data>
+  <data name="layoutControl.Text" xml:space="preserve">
+    <value></value>
+  </data>
+</root>

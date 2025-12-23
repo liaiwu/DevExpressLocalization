@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cObjectsCreation.Caption" xml:space="preserve">
+    <value>对象创建</value>
+  </data>
+  <data name="cFile.Caption" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="cClose.Caption" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="cSave.Caption" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="cExport.Caption" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="cPrint.Caption" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="cUndoRedo.Caption" xml:space="preserve">
+    <value>UndoRedo</value>
+  </data>
+  <data name="cUndoRedo.TargetPageGroupCaption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="cEdit.Caption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="cRecordEdit.Caption" xml:space="preserve">
+    <value>记录编辑</value>
+  </data>
+  <data name="cWorkflow.Caption" xml:space="preserve">
+    <value>工作流</value>
+  </data>
+  <data name="cOpenObject.Caption" xml:space="preserve">
+    <value>打开对象</value>
+  </data>
+  <data name="cRecordsNavigation.Caption" xml:space="preserve">
+    <value>记录导航</value>
+  </data>
+  <data name="cView.Caption" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="cReports.Caption" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="cReports.TargetPageGroupCaption" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="cSearch.Caption" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="cFullTextSearch.Caption" xml:space="preserve">
+    <value>全文搜索</value>
+  </data>
+  <data name="cFilters.Caption" xml:space="preserve">
+    <value>筛选器</value>
+  </data>
+  <data name="cTools.Caption" xml:space="preserve">
+    <value>工具</value>
+  </data>
+  <data name="cOptions.Caption" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="cDiagnostic.Caption" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="cAbout.Caption" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="cMenu.Caption" xml:space="preserve">
+    <value>菜单</value>
+  </data>
+  <data name="barSubItemFile.Caption" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="barSubItemEdit.Caption" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="barSubItemView.Caption" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="barSubItemTools.Caption" xml:space="preserve">
+    <value>工具</value>
+  </data>
+  <data name="barSubItemHelp.Caption" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="_mainMenuBar.Text" xml:space="preserve">
+    <value>主菜单</value>
+  </data>
+  <data name="standardToolBar.Text" xml:space="preserve">
+    <value>Main Toolbar</value>
+  </data>
+  <data name="_statusBar.Text" xml:space="preserve">
+    <value>状态栏</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SimpleForm</value>
+  </data>
+</root>

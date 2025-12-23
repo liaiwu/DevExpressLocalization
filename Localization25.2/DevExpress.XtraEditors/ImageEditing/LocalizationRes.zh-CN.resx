@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ImageEditorLocalizerStringId.DialogCaption" xml:space="preserve">
+    <value>图像编辑器</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationBrightnessText" xml:space="preserve">
+    <value>亮度:</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationColorAdjustHint" xml:space="preserve">
+    <value>调整颜色</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationContrastText" xml:space="preserve">
+    <value>对比:</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationCropAngleText" xml:space="preserve">
+    <value>角度:</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationCropAspectRatioText" xml:space="preserve">
+    <value>纵横比：</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationCropHint" xml:space="preserve">
+    <value>剪裁</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationDesaturateHint" xml:space="preserve">
+    <value>降低饱和度</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationMirrorHint" xml:space="preserve">
+    <value>反转</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationRedoHint" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationRotateHint" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationSaturationText" xml:space="preserve">
+    <value>饱和度:</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationUndoHint" xml:space="preserve">
+    <value>撤消</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.SaveButtonText" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.SaveChangesMessageBoxCaption" xml:space="preserve">
+    <value>关闭编辑器</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.SaveChangesMessageBoxText" xml:space="preserve">
+    <value>确定要保存所做的更改吗？</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.ToolPanelCancelText" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.ToolPanelDoneText" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationCropAspectRatioManual" xml:space="preserve">
+    <value>手动</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationCropAspectRatioOriginal" xml:space="preserve">
+    <value>原始</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationCropAspectRatioSquare" xml:space="preserve">
+    <value>移动平均</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationCropWidthText" xml:space="preserve">
+    <value>W:</value>
+  </data>
+  <data name="ImageEditorLocalizerStringId.OperationCropHeightText" xml:space="preserve">
+    <value>H:</value>
+  </data>
+</root>

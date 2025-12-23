@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataAccessStringId.SkipWithoutSortingPropertyGridError" xml:space="preserve">
+    <value>跳过设置而不排序记录。请应用排序以便能够跳过第一个 N 记录。</value>
+  </data>
+  <data name="DataAccessStringId.PositiveIntegerError" xml:space="preserve">
+    <value>Only non-negative numeric values are allowed.</value>
+  </data>
+  <data name="DataAccessStringId.MessageDuplicateItem" xml:space="preserve">
+    <value>集合中已包含的项目 '{0}'</value>
+  </data>
+  <data name="DataAccessStringId.MessageInvalidItemName" xml:space="preserve">
+    <value>项目名称不能为 null 或空字符串</value>
+  </data>
+  <data name="DataAccessStringId.MessageDuplicateItemName" xml:space="preserve">
+    <value>此集合已经包含具有 '{0}' 名称的项目</value>
+  </data>
+  <data name="DataAccessStringId.MessageEmptyQueryName" xml:space="preserve">
+    <value>查询名称不能为空。</value>
+  </data>
+  <data name="DataAccessStringId.MessageDuplicateQueryName" xml:space="preserve">
+    <value>已存在具有指定名称的查询: {0}。</value>
+  </data>
+  <data name="DataAccessStringId.MessageNullItem" xml:space="preserve">
+    <value>不能添加到集合中的空值</value>
+  </data>
+  <data name="DataAccessStringId.MessageWrongCharacterItemName" xml:space="preserve">
+    <value>项目名称 '{0}' 包含错误的字符</value>
+  </data>
+  <data name="DataAccessStringId.DefaultNameDataSource" xml:space="preserve">
+    <value>数据源</value>
+  </data>
+  <data name="DataAccessStringId.ConnectingToDatabaseCaption" xml:space="preserve">
+    <value>请等待</value>
+  </data>
+  <data name="DataAccessStringId.ConnectingToDatabaseMessage" xml:space="preserve">
+    <value>连接到数据库...</value>
+  </data>
+  <data name="DataAccessStringId.LoadingDataPanelText" xml:space="preserve">
+    <value>正在加载数据...</value>
+  </data>
+  <data name="DataAccessStringId.LoadingDataSourcePanelText" xml:space="preserve">
+    <value>加载数据源</value>
+  </data>
+  <data name="DataAccessStringId.LoadingDataSourcePanelCounter" xml:space="preserve">
+    <value>第 {0} {1}......</value>
+  </data>
+  <data name="DataAccessStringId.EmptyColumnAliasPattern" xml:space="preserve">
+    <value>列 {0}</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridDataCategoryName" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridDesignCategoryName" xml:space="preserve">
+    <value>设计</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridBehaviorCategoryName" xml:space="preserve">
+    <value>行为</value>
+  </data>
+  <data name="DataAccessStringId.PropertyGridConnectionCategoryName" xml:space="preserve">
+    <value>的连接</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridCommonCategoryName" xml:space="preserve">
+    <value>常见</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridTableSelectionCategoryName" xml:space="preserve">
+    <value>表选择</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridStoredProcCategoryName" xml:space="preserve">
+    <value>存储过程</value>
+  </data>
+  <data name="DataAccessStringId.QueryPropertyGridCustomSqlCategoryName" xml:space="preserve">
+    <value>自定义 SQL</value>
+  </data>
+  <data name="DataAccessStringId.RelationEditorRelationTypeInnerJoin" xml:space="preserve">
+    <value>内部联接</value>
+  </data>
+  <data name="DataAccessStringId.RelationEditorRelationTypeLeftOuterJoin" xml:space="preserve">
+    <value>左外部联接</value>
+  </data>
+  <data name="DataAccessStringId.RelationEditorRelationTypeMasterDetail" xml:space="preserve">
+    <value>主-从关系</value>
+  </data>
+  <data name="DataAccessStringId.QueryDesignerJoinExpressionPattern" xml:space="preserve">
+    <value>{0} {1} 上的</value>
+  </data>
+  <data name="DataAccessStringId.QueryDesignerJoinExpressionElementSeparator" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="DataAccessStringId.QueryDesignerJoinTooltipPattern" xml:space="preserve">
+    <value>{3} [{0}] {1} 联接 [{2}]</value>
+  </data>
+  <data name="DataAccessStringId.MessageWrongCharacterParameterName" xml:space="preserve">
+    <value>参数名称 '{0}' 包含错误的字符</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionStringPostfixServerExplorer" xml:space="preserve">
+    <value>（从服务器资源管理器）</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionStringPostfixAppConfig" xml:space="preserve">
+    <value>（在配置文件中）</value>
+  </data>
+  <data name="DataAccessStringId.RebuildResultSchemaWaitFormText" xml:space="preserve">
+    <value>重建结果架构...</value>
+  </data>
+  <data name="DataAccessStringId.NoXpoProviderStringId" xml:space="preserve">
+    <value>连接字符串包含没有 XpoProvider 键或指定的键是无效。
+
+异常的详细信息︰
+ {0}</value>
+  </data>
+  <data name="DataAccessStringId.DatabaseConnectionExceptionStringId" xml:space="preserve">
+    <value>未能连接到数据库。若要了解详细信息，请参阅异常的详细信息。异常的详细信息：{0}</value>
+  </data>
+  <data name="DataAccessStringId.DatabaseConnectionExceptionMessage" xml:space="preserve">
+    <value>连接名称: {0}错误消息: {1}</value>
+  </data>
+  <data name="DataAccessStringId.WizardEmptyConnectionNameMessage" xml:space="preserve">
+    <value>的名称不能为 null，为空，或者包含只有空格。</value>
+  </data>
+  <data name="DataAccessStringId.WizardDataConnectionNameExistsMessage" xml:space="preserve">
+    <value>数据连接与指定的名称已经存在。请指定一个不同的连接名称。</value>
+  </data>
+  <data name="DataAccessStringId.CustomSqlQueryValidationException" xml:space="preserve">
+    <value>A custom SQL query should contain only SELECT statements.</value>
+  </data>
+  <data name="DataAccessStringId.TableNotInSchemaValidationException" xml:space="preserve">
+    <value>架构不包含指定的表："{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.ColumnNullValidationException" xml:space="preserve">
+    <value>列不能为空.</value>
+  </data>
+  <data name="DataAccessStringId.UnnamedColumnValidationException" xml:space="preserve">
+    <value>不指定的列名称。</value>
+  </data>
+  <data name="DataAccessStringId.DuplicatingColumnNamesValidationException" xml:space="preserve">
+    <value>具有下面的列名称已经存在："{0}"."{1}".</value>
+  </data>
+  <data name="DataAccessStringId.ColumnNotInSchemaValidationException" xml:space="preserve">
+    <value>架构不包含下面的列："{0}"."{1}".</value>
+  </data>
+  <data name="DataAccessStringId.RelationColumnNullValidationException" xml:space="preserve">
+    <value>关系的列不能为空.</value>
+  </data>
+  <data name="DataAccessStringId.RelationColumnNotInSchemaValidationException" xml:space="preserve">
+    <value>架构不包含以下的关系列："{0}"."{1}".</value>
+  </data>
+  <data name="DataAccessStringId.UnnamedTableValidationException" xml:space="preserve">
+    <value>不指定的表名称。</value>
+  </data>
+  <data name="DataAccessStringId.DuplicatingTableNamesValidationException" xml:space="preserve">
+    <value>具有以下名称的表已存在："{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.IncompleteRelationValidationException" xml:space="preserve">
+    <value>指定的关系是不完整："{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.RelationTableNotSelectedValidationException" xml:space="preserve">
+    <value>引用表未被选中："{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.NoTablesValidationException" xml:space="preserve">
+    <value>表的集合不能为空.</value>
+  </data>
+  <data name="DataAccessStringId.TableNullValidationException" xml:space="preserve">
+    <value>表不能为空.</value>
+  </data>
+  <data name="DataAccessStringId.NoColumnsValidationException" xml:space="preserve">
+    <value>的表都不包含任何列。</value>
+  </data>
+  <data name="DataAccessStringId.RelationNullValidationException" xml:space="preserve">
+    <value>的关系不能为空.</value>
+  </data>
+  <data name="DataAccessStringId.NoRelationColumnsValidationException" xml:space="preserve">
+    <value>没有为关系指定列: "{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.CircularRelationsValidationException" xml:space="preserve">
+    <value>已检测到循环关系。</value>
+  </data>
+  <data name="DataAccessStringId.TablesNotRelatedValidationException" xml:space="preserve">
+    <value>以下各表有无关系："{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.SortingBySameColumnTwiceValidationException" xml:space="preserve">
+    <value>下列列不止一次用作排序条件:"{0}"."{1}".</value>
+  </data>
+  <data name="DataAccessStringId.AggregateQueryInvalidSortingValidationException" xml:space="preserve">
+    <value>无效排序列"{0}"执行"。{1}".TableQuery 包含聚合函数的结果仅可以通过使用作为分组标准列进行排序。</value>
+  </data>
+  <data name="DataAccessStringId.AggregationWithoutAliasValidationException" xml:space="preserve">
+    <value>聚合的列应该有一个别名。</value>
+  </data>
+  <data name="DataAccessStringId.GroupByAggregateColumnValidationException" xml:space="preserve">
+    <value>不能按聚合的列进行分组:"{0}"."{1}".</value>
+  </data>
+  <data name="DataAccessStringId.PartialAggregationValidationException" xml:space="preserve">
+    <value>在选择列表中的某些列是无效的因为它们不包含在聚合函数或 Group By 子句中。应用于聚合/分组的所有列或他们没有一个人。</value>
+  </data>
+  <data name="DataAccessStringId.SqlStringEmptyValidationException" xml:space="preserve">
+    <value>SQL 字符串为 null 或空。</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcNameNullValidationException" xml:space="preserve">
+    <value>存储过程的名称不能为空.</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcNotInSchemaValidationException" xml:space="preserve">
+    <value>找不到指定的存储的过程："{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamCountValidationException" xml:space="preserve">
+    <value>参数计数不匹配： &lt; {0} &gt; &lt; {1} &gt; 预计。</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamNullValidationException" xml:space="preserve">
+    <value>参数不能为空.</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamNameValidationException" xml:space="preserve">
+    <value>参数名称不匹配: &lt; {0} &gt; &lt; {1} &gt; 预计。</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcParamTypeValidationException" xml:space="preserve">
+    <value>参数类型不匹配: &lt; {0} &gt; &lt; {1} &gt; 预计。</value>
+  </data>
+  <data name="DataAccessStringId.StoredProcedureParameterTypeValidationException" xml:space="preserve">
+    <value>参数 '{2}' 类型不匹配： &lt; {0} &gt; &lt; {1} &gt; 预计。</value>
+  </data>
+  <data name="DataAccessStringId.FilterByColumnOfMissingTableValidationException" xml:space="preserve">
+    <value>没有包含筛选器字符串中使用的列 {0} 的表。</value>
+  </data>
+  <data name="DataAccessStringId.FilterByMissingInSchemaColumnValidationException" xml:space="preserve">
+    <value>列 {0}。{1} 用于筛选器字符串,但在 DBSchema 中缺少它。</value>
+  </data>
+  <data name="DataAccessStringId.FilterByAmbiguousColumnValidationException" xml:space="preserve">
+    <value>筛选器字符串中使用的列名 [{0}] 不是唯一的。具有此名称的列存在于下表中: {1}.</value>
+  </data>
+  <data name="DataAccessStringId.CustomExpressionWithColumnOfMissingTableValidationException" xml:space="preserve">
+    <value>没有包含自定义表达式中使用的列 [{0}] 的表.</value>
+  </data>
+  <data name="DataAccessStringId.CustomExpressionWithMissingInSchemaColumnValidationException" xml:space="preserve">
+    <value>列 [{0}]。[{1}] 在自定义表达式中使用, 但在 Db架构中缺少它.</value>
+  </data>
+  <data name="DataAccessStringId.CustomExpressionWithAmbiguousColumnValidationException" xml:space="preserve">
+    <value>自定义表达式中使用的列名 [{0}] 不是唯一的。具有此名称的列存在于下表中: {1}.</value>
+  </data>
+  <data name="DataAccessStringId.HavingWithoutGroupByValidationException" xml:space="preserve">
+    <value>组筛选条件定义而不先对数据分组。请应用数据分组或删除组筛选器筛选器编辑器对话框的选项卡上的组筛选条件。</value>
+  </data>
+  <data name="DataAccessStringId.GroupByWithoutAggregateValidationException" xml:space="preserve">
+    <value>分组要求至少一个汇总的列。</value>
+  </data>
+  <data name="DataAccessStringId.SkipWithoutSortingValidationException" xml:space="preserve">
+    <value>跳过设置而不排序记录。请应用排序以便能够跳过第一个 N 记录或重置筛选器编辑器对话框中的跳过设置。</value>
+  </data>
+  <data name="DataAccessStringId.SkipWithoutSortingWebValidationException" xml:space="preserve">
+    <value>记录未排序时设置偏移量设置。请应用排序可以跳过第一个 N 个记录.</value>
+  </data>
+  <data name="DataAccessStringId.TableNotSelectedValidationException" xml:space="preserve">
+    <value>下表不是在表列表中，但其列使用:"{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.RelationException" xml:space="preserve">
+    <value>无法设置列 '{0}' 之间的关系。{1}' 类型 {2} 和 '{3}'.'{4}' 的类型 {0} 5。</value>
+  </data>
+  <data name="DataAccessStringId.SortingNullValidationException" xml:space="preserve">
+    <value>分类的标准不能为空。</value>
+  </data>
+  <data name="DataAccessStringId.SortByAggregateColumnValidationException" xml:space="preserve">
+    <value>不能按聚合的列进行排序: {0}({1})，因为未聚合查询。</value>
+  </data>
+  <data name="DataAccessStringId.GroupNullValidationException" xml:space="preserve">
+    <value>分组条件不能为空。</value>
+  </data>
+  <data name="DataAccessStringId.NegativeTopSkipValidationException" xml:space="preserve">
+    <value>顶部和跳过属性应非负整数。</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionNullValidationException" xml:space="preserve">
+    <value>表达式不能为空，列或自定义表达式预期。</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionStringNullValidationException" xml:space="preserve">
+    <value>表达式字符串不能为空</value>
+  </data>
+  <data name="DataAccessStringId.ProviderNotSupportedException" xml:space="preserve">
+    <value>不支持以下数据库提供程序： {0}。</value>
+  </data>
+  <data name="DataAccessStringId.InvalidExpressionStringValidationException" xml:space="preserve">
+    <value>无法解析以下表达式字符串:"{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.GatheringTypesPanelText" xml:space="preserve">
+    <value>收集类型信息......</value>
+  </data>
+  <data name="DataAccessStringId.ParameterlessConstructor" xml:space="preserve">
+    <value>默认值</value>
+  </data>
+  <data name="DataAccessStringId.ObjectDataSourceWizard_CannotGetTypeProperties" xml:space="preserve">
+    <value>不能获取这种类型的属性。</value>
+  </data>
+  <data name="DataAccessStringId.ObjectDataSourceWizard_CannotGetPropertiesForThisMethodReturnType" xml:space="preserve">
+    <value>不能获取此方法返回的类型的属性。</value>
+  </data>
+  <data name="DataAccessStringId.ODSWizardErrorNoDefaultCtor" xml:space="preserve">
+    <value>不能从 IListSource 获取项目属性，没有默认构造函数。</value>
+  </data>
+  <data name="DataAccessStringId.ODSWizardErrorExceptionInCtor" xml:space="preserve">
+    <value>ITypedList 执行的默认构造函数抛出异常。</value>
+  </data>
+  <data name="DataAccessStringId.ODSWizardErrorExceptionInGetItemProperties" xml:space="preserve">
+    <value>ITypedList GetItemProperties 方法引发的异常。</value>
+  </data>
+  <data name="DataAccessStringId.ODSWizardErrorStaticValue" xml:space="preserve">
+    <value>类型是静态的它并没有任何成员返回 IEnumerable。</value>
+  </data>
+  <data name="DataAccessStringId.ODSErrorMissingMember" xml:space="preserve">
+    <value>数据成员"{0}"不存在。</value>
+  </data>
+  <data name="DataAccessStringId.ParameterListNull" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="DataAccessStringId.ParameterListEmpty" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DataAccessStringId.MessageNonexistentQuery" xml:space="preserve">
+    <value>查询 '{0}' 并不存在。</value>
+  </data>
+  <data name="DataAccessStringId.MessageNonexistentColumn" xml:space="preserve">
+    <value>列 '{0}'.'{1}' 并不存在。</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderAliasAlreadyExists" xml:space="preserve">
+    <value>指定的别名已存在。</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderCanJoin" xml:space="preserve">
+    <value>可以加入 {0}</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderJoinedOn" xml:space="preserve">
+    <value>在 {0} 上加入</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderNothingSelected" xml:space="preserve">
+    <value>没有列已被选中。请选择要进行的至少一个列。</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderNoTablesSelected" xml:space="preserve">
+    <value>没有表已被选定。请选择至少一个表继续。</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderJoinEditorMissingData" xml:space="preserve">
+    <value>的表达并不是所有部件都指定。</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderInvalidFilter" xml:space="preserve">
+    <value>请单击筛选......按钮以正确的筛选器字符串。</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilderNoTablesAndViews" xml:space="preserve">
+    <value>数据库不包含表或视图，并且不支持 SQL 编辑。若要将无法运行查询生成器，请确保您的数据库包含至少一个表或支持 SQL 编辑。</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilder_AllColumns" xml:space="preserve">
+    <value>* （所有列）</value>
+  </data>
+  <data name="DataAccessStringId.QueryBuilder_AllTables" xml:space="preserve">
+    <value>（所有表格）</value>
+  </data>
+  <data name="DataAccessStringId.WizardNoEFDataContextsMessage" xml:space="preserve">
+    <value>所选程序集不包含实体框架数据上下文。</value>
+  </data>
+  <data name="DataAccessStringId.WizardCustomConnectionString" xml:space="preserve">
+    <value>自定义连接字符串</value>
+  </data>
+  <data name="DataAccessStringId.WizardAssemblyLoadingDisallowed" xml:space="preserve">
+    <value>无法加载此程序集出于安全原因。</value>
+  </data>
+  <data name="DataAccessStringId.ExcelEncryptedFileException_PasswordRequired" xml:space="preserve">
+    <value>打开此工作簿所需的密码。</value>
+  </data>
+  <data name="DataAccessStringId.ExcelEncryptedFileException_WrongPassword" xml:space="preserve">
+    <value>密码是不正确的。请再试一次。</value>
+  </data>
+  <data name="DataAccessStringId.ExcelEncryptedFileException_EncryptionTypeNotSupported" xml:space="preserve">
+    <value>不能打开受保护的文件。</value>
+  </data>
+  <data name="DataAccessStringId.ExcelInvalidFileException_WrongFormat" xml:space="preserve">
+    <value>Incorrect file format</value>
+  </data>
+  <data name="DataAccessStringId.ExcelInvalidFileException_BIFF5Format" xml:space="preserve">
+    <value>BIFF5 (Excel 5.0/95) XLS file format is not supported.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelInvalidFileException_CorruptedFile" xml:space="preserve">
+    <value>The file is corrupt.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelDataSource_SchemaLoadingText" xml:space="preserve">
+    <value>架构加载......</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Comma" xml:space="preserve">
+    <value>逗号</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Semicolon" xml:space="preserve">
+    <value>分号</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Tab" xml:space="preserve">
+    <value>选项卡</value>
+  </data>
+  <data name="DataAccessStringId.ExcelWizard_ValueSeparator_Space" xml:space="preserve">
+    <value>空间</value>
+  </data>
+  <data name="DataAccessStringId.XmlFileStrategy_FileNameFilter" xml:space="preserve">
+    <value>XML 文件</value>
+  </data>
+  <data name="DataAccessStringId.FileNameFilter_AllFormats" xml:space="preserve">
+    <value>所有支持的格式</value>
+  </data>
+  <data name="DataAccessStringId.FileNameFilter_Excel" xml:space="preserve">
+    <value>Excel 工作簿中</value>
+  </data>
+  <data name="DataAccessStringId.FileNameFilter_CSV" xml:space="preserve">
+    <value>CSV 文件</value>
+  </data>
+  <data name="DataAccessStringId.ResultRelation_ColumnNotFoundError" xml:space="preserve">
+    <value>找不到列: '{0}'.'{1}'.</value>
+  </data>
+  <data name="DataAccessStringId.ExcelDataSource_FileNotFoundMessage" xml:space="preserve">
+    <value>{0}
+找不到文件。
+请检查文件名称，再试一次。</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureQueryPage_CustomSqlWillBeLost" xml:space="preserve">
+    <value>手册编辑的自定义 SQL 不是允许的。当前查询表示将会丢失，如果继续编辑查询使用查询生成器对话框中的自定义 SQL 查询字符串。
+
+你想要放弃的自定义的 SQL，然后继续处理查询生成器?</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionPropertiesPage_ProviderNotSupported" xml:space="preserve">
+    <value>因为不支持 {0} 提供程序，而被丢弃连接参数。
+选择一个可用的数据提供程序和指定连接参数或关闭向导并使用关闭按钮来撤消此更改。</value>
+  </data>
+  <data name="DataAccessStringId.DefaultNameParameter" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DataAccessStringId.InvalidPortErrorMessage" xml:space="preserve">
+    <value>无效的端口号。端口号应该是 0 和 65535 之间的包容性。</value>
+  </data>
+  <data name="DataAccessStringId.Type_Byte" xml:space="preserve">
+    <value>非负数字 （8 位整数）</value>
+  </data>
+  <data name="DataAccessStringId.Type_SByte" xml:space="preserve">
+    <value>号 （8 位整数）</value>
+  </data>
+  <data name="DataAccessStringId.Type_UInt" xml:space="preserve">
+    <value>非负号 （32 位整数）</value>
+  </data>
+  <data name="DataAccessStringId.Type_UShort" xml:space="preserve">
+    <value>非负号 （16 位整数）</value>
+  </data>
+  <data name="DataAccessStringId.Type_ULong" xml:space="preserve">
+    <value>非负号 （64 位整数）</value>
+  </data>
+  <data name="DataAccessStringId.Type_Char" xml:space="preserve">
+    <value>CHAR</value>
+  </data>
+  <data name="DataAccessStringId.Type_Object" xml:space="preserve">
+    <value>对象</value>
+  </data>
+  <data name="DataAccessStringId.XmlProviderNotSupportedFeatureException" xml:space="preserve">
+    <value>以下查询功能︰
+	• 自定义表达式的列;
+	• 星号;
+	• 记录计数;
+	• 不同。
+继续，从查询中删除这些功能或切换到另一个数据提供程序的使用。</value>
+  </data>
+  <data name="DataAccessStringId.XmlProviderNotSupportedLabel" xml:space="preserve">
+    <value>的一些查询功能不支持 XML 文件。</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotLoadCustomAssembly" xml:space="preserve">
+    <value>无法加载 {0} {1} 上下文的程序集。请选择一个现有的外部程序集和/或现有上下文。</value>
+  </data>
+  <data name="DataAccessStringId.SqlQueryExecutionException" xml:space="preserve">
+    <value>查询 {0} 未能执行。</value>
+  </data>
+  <data name="DataAccessStringId.SqlExecutionException" xml:space="preserve">
+    <value>尝试执行 sql 语句时出错查询 {0} {1}。{2}错误： {3}</value>
+  </data>
+  <data name="DataAccessStringId.SqlExecutionException_WithParameters" xml:space="preserve">
+    <value>参数: {0} {1}</value>
+  </data>
+  <data name="DataAccessStringId.QueriesFailedToExecute_ExceptionMessage" xml:space="preserve">
+    <value>一个或多个查询未能执行。</value>
+  </data>
+  <data name="DataAccessStringId.QueriesFailedToValidate_ExceptionMessage" xml:space="preserve">
+    <value>一个或多个查询未能验证。</value>
+  </data>
+  <data name="DataAccessStringId.RunExpressionEditor" xml:space="preserve">
+    <value>表达式编辑器...</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_Caption" xml:space="preserve">
+    <value>表达式编辑器</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_InvalidCustomFunction" xml:space="preserve">
+    <value>无效的函数:"{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_NotSupportedAggregateFunction" xml:space="preserve">
+    <value>不支持以下聚合函数:"{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_InvalidColumn" xml:space="preserve">
+    <value>无效的列:"{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_InvalidParameter" xml:space="preserve">
+    <value>参数无效:"{0}"。</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_InvalidExpression" xml:space="preserve">
+    <value>无效的表达式。</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Functions_Tooltip" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Operators_Tooltip" xml:space="preserve">
+    <value>运算符</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Columns_Tooltip" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Constants_Tooltip" xml:space="preserve">
+    <value>恒定</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Parameters_Tooltip" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Functions" xml:space="preserve">
+    <value>函数</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Operators" xml:space="preserve">
+    <value>操作符</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Columns" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Constants" xml:space="preserve">
+    <value>常量</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Parameters" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_DateTime" xml:space="preserve">
+    <value>日期时间型</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Logical" xml:space="preserve">
+    <value>逻辑</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Math" xml:space="preserve">
+    <value>数学</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Text" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_FunctionCategory_Aggregate" xml:space="preserve">
+    <value>聚合</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_EmptyExpression" xml:space="preserve">
+    <value>表达式字符串不能为空。</value>
+  </data>
+  <data name="DataAccessStringId.ExpressionEditor_DocumentationCategory_ColumnDescriptionFormat" xml:space="preserve">
+    <value>类型︰ {0}</value>
+  </data>
+  <data name="DataAccessStringId.FilterEditor_TreeCreationError" xml:space="preserve">
+    <value>无法为此表达式创建树</value>
+  </data>
+  <data name="DataAccessStringId.UnknownType" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionAborted_ExceptionMessage" xml:space="preserve">
+    <value>连接已被取消。</value>
+  </data>
+  <data name="DataAccessStringId.ConnectionNotSpecified_ExceptionMessage" xml:space="preserve">
+    <value>没有连接已被指定。</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_TableCategory" xml:space="preserve">
+    <value>表格</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_ViewCategory" xml:space="preserve">
+    <value>意见</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_SpCategory" xml:space="preserve">
+    <value>存储过程</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_QueryCategory" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="DataAccessStringId.ConfigureMultiQueryPage_ValidateRelationError" xml:space="preserve">
+    <value>一个或多个关系是无效的。
+若要了解有关错误的详细信息，请单击管理关系。</value>
+  </data>
+  <data name="DataAccessStringId.GroupFilterStringEditorNoGroups" xml:space="preserve">
+    <value>组筛选不能应用于未分组的数据。请将数据分组首先应用。</value>
+  </data>
+  <data name="DataAccessStringId.ObjectDataSourceLoadingWarningMessage" xml:space="preserve">
+    <value>加载在此文件中引用的数据源可能会损害您的计算机。从受信任的源获得此文件吗？
+
+单击是以加载数据源内容原样。
+单击否以加载只有受信任的数据源内容。</value>
+  </data>
+  <data name="DataAccessStringId.EFFilterControl_EmptyFilterString" xml:space="preserve">
+    <value>筛选器字符串不能为 null。</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotOpenDatabase" xml:space="preserve">
+    <value>无法打开数据库</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotCreateSelectStatement" xml:space="preserve">
+    <value>选择语句创建失败.</value>
+  </data>
+  <data name="DataAccessStringId.MessageCannotRebuildSchema" xml:space="preserve">
+    <value>重建数据源架构时发生错误</value>
+  </data>
+  <data name="DataAccessStringId.LoadingPanelText" xml:space="preserve">
+    <value>加载...</value>
+  </data>
+</root>

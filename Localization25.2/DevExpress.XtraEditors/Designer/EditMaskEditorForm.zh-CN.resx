@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="maskTypeLabel.Text" xml:space="preserve">
+    <value>掩面类型：</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>掩面编辑：</value>
+  </data>
+  <data name="btnOk.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>&amp;取消</value>
+  </data>
+  <data name="lblList.Text" xml:space="preserve">
+    <value>预定义掩面：</value>
+  </data>
+  <data name="labelAutocompleteMode.Text" xml:space="preserve">
+    <value>自动完成模式：</value>
+  </data>
+  <data name="comboBoxAutoComplete.EditValue" xml:space="preserve">
+    <value>comboBoxEdit1</value>
+  </data>
+  <data name="checkEditBeepOnError.Properties.Caption" xml:space="preserve">
+    <value>错误时发出警告音</value>
+  </data>
+  <data name="checkEditIgnoreMaskBlank.Properties.Caption" xml:space="preserve">
+    <value>忽略掩面空白</value>
+  </data>
+  <data name="textEditPlaceHolder.EditValue" xml:space="preserve">
+    <value>textEdit1</value>
+  </data>
+  <data name="textEditPlaceHolder.Properties.Mask.EditMask" xml:space="preserve">
+    <value>.?</value>
+  </data>
+  <data name="checkEditSaveLiteral.Properties.Caption" xml:space="preserve">
+    <value>保存文字</value>
+  </data>
+  <data name="checkEditShowPlaceHolders.Properties.Caption" xml:space="preserve">
+    <value>显示占位符</value>
+  </data>
+  <data name="labelMaskTypeDescription.Text" xml:space="preserve">
+    <value>掩面类型标签说明</value>
+  </data>
+  <data name="labelMaskDescription.Text" xml:space="preserve">
+    <value>掩面标签说明</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>输入测试：</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>掩码编辑器</value>
+  </data>
+</root>

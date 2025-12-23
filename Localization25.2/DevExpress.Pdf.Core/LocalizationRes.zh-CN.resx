@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PdfCoreStringId.AnnotationFilterTypeCustom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeFreeText" xml:space="preserve">
+    <value>文本框</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeLine" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypePolygon" xml:space="preserve">
+    <value>多边形</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeSquare" xml:space="preserve">
+    <value>矩形</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeStrikethrough" xml:space="preserve">
+    <value>删除线</value>
+  </data>
+  <data name="PdfCoreStringId.AnnotationFilterTypeUnderline" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="PdfCoreStringId.DefaultDocumentName" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="PdfCoreStringId.FileSize" xml:space="preserve">
+    <value>{1} {0:0.00} ({2} 字节)</value>
+  </data>
+  <data name="PdfCoreStringId.FileSizeInBytes" xml:space="preserve">
+    <value>{0} 字节</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAcroFormFieldNameCantBeEmpty" xml:space="preserve">
+    <value>窗体字段名称不能为 null 或空字符串。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAcroFormFieldNameDuplication" xml:space="preserve">
+    <value>兄弟姐妹不能在窗体域层次结构中具有相同的名称。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintDescription" xml:space="preserve">
+    <value>描述: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintFileName" xml:space="preserve">
+    <value>名称: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintModificationDate" xml:space="preserve">
+    <value>修改: {0:G}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgAttachmentHintSize" xml:space="preserve">
+    <value>大小: {0}</value>
+  </data>
+  <data name="PdfCoreStringId.MsgCantSetSelectedIndexWithoutValues" xml:space="preserve">
+    <value>不能设置选定的索引，因为有没有可能值。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgFormDataNotFound" xml:space="preserve">
+    <value>在文档中找不到具有指定名称的字段。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncompatibleOperationWithCurrentDocumentFormat" xml:space="preserve">
+    <value>操作不支持 PdfCompatibility.{0} 兼容性模式。请在 PdfCompatibility.Pdf 兼容性模式下创建的文档。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectAcroFormExportValue" xml:space="preserve">
+    <value>出口值不能为 null 或空字符串。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectAcroFormFieldNameContainsPeriod" xml:space="preserve">
+    <value>的窗体字段名称不能包含句点字符。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectBookmarkListValue" xml:space="preserve">
+    <value>书签列表不能为空</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectButtonFormFieldValue" xml:space="preserve">
+    <value>按钮的表单域的属性值应该是外观名称或选项列表中的值。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectChoiceFormFieldValue" xml:space="preserve">
+    <value>选择表单域的属性值应该是一个字符串值或一组值从选项列表。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectColorComponentValue" xml:space="preserve">
+    <value>颜色组件的值应大于或等于0，且小于或等于1</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDashLength" xml:space="preserve">
+    <value>虚线的长度应大于或等于0</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDashPattern" xml:space="preserve">
+    <value>虚线和间隙长度的总和应该是大于0</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDashPatternArraySize" xml:space="preserve">
+    <value>虚线图案阵列必须不能为空</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDestinationPage" xml:space="preserve">
+    <value>书签目标无法链接到不同的文档中的页。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectDpi" xml:space="preserve">
+    <value>(以每英寸点数) 分辨率应大于 0。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectFlatnessTolerance" xml:space="preserve">
+    <value>平整度容差应大于或等于0，且小于或等于100</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectFormDataFile" xml:space="preserve">
+    <value>从指定的文件读取表单数据时出现错误。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectGapLength" xml:space="preserve">
+    <value>间隙长度应大于或等于0</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectGlyphPosition" xml:space="preserve">
+    <value>字形的位置应该是小于或等于文本长度</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectInsertingPageNumber" xml:space="preserve">
+    <value>的页码应大于 0，并小于或等于的下一个可用的页面序号 (文档页计数)。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectLargestEdgeLength" xml:space="preserve">
+    <value>的最大的边缘长度应大于 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectLineWidth" xml:space="preserve">
+    <value>线的宽度应大于或等于0</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectListSize" xml:space="preserve">
+    <value>列表中应该包含至少一个值.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectMarkedContentTag" xml:space="preserve">
+    <value>标记的内容标签不能为空</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectMarkupAnnotation" xml:space="preserve">
+    <value>指定的批注不属于当前文档.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectMiterLimit" xml:space="preserve">
+    <value>斜接限制应大于0</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectOpacity" xml:space="preserve">
+    <value>不透明度值应大于或等于 0, 小于或等于 1.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageArtBox" xml:space="preserve">
+    <value>页艺术框应小于或等于介质框。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageBleedBox" xml:space="preserve">
+    <value>出血框的页面应小于或等于介质框。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageCropBox" xml:space="preserve">
+    <value>裁剪框的页面应该小于或等于媒体框。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageNumber" xml:space="preserve">
+    <value>页面数应大于 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageRotate" xml:space="preserve">
+    <value>页面旋转角度可以具有下列值之一： 0、 90、 180 或 270 度。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPageTrimBox" xml:space="preserve">
+    <value>页裁切框应小于或等于介质框。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPdfData" xml:space="preserve">
+    <value>输入数据不被确认为有效的PDF</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPdfPassword" xml:space="preserve">
+    <value>文档打开口令为空或不正确。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectPrintableFilePath" xml:space="preserve">
+    <value>可打印文档的指定的文件名称不正确。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectRectangleHeight" xml:space="preserve">
+    <value>矩形的上边缘坐标应大于或等于底部。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectRectangleWidth" xml:space="preserve">
+    <value>矩形的右边缘坐标应大于或等于左一个。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectSelectedIndexValue" xml:space="preserve">
+    <value>索引应该是在范围从 0 到 {0}。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectText" xml:space="preserve">
+    <value>文本值不能为空</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectTextFormFieldValue" xml:space="preserve">
+    <value>文本表单域的属性值应该是一个字符串值。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectTextHorizontalScaling" xml:space="preserve">
+    <value>文字水平缩放值应大于0</value>
+  </data>
+  <data name="PdfCoreStringId.MsgIncorrectZoom" xml:space="preserve">
+    <value>缩放值应大于或等于 0.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgMissingPageNumbers" xml:space="preserve">
+    <value>At least one page number should be specified.</value>
+  </data>
+  <data name="PdfCoreStringId.MsgPageNumberShouldBePositive" xml:space="preserve">
+    <value>的页码应大于或等于 1。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgPartialTrustEnvironmentLimitation" xml:space="preserve">
+    <value>不能在部分信任环境中执行此操作。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgShouldEmbedFonts" xml:space="preserve">
+    <value>所有字体应该都嵌入到 PDF/A 文档。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgStreamIsInUse" xml:space="preserve">
+    <value>流已经用于文档。请使用另一个流。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnavailableOperation" xml:space="preserve">
+    <value>正在加载任何文档的情况下，此操作不可用。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedAnnotationType" xml:space="preserve">
+    <value>PDF/A-1 文档中不支持文本突出显示批注。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedBrushType" xml:space="preserve">
+    <value>不支持自定义画笔。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedEncryption" xml:space="preserve">
+    <value>在一个 PDF/A 文档不支持加密。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedFileAttachments" xml:space="preserve">
+    <value>文件附件不支持 PDF/A-1b 和 PDF/A-2b 文件。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedGraphicsOperation" xml:space="preserve">
+    <value>不支持此操作，因为 PdfGraphics 对象不属于当前文档。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedGraphicsUnit" xml:space="preserve">
+    <value>不支持源的图像坐标系统的显示和世界的单元。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedStream" xml:space="preserve">
+    <value>流应该支持读取、 写入和查找操作。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedStreamForLoadOperation" xml:space="preserve">
+    <value>流应该支持读取和寻道操作加载。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgUnsupportedStreamForSaveOperation" xml:space="preserve">
+    <value>流应该支持写入和寻求节约行动。</value>
+  </data>
+  <data name="PdfCoreStringId.MsgZeroColorComponentsCount" xml:space="preserve">
+    <value>颜色应该具有的至少一种成分</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampDConfidentialCredentials" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="PdfCoreStringId.RubberStampForComment" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="PdfCoreStringId.StickyNoteDefaultSubject" xml:space="preserve">
+    <value>笔记</value>
+  </data>
+  <data name="PdfCoreStringId.TextHighlightDefaultSubject" xml:space="preserve">
+    <value>突出显示</value>
+  </data>
+  <data name="PdfCoreStringId.TextStrikethroughDefaultSubject" xml:space="preserve">
+    <value>跨出</value>
+  </data>
+  <data name="PdfCoreStringId.TextUnderlineDefaultSubject" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="PdfCoreStringId.UnitExaBytes" xml:space="preserve">
+    <value>EB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitGigaBytes" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitKiloBytes" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitMegaBytes" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitPetaBytes" xml:space="preserve">
+    <value>PB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitTeraBytes" xml:space="preserve">
+    <value>TB</value>
+  </data>
+  <data name="PdfCoreStringId.UnitZettaBytes" xml:space="preserve">
+    <value>ZB</value>
+  </data>
+</root>

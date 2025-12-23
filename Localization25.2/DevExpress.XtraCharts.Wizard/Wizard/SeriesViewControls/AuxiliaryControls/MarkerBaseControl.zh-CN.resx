@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblSize.Text" xml:space="preserve">
+    <value>字号:</value>
+  </data>
+  <data name="lblStarPoints.Text" xml:space="preserve">
+    <value>星形角的个数:</value>
+  </data>
+  <data name="lblKind.Text" xml:space="preserve">
+    <value>类型:</value>
+  </data>
+  <data name="cbKind.Properties.Items" xml:space="preserve">
+    <value>平方</value>
+  </data>
+  <data name="cbKind.Properties.Items3" xml:space="preserve">
+    <value>钻石</value>
+  </data>
+  <data name="cbKind.Properties.Items6" xml:space="preserve">
+    <value>三角形</value>
+  </data>
+  <data name="cbKind.Properties.Items9" xml:space="preserve">
+    <value>到三角形</value>
+  </data>
+  <data name="cbKind.Properties.Items12" xml:space="preserve">
+    <value>圆形</value>
+  </data>
+  <data name="cbKind.Properties.Items15" xml:space="preserve">
+    <value>再加上</value>
+  </data>
+  <data name="cbKind.Properties.Items18" xml:space="preserve">
+    <value>十字架</value>
+  </data>
+  <data name="cbKind.Properties.Items21" xml:space="preserve">
+    <value>星形</value>
+  </data>
+  <data name="cbKind.Properties.Items24" xml:space="preserve">
+    <value>五角大楼</value>
+  </data>
+  <data name="cbKind.Properties.Items27" xml:space="preserve">
+    <value>六边形</value>
+  </data>
+  <data name="grpStyle.Text" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="grpFillStyle.Text" xml:space="preserve">
+    <value>填充样式</value>
+  </data>
+</root>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkDontPrintWeekends.Properties.Caption" xml:space="preserve">
+    <value>不打印周末(&amp;W)</value>
+  </data>
+  <data name="chkLeftToRight.Properties.AccessibleName" xml:space="preserve">
+    <value>从左向右</value>
+  </data>
+  <data name="chkLeftToRight.Properties.Caption" xml:space="preserve">
+    <value>从左向右</value>
+  </data>
+  <data name="chkTopToBottom.Properties.AccessibleName" xml:space="preserve">
+    <value>从上向下</value>
+  </data>
+  <data name="chkTopToBottom.Properties.Caption" xml:space="preserve">
+    <value>从上向下</value>
+  </data>
+  <data name="edtLayout.Properties.AccessibleName" xml:space="preserve">
+    <value>布局:</value>
+  </data>
+  <data name="lblArrangeDays.AccessibleName" xml:space="preserve">
+    <value>排列日期:</value>
+  </data>
+  <data name="lblArrangeDays.Text" xml:space="preserve">
+    <value>排列日期:</value>
+  </data>
+  <data name="lblLayout.AccessibleName" xml:space="preserve">
+    <value>布局:</value>
+  </data>
+  <data name="lblLayout.Text" xml:space="preserve">
+    <value>布局:</value>
+  </data>
+</root>

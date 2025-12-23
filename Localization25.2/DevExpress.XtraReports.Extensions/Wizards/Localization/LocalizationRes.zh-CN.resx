@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReportBoxDesignerStringId.Wizard_WindowTitleDatasource" xml:space="preserve">
+    <value>数据源向导</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_WindowTitleReport" xml:space="preserve">
+    <value>报表向导</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_AddGroupingLvl_Description" xml:space="preserve">
+    <value>创建多个组，每个都有一个单个字段值，或在同一个组中定义几个字段。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseColumns_Description" xml:space="preserve">
+    <value>选择您想要显示在报表中的列。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseReportType_Description" xml:space="preserve">
+    <value>选择您想要创建的报告类型。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_SelectReportData_Description" xml:space="preserve">
+    <value>选择将向报表提供数据的报表数据成员和数据字段.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_MasterDetailSelectReportData_Description" xml:space="preserve">
+    <value>选择一个或多个数据成员将分配给该报告和其详细报告。
+选择要在这些报告中显示的字段。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_MasterDetailAddGroupingLevel_Description" xml:space="preserve">
+    <value>中所选报告的数据分组。您可以指定一个或多个字段，每个组。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_MasterDetailChooseSummaryOptions_Description" xml:space="preserve">
+    <value>选择要在报表中计算的汇总函数.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseSummaryOptions_Description" xml:space="preserve">
+    <value>汇总函数要计算?</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseTableOrView_Description" xml:space="preserve">
+    <value>的表或视图选择确定哪一列将可在您的报表。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_LabelInformation_Description" xml:space="preserve">
+    <value>选择一个预定义的标签，通过指定产品和它的 ID</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_LabelOptions_Description" xml:space="preserve">
+    <value>如果需要，您可以调整标签的参数这里。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ReportComplete_Description" xml:space="preserve">
+    <value>我们有处理报告所需的所有信息。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ReportLayout_Description" xml:space="preserve">
+    <value>报表布局在单个页面上指定所选的数据字段进行排列的方式。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ReportStyle_UnexpectedBehavior" xml:space="preserve">
+    <value>意外的行为： 选择 none 样式。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ReportStyle_Description" xml:space="preserve">
+    <value>报告样式指定报表的外观。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_AlignLeft1" xml:space="preserve">
+    <value>左对齐 1</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_AlignLeft2" xml:space="preserve">
+    <value>左对齐 2</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Columnar" xml:space="preserve">
+    <value>纵栏式</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Justified" xml:space="preserve">
+    <value>有正当理由</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Outline1" xml:space="preserve">
+    <value>大纲 1</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Outline2" xml:space="preserve">
+    <value>大纲 2</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Stepped" xml:space="preserve">
+    <value>跨步</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_Layout_Tabular" xml:space="preserve">
+    <value>表格</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseDSType_Description" xml:space="preserve">
+    <value>选择数据源类型。</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseReportTemplate_Description" xml:space="preserve">
+    <value>为报表选择模板.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_MapReportTemplateFields_Description" xml:space="preserve">
+    <value>数据源字段映射到模板中可用的字段。
+可以使用拖放或在下拉模板字段值列表中指定所需的值.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_SpecifyReportTemplateOptions_Description" xml:space="preserve">
+    <value>指定报表选项.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ConfigureReportTemplateQuery_Description" xml:space="preserve">
+    <value>选择一个可用的表/视图/存储过程或创建自定义查询。
+模板字段值可以是静态的或绑定到此页上选定的数据字段.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_SelectReportTemplateDataMember_Description" xml:space="preserve">
+    <value>选择报表数据成员.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ConfigureReportPageSettings_Description" xml:space="preserve">
+    <value>指定报表页设置.</value>
+  </data>
+  <data name="ReportBoxDesignerStringId.Wizard_ChooseReportColorSchemePage_Description" xml:space="preserve">
+    <value>选择报表配色方案。</value>
+  </data>
+</root>
